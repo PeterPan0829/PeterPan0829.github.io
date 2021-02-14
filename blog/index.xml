@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 19 Dec 2020 10:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Feb 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://PeterPan0829.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iMonitor 電腦行為監控軟體</title>
+      <link>https://PeterPan0829.github.io/blog/imonitor/</link>
+      <pubDate>Sun, 14 Feb 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://PeterPan0829.github.io/blog/imonitor/</guid>
+      <description>定時截圖、紀錄操作行為，開 app、開網頁等 &amp;hellip; 定時上傳至雲端
+ 本文以 MacOS 系統說明，WindowsXP 另附上使用說名書（點我）</description>
+    </item>
     
     <item>
       <title>Peter&#39;s first post</title>
@@ -18,15 +28,6 @@
       
       <guid>https://PeterPan0829.github.io/blog/test/</guid>
       <description>未完成 未完成 未完成 未完成 未完成 未完成    Markdown Boilerplate －Definition －Tricky 那些我不清不楚的地方  TESTTESTTESTTESTTESTTESTTEST TESTTESTTESTTESTTESTTESTTESTTESTTEST TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST  －Syntax ＊xxxxxx －Example ＊xxxxxx －Ref </description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://PeterPan0829.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://PeterPan0829.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
   </channel>

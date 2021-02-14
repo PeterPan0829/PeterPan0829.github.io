@@ -4,31 +4,46 @@
   
   <url>
     <loc>https://PeterPan0829.github.io/</loc>
-    <lastmod>2020-12-19T10:07:47+08:00</lastmod>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://PeterPan0829.github.io/blog/</loc>
-    <lastmod>2020-12-19T10:07:47+08:00</lastmod>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://PeterPan0829.github.io/categories/</loc>
-    <lastmod>2020-12-19T10:07:47+08:00</lastmod>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://PeterPan0829.github.io/tags/game/</loc>
-    <lastmod>2020-12-19T10:07:47+08:00</lastmod>
+    <loc>https://PeterPan0829.github.io/tags/imonitor/</loc>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://PeterPan0829.github.io/tags/html/</loc>
-    <lastmod>2020-12-19T10:07:47+08:00</lastmod>
+    <loc>https://PeterPan0829.github.io/blog/imonitor/</loc>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://PeterPan0829.github.io/tags/new/</loc>
+    <loc>https://PeterPan0829.github.io/tags/</loc>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://PeterPan0829.github.io/tags/tools/</loc>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://PeterPan0829.github.io/categories/tools/</loc>
+    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://PeterPan0829.github.io/tags/marketing/</loc>
     <lastmod>2020-12-19T10:07:47+08:00</lastmod>
   </url>
   
@@ -38,22 +53,17 @@
   </url>
   
   <url>
-    <loc>https://PeterPan0829.github.io/tags/photos/</loc>
+    <loc>https://PeterPan0829.github.io/tags/product-development/</loc>
     <lastmod>2020-12-19T10:07:47+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://PeterPan0829.github.io/categories/product/</loc>
+    <loc>https://PeterPan0829.github.io/categories/product-development/</loc>
     <lastmod>2020-12-19T10:07:47+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://PeterPan0829.github.io/tags/python/</loc>
-    <lastmod>2020-12-19T10:07:47+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://PeterPan0829.github.io/tags/</loc>
+    <loc>https://PeterPan0829.github.io/tags/project-management/</loc>
     <lastmod>2020-12-19T10:07:47+08:00</lastmod>
   </url>
   
@@ -70,16 +80,6 @@
   <url>
     <loc>https://PeterPan0829.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://PeterPan0829.github.io/categories/go-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://PeterPan0829.github.io/blog/post-13/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
 </urlset>
