@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 14 Feb 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 11:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://PeterPan0829.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>開發軟體產品前請先搞懂 Design System</title>
+      <link>https://PeterPan0829.github.io/blog/design-system/</link>
+      <pubDate>Mon, 15 Feb 2021 11:30:00 +0800</pubDate>
+      
+      <guid>https://PeterPan0829.github.io/blog/design-system/</guid>
+      <description>－目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造 Component Library, 最好先搞懂 Design System？ 如何建構 Design System？  －什麼是 Design System？ Design System 其實就像台灣國小生的生字簿：</description>
+    </item>
     
     <item>
       <title>iMonitor 電腦行為監控軟體</title>
