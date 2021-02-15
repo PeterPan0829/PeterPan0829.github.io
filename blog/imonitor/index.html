@@ -119,22 +119,22 @@
           
         </div>
         
-        <img src="https://PeterPan0829.github.io/images/blog-content-pic/iMonitor.jpg" class="img-fluid w-100 mb-4" alt="iMonitor 電腦行為監控軟體">
+        <img src="https://PeterPan0829.github.io/images/blog-content-pic/peterpowerfullife_iMonitor.jpg" class="img-fluid w-100 mb-4" alt="iMonitor 電腦行為監控軟體">
         
         <div class="content mb-5">
           <blockquote>
 <p>定時截圖、紀錄操作行為，開 app、開網頁等 &hellip; 定時上傳至雲端</p>
+<p><a href="http://www.imonitorsoft.com/help/eam/tw/index.html?Newtopic13.html">本文以 MacOS 系統說明，WindowsXP 另附上使用說名書</a></p>
 </blockquote>
-<p><a href="http://www.imonitorsoft.com/help/eam/tw/index.html?Newtopic13.html">本文以 MacOS 系統說明，WindowsXP 另附上使用說名書</a>（點我）</p>
-<h2 id="如何確定是否有安裝">－如何確定是否有安裝</h2>
+<h3 id="如何確定是否有安裝">－如何確定是否有安裝</h3>
 <ol>
 <li>系統設定 -&gt; 安全性與隱私權 -&gt; 隱私權 -&gt; 螢幕錄製，看是否有 iMonitor</li>
 <li>在 Terminal（終端機） 輸入 <strong><code>ps -ax | grep imonitor</code></strong>，看是否存在</li>
 </ol>
-<h2 id="可怕的背後執行">－可怕的背後執行</h2>
+<h3 id="可怕的背後執行">－可怕的背後執行</h3>
 <p>iMonitor 並不會直接在電腦以軟體（EX: Line, Word, Excel）方式呈現，它是一個 Service（服務），所以會在電腦背後執行，其來自 <strong><code>/Library/LaunchDaemons/com.imonitor.daemon.plist</code></strong></p>
 <p>而資料 <strong><code>&amp; .app</code></strong> 放在 <strong><code>/Library/imonitor</code></strong>，直接將此目錄砍掉，並重開機即可，隱私權的 iMonitor 也將會消失，不過<strong>前提是要有 admin 權限（最高權限）</strong></p>
-<h2 id="反思">－反思</h2>
+<h3 id="反思">－反思</h3>
 <blockquote>
 <p>如果今天公司電腦剛好有安裝這種服務，該怎麼辦？以下我會以資方、勞方不同角度去論述</p>
 </blockquote>
@@ -144,7 +144,7 @@
 <p>But &hellip;&hellip;&hellip;</p>
 <p>如果一開始沒有告知員工電腦有裝<strong>電腦行為監控軟體</strong>，這才是會讓勞方感受到被欺騙、不信任等種種感覺。
 所以身為勞方拿到公司機時，盡可能要找出公司機是否有安裝類似的<strong>電腦行為監控軟體</strong>，或在初期就應該主動詢問有無安裝，不然你其實沒有個人的隱私！</p>
-<h2 id="更多類似的軟體">－更多類似的軟體</h2>
+<h3 id="更多類似的軟體">－更多類似的軟體</h3>
 <p>可以在電腦查看看有沒有以下這些軟體：</p>
 <ul>
 <li>IP-Guard</li>
@@ -157,7 +157,7 @@
 <li>X-FORT電子資料監控系統</li>
 <li>Desktop Manager 資產&amp; 資安管理軟體 - SmartIT</li>
 </ul>
-<h2 id="ref">－Ref</h2>
+<h3 id="ref">－Ref</h3>
 <ul>
 <li><a href="https://unsplash.com/photos/4dKy7d3lkKM">Pic</a></li>
 <li><a href="https://www.imonitorsoft.com/big5/index.html">imonitorsoft</a></li>
