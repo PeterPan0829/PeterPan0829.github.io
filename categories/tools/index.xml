@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on #人生剩力組</title>
-    <link>https://PeterPan0829.github.io/categories/tools/</link>
+    <link>https://peterpowerfullife.com/categories/tools/</link>
     <description>Recent content in Tools on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 14 Feb 2021 15:30:00 +0800</lastBuildDate>
     
-	<atom:link href="https://PeterPan0829.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://peterpowerfullife.com/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iMonitor 電腦行為監控軟體</title>
-      <link>https://PeterPan0829.github.io/blog/imonitor/</link>
+      <link>https://peterpowerfullife.com/blog/imonitor/</link>
       <pubDate>Sun, 14 Feb 2021 15:30:00 +0800</pubDate>
       
-      <guid>https://PeterPan0829.github.io/blog/imonitor/</guid>
+      <guid>https://peterpowerfullife.com/blog/imonitor/</guid>
       <description>定時截圖、紀錄操作行為，開 app、開網頁等 &amp;hellip; 定時上傳至雲端
 本文以 MacOS 系統說明，WindowsXP 另附上使用說名書
  －如何確定是否有安裝  系統設定 -&amp;gt; 安全性與隱私權 -&amp;gt; 隱私權 -&amp;gt; 螢幕錄製，看是否有 iMonitor 在 Terminal（終端機） 輸入 ps -ax | grep imonitor，看是否存在  －可怕的背後執行 iMonitor 並不會直接在電腦以軟體（EX: Line, Word, Excel）方式呈現，它是一個 Service（服務），所以會在電腦背後執行，其來自 /Library/LaunchDaemons/com.</description>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product Development on #人生剩力組</title>
-    <link>https://PeterPan0829.github.io/categories/product-development/</link>
+    <link>https://peterpowerfullife.com/categories/product-development/</link>
     <description>Recent content in Product Development on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Mon, 15 Feb 2021 11:30:00 +0800</lastBuildDate>
     
-	<atom:link href="https://PeterPan0829.github.io/categories/product-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://peterpowerfullife.com/categories/product-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>開發軟體產品前請先搞懂 Design System</title>
-      <link>https://PeterPan0829.github.io/blog/design-system/</link>
+      <link>https://peterpowerfullife.com/blog/design-system/</link>
       <pubDate>Mon, 15 Feb 2021 11:30:00 +0800</pubDate>
       
-      <guid>https://PeterPan0829.github.io/blog/design-system/</guid>
+      <guid>https://peterpowerfullife.com/blog/design-system/</guid>
       <description>－目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造 Component Library, 最好先搞懂 Design System？ 如何建構 Design System？  －什麼是 Design System？ Design System 其實就像台灣國小生的生字簿：</description>
     </item>
     
     <item>
       <title>Peter&#39;s first post</title>
-      <link>https://PeterPan0829.github.io/blog/test/</link>
+      <link>https://peterpowerfullife.com/blog/test/</link>
       <pubDate>Sat, 19 Dec 2020 10:07:47 +0800</pubDate>
       
-      <guid>https://PeterPan0829.github.io/blog/test/</guid>
+      <guid>https://peterpowerfullife.com/blog/test/</guid>
       <description>未完成 未完成 未完成 未完成 未完成 未完成    Markdown Boilerplate －Definition －Tricky 那些我不清不楚的地方  TESTTESTTESTTESTTESTTESTTEST TESTTESTTESTTESTTESTTESTTESTTESTTEST TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST  －Syntax ＊xxxxxx －Example ＊xxxxxx －Ref </description>
     </item>
     

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on #人生剩力組</title>
-    <link>https://PeterPan0829.github.io/categories/</link>
+    <link>https://peterpowerfullife.com/categories/</link>
     <description>Recent content in Categories on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Mon, 15 Feb 2021 11:30:00 +0800</lastBuildDate>
     
-	<atom:link href="https://PeterPan0829.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://peterpowerfullife.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Product Development</title>
-      <link>https://PeterPan0829.github.io/categories/product-development/</link>
+      <link>https://peterpowerfullife.com/categories/product-development/</link>
       <pubDate>Mon, 15 Feb 2021 11:30:00 +0800</pubDate>
       
-      <guid>https://PeterPan0829.github.io/categories/product-development/</guid>
+      <guid>https://peterpowerfullife.com/categories/product-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>https://PeterPan0829.github.io/categories/tools/</link>
+      <link>https://peterpowerfullife.com/categories/tools/</link>
       <pubDate>Sun, 14 Feb 2021 15:30:00 +0800</pubDate>
       
-      <guid>https://PeterPan0829.github.io/categories/tools/</guid>
+      <guid>https://peterpowerfullife.com/categories/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TEST</title>
-      <link>https://PeterPan0829.github.io/categories/test/</link>
+      <link>https://peterpowerfullife.com/categories/test/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://PeterPan0829.github.io/categories/test/</guid>
+      <guid>https://peterpowerfullife.com/categories/test/</guid>
       <description></description>
     </item>
     
