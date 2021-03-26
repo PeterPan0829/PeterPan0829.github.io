@@ -6,10 +6,20 @@
     <description>Recent content in Product Development on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 01 Mar 2021 18:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 11:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/product-development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>為什麼 RD 需要搞懂商業邏輯？</title>
+      <link>https://peterpowerfullife.com/blog/rd-must-to-know-business-logic/</link>
+      <pubDate>Thu, 25 Mar 2021 11:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/rd-must-to-know-business-logic/</guid>
+      <description>以前端開發者的角度來看，其實前端不懂商業邏輯，其實也不影響做需求功能的開發，因為只要：
+ PM 把 Spec 開好 Designer 把 Mockup 弄出來  實作前再過一次功能互動，其實大部分就可以實現了（剩下技術問題），那為什麼做技術研發，要搞懂商業邏輯呢？</description>
+    </item>
     
     <item>
       <title>Product Lifecycle</title>
@@ -37,7 +47,7 @@
       <pubDate>Mon, 15 Feb 2021 11:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/design-system/</guid>
-      <description>－目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造 Component Library, 最好先搞懂 Design System？ 如何建構 Design System？  －什麼是 Design System？ Design System 其實就像台灣國小生的生字簿：</description>
+      <description>－目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造 Component Library 最好先搞懂 Design System？ 如何建構 Design System？  －什麼是 Design System？ Design System 其實就像台灣國小生的生字簿：</description>
     </item>
     
     <item>
