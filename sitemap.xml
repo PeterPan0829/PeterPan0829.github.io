@@ -53,31 +53,6 @@
   </url>
   
   <url>
-    <loc>https://peterpowerfullife.com/tags/imonitor/</loc>
-    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peterpowerfullife.com/blog/imonitor/</loc>
-    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peterpowerfullife.com/tags/</loc>
-    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peterpowerfullife.com/tags/tools/</loc>
-    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peterpowerfullife.com/categories/tools/</loc>
-    <lastmod>2021-02-14T15:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://peterpowerfullife.com/blog/prototype/</loc>
     <lastmod>2020-12-21T18:30:00+08:00</lastmod>
   </url>
@@ -100,6 +75,10 @@
   <url>
     <loc>https://peterpowerfullife.com/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peterpowerfullife.com/tags/</loc>
   </url>
   
 </urlset>
