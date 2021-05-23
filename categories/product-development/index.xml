@@ -6,10 +6,21 @@
     <description>Recent content in Product Development on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 25 Mar 2021 11:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 May 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/product-development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>產品經理的硬實力 - PRD</title>
+      <link>https://peterpowerfullife.com/blog/pm-basic-prd/</link>
+      <pubDate>Thu, 20 May 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/pm-basic-prd/</guid>
+      <description>PRD（Product Requirements Document）產品需求規格書是什麼？它是做一道菜所需要的食譜 &amp;hellip;
+ 開出一份合格的 PRD 是產品經理的基本功、硬實力（不過我認為這當中也牽涉到軟實力的養成）之一。
+廚師出菜都有食譜了，開發一個產品 PM 怎能沒有 PRD 呢？所以在產品開發及現有產品優化、迭代，我們都需要寫好一份 PRD。</description>
+    </item>
     
     <item>
       <title>為什麼 RD 需要搞懂商業邏輯？</title>
