@@ -144,7 +144,7 @@
 <li><a href="#retro%E4%B9%9F%E4%B8%8D%E8%A6%81%E8%90%BD%E6%8E%89qa%E7%9A%84%E7%92%B0%E7%AF%80">Retro也不要落掉QA的環節</a></li>
 </ul>
 <h2 id="測試項目不明確--彼此的誤解">測試項目不明確 / 彼此的誤解</h2>
-<p>QA 預期某功能的成果和團隊預期的不一致，不斷地 back and forth(來來回回) 卻始終沒有結果，針對產品的測項(測試項目)如果沒有定義清楚，QA 自然不知道要測試哪些東西、不知道測試得到的結果標準，但這個問題可以及早定義出標準。</p>
+<p>QA 預期某功能的成果和團隊預期的不一致，不斷地 back and forth(來來回回) 卻始終沒有結果，針對產品的測項(測試項目)如果沒有定義清楚，QA 自然不知道要測試哪些東西、不知道實際測試結果和預期結果之間的落差，但這個問題可以及早定義出標準。</p>
 <h4 id="prd-應涵蓋-feature-design-checklist">－PRD 應涵蓋 Feature Design Checklist</h4>
 <blockquote>
 <p>當你使用某個產品時發現，咦！這是 Bug 嗎？好怪呀！</p>
@@ -182,7 +182,7 @@
 <li>角色
 <ul>
 <li>根據不同權限的使用者畫面該如何呈現？<strong>（UI）</strong></li>
-<li>根據不同權限的使用者需要定義不同的 workflows**（UX）**</li>
+<li>根據不同權限的使用者需要定義不同的 workflows <strong>（UX）</strong></li>
 </ul>
 </li>
 </ol>
@@ -195,7 +195,7 @@
 <p>因為 RD 在開發階段一定自然會遇到<strong>針對不同功能的狀態顯示</strong>，如果沒有 UI, Edge Cases 他們只能自己通靈腦補去做假設，而在有限的時間之內，可憐的 RD 怎麼可能想得出最好的解決方案？</p>
 <h4 id="edge-cases-checklist">－Edge Cases Checklist</h4>
 <p>除了 Feature Design Checklist 之外，很多時候讓 QA 煩惱的是一些 <strong>Edge case(極端、邊界案例)</strong> 相關的問題，
-因為使用者操作使用產品時，一定會遇到不在預期中的的極端狀況，而一開始定義清楚面對極端狀況的反饋、處理，就能夠避免使用者的抱怨。</p>
+因為使用者操作使用產品時，一定會遇到不在預期中的的極端狀況，產品在規劃階段定義清楚極端狀況的反饋、處理，就能夠避免使用者的抱怨。</p>
 <p>通常我們會針對所開發的產品，訂定相關的 Edge Cases，例如：</p>
 <ol>
 <li>搜尋結果沒找到</li>
@@ -224,7 +224,7 @@
 </ol>
 <h4 id="更多更多更多地溝通">－更多、更多、更多地溝通</h4>
 <p>PM 產出 PRD 後接著和團隊過一次 Kick-off Meeting，務必要請 QA 也參與這個會議，通常 QA 還沒看到 Acceptance Criteria 只確認相關的 UserStory 就會提出產品、功能會遇到的問題並提出對應方式，而相關的預期行為也就要補充到 Acceptance Criteria 這個 Section 當中。</p>
-<p>除此之外，PM 一定要再三和 QA 確認相關的 Acceptance Criteria，任何影響到功能運作的情境都要不斷地補充、溝通。</p>
+<p>除此之外，PM 一定要再三和 QA 確認驗收標準，任何影響到功能運作的情境都要不斷地補充、溝通。</p>
 <p>最後，如果時間允許也請 QA 針對這份 PRD 列出 Acceptance Criteria，因為很多時候雙方的標準不一樣自然就增加溝通的成本。</p>
 <h2 id="不切實際的時程">不切實際的時程</h2>
 <p>團隊都知道 Deadline，但始終沒有預留 buffer 給 QA 做好測試 &hellip;</p>
@@ -235,7 +235,7 @@
 <li>Break down 功能模組，切細再切細</li>
 <li>由 RD 概算開發時間</li>
 </ol>
-<p>把大功能、產品主流程服務切成各種小等分，例如網頁的 UI Layout, Fetch API 分開並各抓時間出來，最後再由 RD 親自去概算一個時間，這樣才能大致精準抓出開發所需要的時間。</p>
+<p>把大功能、產品主流程服務切成各種小等分，例如網頁的 UI Layout, Fetch API 這些 Task 分開並各抓時間出來，最後再由 RD 親自去概算一個時間，這樣才能大致精準抓出開發所需要的時程。</p>
 <p>以上是團隊協作必須要有的默契和認知，那 QA 這裡怎麼抓時程？</p>
 <blockquote>
 <ol>

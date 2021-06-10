@@ -18,7 +18,7 @@
       
       <guid>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</guid>
       <description>標題雖為產品經理如何和 QA(Quality Assurance) 合作， 但實際上應是 PM 如何和整個團隊協作才是，此篇文章純粹紀錄團隊和 QA 之間的協作，以及自己經歷的相關紀錄。
-－目錄  測試項目不明確 / 彼此的誤解 不切實際的時程 Retro也不要落掉QA的環節  測試項目不明確 / 彼此的誤解 QA 預期某功能的成果和團隊預期的不一致，不斷地 back and forth(來來回回) 卻始終沒有結果，針對產品的測項(測試項目)如果沒有定義清楚，QA 自然不知道要測試哪些東西、不知道測試得到的結果標準，但這個問題可以及早定義出標準。</description>
+－目錄  測試項目不明確 / 彼此的誤解 不切實際的時程 Retro也不要落掉QA的環節  測試項目不明確 / 彼此的誤解 QA 預期某功能的成果和團隊預期的不一致，不斷地 back and forth(來來回回) 卻始終沒有結果，針對產品的測項(測試項目)如果沒有定義清楚，QA 自然不知道要測試哪些東西、不知道實際測試結果和預期結果之間的落差，但這個問題可以及早定義出標準。</description>
     </item>
     
     <item>
