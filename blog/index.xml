@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 18 Jun 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>產品經理的硬實力 - User Journey Map(用戶體驗地圖)</title>
+      <link>https://peterpowerfullife.com/blog/pm-basic-user-journey-map/</link>
+      <pubDate>Wed, 23 Jun 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/pm-basic-user-journey-map/</guid>
+      <description>前面提過，進入產品開發之前，我們需要做好一個產品策略，而了解產品的潛在用戶是誰還不夠，因為一頁式的 Persona 只是純粹形容這個用戶是誰、有哪些特徵、行為目的等。
+可是 Persona 並沒有具體記載一個用戶使用產品的前、中、後時間軸，此時我們就需要 User Journey Map(用戶體驗地圖, UJM) 來幫助我們透析一個用戶使用產品的週期，精準知道用戶使用產品的旅程。</description>
+    </item>
     
     <item>
       <title>npkill - 如何快速刪除 node_modules</title>
