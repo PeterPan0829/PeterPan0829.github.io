@@ -6,10 +6,20 @@
     <description>Recent content in Product Development on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 23 Jun 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/product-development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>產品經理的硬實力 - 最清楚易懂的競品分析</title>
+      <link>https://peterpowerfullife.com/blog/pm-basic-competitive-analysis/</link>
+      <pubDate>Thu, 01 Jul 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/pm-basic-competitive-analysis/</guid>
+      <description>如果看完前面分享過的 Persona, User Journey Map 後，想必你對自身產品絕對有足夠的認識，理解競品分析之前可以問問自己這幾個問題：
+ 我的產品潛在用戶已經找到他們所需要的產品、服務了嗎？ 分析競品之前，我真的完全清楚自己產品的定位、優劣勢嗎？ 除了我的產品之外，還有其他公司 正在做（想要做） 和我同性質的產品嗎？  沒錯，在競品分析之前，你要先認識自己本身再來對外研究分析。</description>
+    </item>
     
     <item>
       <title>產品經理的硬實力 - User Journey Map(用戶體驗地圖)</title>
