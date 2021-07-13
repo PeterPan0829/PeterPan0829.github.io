@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech 技術 on #人生剩力組</title>
+    <link>https://peterpowerfullife.com/categories/tech-%E6%8A%80%E8%A1%93/</link>
+    <description>Recent content in Tech 技術 on #人生剩力組</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 18 Jun 2021 15:30:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://peterpowerfullife.com/categories/tech-%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>npkill - 如何快速刪除 node_modules</title>
+      <link>https://peterpowerfullife.com/blog/tech-npm-npkill/</link>
+      <pubDate>Fri, 18 Jun 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/tech-npm-npkill/</guid>
+      <description>隨著所開發的專案日益增加，散佈在各處的 node_modules 檔案也越來越多，而這些專案多到你早就忘記放在哪了 &amp;hellip;
+一起來認識 npkill，讓我輕鬆快速刪除了 5.8 GB 的 node_modules 檔案。</description>
+    </item>
+    
+  </channel>
+</rss>
