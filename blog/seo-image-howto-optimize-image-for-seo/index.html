@@ -143,6 +143,9 @@
 <p><a href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E4%BD%BF%E7%94%A8%E5%9C%96%E7%89%87">為什麼要使用圖片？</a></p>
 </li>
 <li>
+<p><a href="#%E5%9C%96%E7%89%87%E6%9C%89%E5%8A%A9%E6%96%BC-seo-%E6%98%AF%E4%BB%80%E9%BA%BC%E5%8E%9F%E7%90%86">圖片有助於 SEO 是什麼原理？</a></p>
+</li>
+<li>
 <p><a href="#%E5%8F%AA%E6%9C%89%E9%81%A9%E5%90%88%E7%9A%84%E6%A0%BC%E5%BC%8F%E6%B2%92%E6%9C%89%E6%AD%A3%E7%A2%BA%E7%9A%84%E5%9C%96%E7%89%87%E6%A0%BC%E5%BC%8F">只有適合的格式，沒有正確的圖片格式</a></p>
 </li>
 <li>
@@ -156,9 +159,64 @@
 <p>在商業應用上，過去在實體店內消費者不僅可以看到產品，還可以去摸它，但現在已經走向 E-Commerce(電子商務) 時代，又因為疫情關係更導致業務、運送量大增，如何運用<a href="https://www.wikiwand.com/en/Visual_marketing">Visual Marketing(視覺行銷)</a>以線上服務提供給 TA 就是非常重要的事情。</p>
 <p>你不一定要用圖片，但如果有的話絕對是一大加分，更可以優化搜尋引擎讓 TA、有需求的潛在顧客快速在網路上找到你。</p>
 <p>​</p>
+<h2 id="圖片有助於-seo-是什麼原理">圖片有助於 SEO 是什麼原理？</h2>
+<p><a href="https://www.wikiwand.com/en/Sitemaps">Sitemap(網站地圖)</a> 就像是去醫院做<strong>健康檢查的報告</strong>一樣，這個檔案會有網站的各種網址，像是圖片連結、影片連結，只有電腦看得懂的<a href="https://www.wikiwand.com/zh/XML">XML</a>文件等（<a href="https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap">最常使用的規範，更多內容請參考 Google 搜尋中心指南</a>），透過提交 Sitemap 報告給搜尋引擎，讓<a href="https://www.wikiwand.com/zh-tw/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2">搜尋引擎爬蟲</a>去讀取報告的內容生成索引讓使用者搜尋。</p>
+<p>參考以下 Sitemap 範例（<a href="https://developers.google.com/search/docs/advanced/sitemaps/image-sitemaps?visit_id=637619275664196538-151856126&amp;rd=1">由  Google 搜尋中心指南提供</a>），示範 <strong><code>http://example.com/sample1.html</code></strong> 這個網頁的 Sitemap。</p>
+<p>該網頁包含兩張圖片以及一個 <strong><code>http://example.com/sample2.html</code></strong> 項目，這個項目中又包含一張圖片以及圖片 Sitemap 中所有可選用的中繼資料。</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#080">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+<span style="color:#008000;font-weight:bold">&lt;urlset</span> <span style="color:#b44">xmlns=</span><span style="color:#b44">&#34;http://www.sitemaps.org/schemas/sitemap/0.9&#34;</span>
+        <span style="color:#b44">xmlns:image=</span><span style="color:#b44">&#34;http://www.google.com/schemas/sitemap-image/1.1&#34;</span><span style="color:#008000;font-weight:bold">&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;url&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;loc&gt;</span>http://example.com/sample1.html<span style="color:#008000;font-weight:bold">&lt;/loc&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;image:image&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:loc&gt;</span>http://example.com/image.jpg<span style="color:#008000;font-weight:bold">&lt;/image:loc&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;/image:image&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;image:image&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:loc&gt;</span>http://example.com/photo.jpg<span style="color:#008000;font-weight:bold">&lt;/image:loc&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;/image:image&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;/url&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;url&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;loc&gt;</span>http://example.com/sample2.html<span style="color:#008000;font-weight:bold">&lt;/loc&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;image:image&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:loc&gt;</span>http://example.com/picture.jpg<span style="color:#008000;font-weight:bold">&lt;/image:loc&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:caption&gt;</span>A funny picture of a cat eating cabbage<span style="color:#008000;font-weight:bold">&lt;/image:caption&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:geo_location&gt;</span>Lyon, France<span style="color:#008000;font-weight:bold">&lt;/image:geo_location&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:title&gt;</span>Cat vs Cabbage<span style="color:#008000;font-weight:bold">&lt;/image:title&gt;</span>
+      <span style="color:#008000;font-weight:bold">&lt;image:license&gt;</span>http://example.com/image-license<span style="color:#008000;font-weight:bold">&lt;/image:license&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;/image:image&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;/url&gt;</span>
+<span style="color:#008000;font-weight:bold">&lt;/urlset&gt;</span>
+</code></pre></div><p>​</p>
+<h4 id="sitemap-製作工具">－Sitemap 製作工具</h4>
+<blockquote>
+<p>以下提供幾個製作 Sitemap 的工具，便於製作 <strong><code>sitemap.xml</code></strong> 檔案。</p>
+</blockquote>
+<h6 id="gloomapshttpswwwgloomapscom">＊<a href="https://www.gloomaps.com/">GlooMaps</a></h6>
+<p>以「頁面」為單位，簡單、快速繪製頁面之間的連結。</p>
+<p><img src="../../images/blog-content-pic/SEO%EF%BC%BF%E6%94%B9%E5%96%84%E5%9C%96%E7%89%87%E5%84%AA%E5%8C%96SEO-07.jpg" alt="image"></p>
+<p>​</p>
+<h6 id="xml-sitemapscomhttpswwwxml-sitemapscom">＊<a href="https://www.xml-sitemaps.com/">xml-sitemaps.com</a></h6>
+<p>手刻製作 Sitemap 檔案在起初網站進行開發時還算簡便、容易，但網站成長到一定規模就需要更進階的手法來製作，這個工具限定 500 個網址，網站不大其實已經非常夠用了。</p>
+<p>這裡以 <a href="https://www.ufc.com/">UFC 混合武術格鬥賽的官網</a> 為例，抓到對應的網址並有 61.49 Mb 的大小。</p>
+<p><img src="../../images/blog-content-pic/SEO%EF%BC%BF%E6%94%B9%E5%96%84%E5%9C%96%E7%89%87%E5%84%AA%E5%8C%96SEO-05.jpg" alt="image"></p>
+<p><img src="../../images/blog-content-pic/SEO%EF%BC%BF%E6%94%B9%E5%96%84%E5%9C%96%E7%89%87%E5%84%AA%E5%8C%96SEO-06.jpg" alt="image"></p>
+<p>​</p>
+<h4 id="圖片加上-alt-屬性描述">－圖片加上 alt 屬性描述</h4>
+<p><strong><code>alt</code></strong> 是<strong>圖片的替代文字</strong>，也就是在<strong>圖片失效的時候所要呈現的文字</strong>，如果圖片可以正常顯示 alt 就不會有任何的功能。</p>
+<p>圖片的 alt 描述在 html 中的使用方式為：</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#008000;font-weight:bold">img</span> <span style="color:#b44">src</span><span style="color:#666">=</span><span style="color:#b44">&#34;圖片網址&#34;</span> <span style="color:#b44">alt</span><span style="color:#666">=</span><span style="color:#b44">&#34;圖片替代文字&#34;</span> <span style="color:#b44">title</span><span style="color:#666">=</span><span style="color:#b44">&#34;圖片標題&#34;</span>&gt;
+</code></pre></div><p>alt 對圖片的 SEO 優化也同等重要，它不只是替代文字，更能夠提供搜尋引擎抓取圖片時清楚知道圖片的主題內容。</p>
+<p><img src="../../images/blog-content-pic/SEO%EF%BC%BF%E6%94%B9%E5%96%84%E5%9C%96%E7%89%87%E5%84%AA%E5%8C%96SEO-08.jpg" alt="image"></p>
+<p>這裡舉例好、壞的圖片 alt 描述：</p>
+<p>✅   <code>&lt;img src=&quot;animal.jpg&quot; alt=&quot;animal&quot;&gt; </code> 這個 alt 替代文字，<strong>還算可以</strong>，因為它的描述不是很具體。</p>
+<p>✅  <code>&lt;img src=&quot;animal.jpg&quot; alt=&quot;giraffe under blue sky and white cloud&quot;&gt;</code> 這是一個比較好的選擇，具體描述圖片中的內容（藍天白雲下的長頸鹿）。</p>
+<p>❌  <code>&lt;img src=&quot;animal.jpg&quot; alt=&quot;&quot;&gt;</code> 空的，完全沒填寫。</p>
+<p>❌  <code>&lt;img src=&quot;animal.jpg&quot; alt=&quot;giraffe animal animals giraffe and animals&quot;&gt;</code> 不建議為了填寫純粹加入幾個推疊關鍵字。</p>
+<p>​</p>
 <h2 id="只有適合的格式沒有正確的圖片格式">只有適合的格式，沒有正確的圖片格式</h2>
+<p><img src="../../images/blog-content-pic/SEO%EF%BC%BF%E6%94%B9%E5%96%84%E5%9C%96%E7%89%87%E5%84%AA%E5%8C%96SEO-02.jpg" alt="image"></p>
 <h4 id="該使用哪種圖片格式呢">－該使用哪種圖片格式呢？</h4>
-<p>在 <a href="https://uxdesign.cc/">UX Collective</a> 網站上有一位 <a href="https://uxdesign.cc/jpg-vs-png-vs-gif-vs-svg-aefeca89f61">UX 設計師 Allen Hsu，將4種圖片格式JPG、PNG、GIF、SVG利用詼諧幽默的方式</a>，教導我們這些麻瓜們在什麼情況下該用什麼檔案格式，雖然不是真的完全適用所有情況，但簡單的方式讓人一目瞭然最基礎的區分法。</p>
+<p>在 <a href="https://uxdesign.cc/">UX Collective</a> 網站上有一位 <a href="https://uxdesign.cc/jpg-vs-png-vs-gif-vs-svg-aefeca89f61">UX 設計師 Allen Hsu，將4種圖片格式JPG、PNG、GIF、SVG利用詼諧幽默的方式</a>，教導我們這些麻瓜們在什麼情況下該用什麼檔案格式（上圖），雖然不是真的完全適用所有情況，但簡單的方式讓人一目瞭然最基礎的區分法。</p>
 <p><a href="https://www.wikiwand.com/en/Image_file_formats">圖片的格式種類有好幾種</a>，但最常見的有以下幾個：</p>
 <ul>
 <li>
@@ -168,7 +226,7 @@
 <p>PNG：使用非破壞性資料壓縮方式，如果想要圖片<strong>保留背景透明度</strong>，就可以使用 PNG，但<strong>缺點是容量很大！</strong></p>
 </li>
 <li>
-<p>SVG：<a href="https://www.wikiwand.com/zh-tw/%E5%8F%AF%E7%B8%AE%E6%94%BE%E5%90%91%E9%87%8F%E5%9C%96%E5%BD%A2">可縮放的向量圖形(Scalable Vector Graphics)</a>，能呈現任何尺寸，不會出現馬賽克。</p>
+<p>SVG：<a href="https://www.wikiwand.com/zh-tw/%E5%8F%AF%E7%B8%AE%E6%94%BE%E5%90%91%E9%87%8F%E5%9C%96%E5%BD%A2">可縮放的向量圖形(Scalable Vector Graphics)</a>，能呈現任何尺寸，<strong>不會出現馬賽克。</strong></p>
 </li>
 <li>
 <p>GIF：只顯示幾秒的動態圖片，缺點就是<strong>容易分散讀者注意力、容量大 Loading 速度較慢</strong>。</p>
@@ -262,10 +320,12 @@
 <li><a href="https://unsplash.com/photos/UWVJaDvXW_c">Cover Pic</a> - Photo by <a href="https://unsplash.com/@solenfeyissa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Solen Feyissa</a></li>
 <li><a href="https://www.wikiwand.com/en/Visual_marketing">Visual marketing</a></li>
 <li><a href="https://www.wikiwand.com/en/Image_file_formats">Image file formats</a></li>
+<li><a href="https://www.sitemaps.org/protocol.html">Sitemaps XML format</a></li>
 <li><a href="https://developers.google.com/search/docs/advanced/guidelines/google-images">Google 圖片最佳做法</a></li>
 <li><a href="https://www.imymac.tw/mac-cleaner/jpg-vs-jpeg.html">JPG與JPEG之間的差異</a></li>
 <li><a href="https://www.inside.com.tw/article/6771-what-is-ecommerce">【硬塞科技字典】什麼是電子商務（E-Commerce）？</a></li>
 <li><a href="https://www.seoreseller.com/blog/how-to-improve-seo">How to Improve SEO Performance: 3 Tips to Quickly Elevate Your Website’s Rankings and Increase Your Domain Authority</a></li>
+<li><a href="https://www.timeoutdubai.com/kids/432334-17-places-the-kids-can-see-animals-in-the-uae">17 places the kids can see animals in the UAE</a></li>
 <li><a href="cool3c.com/article/146971">一圖搞懂JPG、PNG、GIF、SVG圖片檔案格式使用時機</a></li>
 </ul>
 
