@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 03 Jul 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jul 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何快速認識一個產品 - Usability Testing（易用性測試）</title>
+      <link>https://peterpowerfullife.com/blog/howto-know-the-product/</link>
+      <pubDate>Wed, 07 Jul 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/howto-know-the-product/</guid>
+      <description>當你 &amp;hellip;
+  要優化一個產品，你必須先對這個產品有所認識
+  用戶反應產品體驗差，那要怎麼查看產品出了什麼問題？
+  團隊沒有設計師，你怎麼確認產品的 UI / UX 沒問題？</description>
+    </item>
     
     <item>
       <title>SEO - 改善圖片，優化搜尋引擎</title>
