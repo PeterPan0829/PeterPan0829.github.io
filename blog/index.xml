@@ -63,8 +63,9 @@
       <guid>https://peterpowerfullife.com/blog/tool-mac-window-backonto-screen/</guid>
       <description>嘿！你有沒有同樣的經驗，明明沒關掉軟體或網頁，為什麼它突然不見了 &amp;hellip; 😥😥
 這裡紀錄一下發生的時機點以及解決方式。
+​
 －解決方式 執行步驟參考以下：
- 選取應用程式或切換到應用程式 螢幕上方會有應用程式的工作 bar 選取「視窗 Window」後再點擊「縮放 Zoom」  －發生的時機點 我自己個人的經驗是當你有轉接外接螢幕，把視窗移動到外接螢幕上，使用完直接把轉接頭拔下來就會發生這個問題。</description>
+ 選取應用程式或切換到應用程式 螢幕上方會有應用程式的工作 bar 選取「視窗 Window」後再點擊「縮放 Zoom」  ​</description>
     </item>
     
     <item>
@@ -108,7 +109,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       
       <guid>https://peterpowerfullife.com/blog/projectmanager-and-jobdetail/</guid>
       <description>上篇內容提到專案管理的基礎觀念、解構工作等，這一篇來了解專案經理這個職務，以及專案管理工作有哪些細節。
-－目錄  專案經理職務內容是什麼？和產品經理有什麼差別？ 專案生命週期及流程 專案溝通計劃表 台灣環境的 PM = Product + Project 😅  專案經理職務內容是什麼？和產品經理有什麼差別？ 網路上一堆針對產品經理、專案經理的工作職務差異說明，簡單說，大方向的定義就是：</description>
+​
+－目錄  專案經理職務內容是什麼？和產品經理有什麼差別？ 專案生命週期及流程 專案溝通計劃表 台灣環境的 PM = Product + Project 😅  ​</description>
     </item>
     
     <item>
@@ -118,7 +120,7 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       
       <guid>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</guid>
       <description>標題雖為產品經理如何和 QA(Quality Assurance) 合作， 但實際上應是 PM 如何和整個團隊協作才是，此篇文章純粹紀錄團隊和 QA 之間的協作，以及自己經歷的相關紀錄。
-－目錄  測試項目不明確 / 彼此的誤解 不切實際的時程 Retro也不要落掉QA的環節  測試項目不明確 / 彼此的誤解 QA 預期某功能的成果和團隊預期的不一致，不斷地 back and forth(來來回回) 卻始終沒有結果，針對產品的測項(測試項目)如果沒有定義清楚，QA 自然不知道要測試哪些東西、不知道實際測試結果和預期結果之間的落差，但這個問題可以及早定義出標準。</description>
+​</description>
     </item>
     
     <item>
@@ -138,7 +140,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Mon, 17 May 2021 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/product-psychology/</guid>
-      <description>－目錄  痛點（恐懼） 癢點（憧憬中的自我幻想） 爽點（需求能即時滿足） B2B 產品注重痛點；B2C 則是爽點   下面會帶到 B2C(Client, User) 和 B2B(Business) 注重的不同層面和切入點，但其實有非常多可以探討，之後我會紀錄在另一篇文章。</description>
+      <description>​
+－目錄  痛點（恐懼） 癢點（憧憬中的自我幻想） 爽點（需求能即時滿足） B2B 產品注重痛點；B2C 則是爽點   下面會帶到 B2C(Client, User) 和 B2B(Business) 注重的不同層面和切入點，但其實有非常多可以探討，之後我會紀錄在另一篇文章。</description>
     </item>
     
     <item>
@@ -147,7 +150,9 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Sat, 10 Apr 2021 11:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/project-and-projectmanagement/</guid>
-      <description>目錄  什麼是專案？ 專案和專案管理有什麼不同？ 專案管理需要做任務控管、解構工作項目 專案經理本身的工作有哪些細節？  什麼是專案？ 英文為 Project、中國稱作為項目，專案字眼上是一種抽象名詞，它是為了完成某一個目標因而具體規劃的活動。</description>
+      <description>​
+目錄  什麼是專案？ 專案和專案管理有什麼不同？ 專案管理需要做任務控管、解構工作項目 專案經理本身的工作有哪些細節？  ​
+什麼是專案？ 英文為 Project、中國稱作為項目，專案字眼上是一種抽象名詞，它是為了完成某一個目標因而具體規劃的活動。</description>
     </item>
     
     <item>
@@ -159,7 +164,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <description>在軟體開發領域的團隊當中常常要和別人（RD、QA、Marketing等）溝通需求，但不管今天是什麼年紀、職務其實都需要「溝通」這項技能。
 只是因為習慣了工作、生活，我們會覺得這不是一個技能， 「溝通」一個需求、「描述」一個問題等，都需要良好的敘事能力，才能傳達正確的資訊進而解決問題、放大產出。
 我常常會在生活上去練習溝通這件事，一起來看看生活中的產品經理 - 彼得剪髮紀。
-－目錄  建立期待值 我要剪什麼髮型（需求） 一次只說一件事（溝通） 反思專業領域  建立期待值 三分靠長相，七分靠髮型 XD</description>
+​
+－目錄  建立期待值 我要剪什麼髮型（需求） 一次只說一件事（溝通） 反思專業領域  ​</description>
     </item>
     
     <item>
@@ -180,7 +186,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <guid>https://peterpowerfullife.com/blog/project-management-empathy/</guid>
       <description>每一位 PM 執行專案時都一定會遇到時程 Delay 的問題，造成延誤的原因並沒有標準答案，但都存在一些因素，所以執行者本身很難預測何時能完成開發。
 在我的經驗當中，隨著時間的累積、多人參與專案及改變開發流程等，以下是我認為有助於改善產品開發預估時間的思維，這沒有絕對 *3，但可以幫助我們提高預估時程的準確性。
-－目錄  你不是在管理時程，而是在管理大家的期望 做個有同理心的產品經理 剛上任的PM怎麼估時程？ 做最壞的打算，做最好的準備  你不是在管理時程，而是在管理大家的期望 PM 不是只有把文件寫一寫出一張嘴而已，其中一個很大的責任就是激發團隊每個人的自信心，這聽起來很簡單但具體可以怎麼做呢？</description>
+​
+－目錄  你不是在管理時程，而是在管理大家的期望 做個有同理心的產品經理 剛上任的PM怎麼估時程？ 做最壞的打算，做最好的準備  ​</description>
     </item>
     
     <item>
@@ -189,7 +196,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Mon, 01 Mar 2021 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/product-lifecycle/</guid>
-      <description>－目錄  生活中的小故事 生命週期的定義 一個人的生命週期 產品的生命週期 成為一流的產品經理  生活中的小故事 在探討產品生命週期之前，我們可以想想手機用戶買新手機的問題：</description>
+      <description>​
+－目錄  生活中的小故事 生命週期的定義 一個人的生命週期 產品的生命週期 成為一流的產品經理  ​</description>
     </item>
     
     <item>
@@ -200,7 +208,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <guid>https://peterpowerfullife.com/blog/domain-driven-design-01/</guid>
       <description>這篇文章主要是探討數位化轉型的過程，以及開始進入軟體開發的初期階段需要留意的細節。
 內容不會提到 RD 把 Domain Knowledge（知識領域）DI（注入）到程式碼當中，這議題很深、很廣，有機會再分享。
- －目錄  數位化轉型的定義＆什麼是DDD?</description>
+ ​
+－目錄  數位化轉型的定義＆什麼是DDD?</description>
     </item>
     
     <item>
@@ -210,7 +219,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       
       <guid>https://peterpowerfullife.com/blog/design-system/</guid>
       <description>本身不是專業設計師，僅和設計師合作所學到的經驗來做記錄和分享，若有得罪之處和誤解，請見諒～
- －目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造軟體產品前最好先搞懂 Design System？ 如何建構 Design System？ 重頭做一次，絕對不要再發生這些事  什麼是 Design System？ Design System 其實就像台灣國小生的生字簿：</description>
+ ​
+－目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造軟體產品前最好先搞懂 Design System？ 如何建構 Design System？ 重頭做一次，絕對不要再發生這些事  ​</description>
     </item>
     
     <item>
@@ -219,7 +229,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Mon, 21 Dec 2020 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/prototype/</guid>
-      <description>－目錄  什麼是 Prototype? 為什麼需要 Prototype? 模擬 Scenario Visualization High &amp;amp; Low Fidelity Prototype Usability Testing（易用性測試） 最後的最後  什麼是 Prototype?</description>
+      <description>​
+－目錄  什麼是 Prototype? 為什麼需要 Prototype? 模擬 Scenario Visualization High &amp;amp; Low Fidelity Prototype Usability Testing（易用性測試） 最後的最後  ​</description>
     </item>
     
     <item>

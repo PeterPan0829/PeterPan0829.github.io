@@ -64,7 +64,7 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       
       <guid>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</guid>
       <description>標題雖為產品經理如何和 QA(Quality Assurance) 合作， 但實際上應是 PM 如何和整個團隊協作才是，此篇文章純粹紀錄團隊和 QA 之間的協作，以及自己經歷的相關紀錄。
-－目錄  測試項目不明確 / 彼此的誤解 不切實際的時程 Retro也不要落掉QA的環節  測試項目不明確 / 彼此的誤解 QA 預期某功能的成果和團隊預期的不一致，不斷地 back and forth(來來回回) 卻始終沒有結果，針對產品的測項(測試項目)如果沒有定義清楚，QA 自然不知道要測試哪些東西、不知道實際測試結果和預期結果之間的落差，但這個問題可以及早定義出標準。</description>
+​</description>
     </item>
     
     <item>
@@ -84,7 +84,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Mon, 17 May 2021 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/product-psychology/</guid>
-      <description>－目錄  痛點（恐懼） 癢點（憧憬中的自我幻想） 爽點（需求能即時滿足） B2B 產品注重痛點；B2C 則是爽點   下面會帶到 B2C(Client, User) 和 B2B(Business) 注重的不同層面和切入點，但其實有非常多可以探討，之後我會紀錄在另一篇文章。</description>
+      <description>​
+－目錄  痛點（恐懼） 癢點（憧憬中的自我幻想） 爽點（需求能即時滿足） B2B 產品注重痛點；B2C 則是爽點   下面會帶到 B2C(Client, User) 和 B2B(Business) 注重的不同層面和切入點，但其實有非常多可以探討，之後我會紀錄在另一篇文章。</description>
     </item>
     
     <item>
@@ -103,7 +104,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Mon, 01 Mar 2021 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/product-lifecycle/</guid>
-      <description>－目錄  生活中的小故事 生命週期的定義 一個人的生命週期 產品的生命週期 成為一流的產品經理  生活中的小故事 在探討產品生命週期之前，我們可以想想手機用戶買新手機的問題：</description>
+      <description>​
+－目錄  生活中的小故事 生命週期的定義 一個人的生命週期 產品的生命週期 成為一流的產品經理  ​</description>
     </item>
     
     <item>
@@ -114,7 +116,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <guid>https://peterpowerfullife.com/blog/domain-driven-design-01/</guid>
       <description>這篇文章主要是探討數位化轉型的過程，以及開始進入軟體開發的初期階段需要留意的細節。
 內容不會提到 RD 把 Domain Knowledge（知識領域）DI（注入）到程式碼當中，這議題很深、很廣，有機會再分享。
- －目錄  數位化轉型的定義＆什麼是DDD?</description>
+ ​
+－目錄  數位化轉型的定義＆什麼是DDD?</description>
     </item>
     
     <item>
@@ -124,7 +127,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       
       <guid>https://peterpowerfullife.com/blog/design-system/</guid>
       <description>本身不是專業設計師，僅和設計師合作所學到的經驗來做記錄和分享，若有得罪之處和誤解，請見諒～
- －目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造軟體產品前最好先搞懂 Design System？ 如何建構 Design System？ 重頭做一次，絕對不要再發生這些事  什麼是 Design System？ Design System 其實就像台灣國小生的生字簿：</description>
+ ​
+－目錄  什麼是 Design System？ Design System 的優缺點？ 為什麼打造軟體產品前最好先搞懂 Design System？ 如何建構 Design System？ 重頭做一次，絕對不要再發生這些事  ​</description>
     </item>
     
     <item>
@@ -133,7 +137,8 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Mon, 21 Dec 2020 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/prototype/</guid>
-      <description>－目錄  什麼是 Prototype? 為什麼需要 Prototype? 模擬 Scenario Visualization High &amp;amp; Low Fidelity Prototype Usability Testing（易用性測試） 最後的最後  什麼是 Prototype?</description>
+      <description>​
+－目錄  什麼是 Prototype? 為什麼需要 Prototype? 模擬 Scenario Visualization High &amp;amp; Low Fidelity Prototype Usability Testing（易用性測試） 最後的最後  ​</description>
     </item>
     
     <item>
