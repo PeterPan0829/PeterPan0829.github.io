@@ -189,8 +189,8 @@
 <p>​</p>
 <h2 id="曾設定-ssh-key-只要一行-command-就解決這問題">曾設定 SSH Key 只要一行 Command 就解決這問題</h2>
 <p>Push 左推右推都推不上去，但如果你已經設定過 SSH Key 基本上這個 Command 就解決了：</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git remote set-url origin git@github.com:<span style="color:#666">{</span>user_id<span style="color:#666">}</span>/<span style="color:#666">{</span>project_name<span style="color:#666">}</span>.git
-</code></pre></div><p>實際操作範例，參考 <a href="https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to/68784033#68784033">Stackoverflow</a> 開發者分享，一開始 Push 遇到這個錯誤</p>
+<pre><code>$ git remote set-url origin git@github.com:{user_id}/{project_name}.git
+</code></pre><p>實際操作範例，參考 <a href="https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to/68784033#68784033">Stackoverflow</a> 開發者分享，一開始 Push 遇到這個錯誤</p>
 <p><img src="../../images/blog-content-pic/github%EF%BC%BFshutdown-password02.jpg" alt="image"></p>
 <p>檢視一下 git log
 <img src="../../images/blog-content-pic/github%EF%BC%BFshutdown-password03.jpg" alt="image"></p>
