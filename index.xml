@@ -6,10 +6,20 @@
     <description>Recent content on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 14 Aug 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>用 Airr 把 Podcast 聽到的內容做個筆記吧！</title>
+      <link>https://peterpowerfullife.com/blog/notes-from-podcasts-using-airr/</link>
+      <pubDate>Wed, 18 Aug 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/notes-from-podcasts-using-airr/</guid>
+      <description>走路聽 Podcast、搭車也聽 Podcast, 你一天當中有多少時間會聽 Podcast 呢？
+聽到節目分享的資訊想記下來卻不知道怎麼做筆記 &amp;hellip; 我自己是是打開 Podcast 記下時間打在備忘錄上，急忙的時候就直接截圖有空再去整理 XD</description>
+    </item>
     
     <item>
       <title>GitHub 不能再使用密碼驗證，你有更好的選澤 - SSH Key</title>
