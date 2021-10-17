@@ -171,17 +171,13 @@
 <h4 id="https-和-ssh-key-的差別就像有-faceid-不用而是手打密碼誤">－HTTPS 和 SSH Key 的差別就像有 FaceID 不用而是手打密碼（誤</h4>
 <p><a href="https://stackoverflow.com/questions/11041729/why-does-github-recommend-https-over-ssh">在幾年前 Github 還沒被微軟收購時，官方其實是推薦使用 HTTPS</a>，但還是有提供 SSH Key 的連線方式，兩者差別在於：</p>
 <ul>
-<li>HTTPS：以 Github 來說明，在 Clone 的時候是需要輸入帳號密碼的，如果在 Clone 時並無要求輸入，大多是因為電腦已經紀錄過帳密就不需要重新再輸入。</li>
+<li>HTTPS：以 Github 來說明，在 Clone 的時候是需要輸入帳號密碼的，如果在 Clone 時並無要求輸入，大部分是因為電腦已經紀錄過帳密就不需要再重新輸入。</li>
 <li>SSH Key：在電腦中設定好金鑰， Clone 時會經過比對，比對正確才能執行，因此不需要額外的帳號密碼。</li>
 </ul>
-<p>兩者執行出來的結果會是一樣的，只是使用的方式不同，設定好 SSH 在下一篇要 Clone Gist 的時候，就可以使用 Clone via SSH 這個選項。</p>
-<p>​</p>
-<h4 id="反覆打密碼不累嗎">－反覆打密碼不累嗎？</h4>
-<p>不用 SSH Key 其實也可以輸入密碼去驗證，除了不會設定 SSH Key 也有可能是開發工具沒有提示導致。</p>
-<p>現在很多超級好用的開發工具，像是 VS Code, Sourcetree 等，如果一開始直接用這些工具進行開發，就我經驗它們是不會提示使用者設定 SSH Key 的，所以在</p>
+<p>兩者執行出來的結果會是一樣的，只是使用的方式不同，設定好 SSH Key 之後要執行 <code>git clone</code> 的時候，就可以使用 Clone via SSH 這個選項。</p>
 <p>​</p>
 <h2 id="真香官方教學設定-ssh-key-還有-token">真香！官方教學設定 SSH Key 還有 Token</h2>
-<p>如果想用 Token 或是還沒設定過 SSH Key，可以參考官方的文章</p>
+<p>如果想用 Token 或是還沒設定過 SSH Key，可以參考官方的教學文章：</p>
 <ul>
 <li><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Adding a new SSH key to your GitHub account</a></li>
 <li><a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">Creating a personal access token</a></li>
