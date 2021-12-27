@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 05 Oct 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Oct 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>你正在做軟體產品嗎？別忘了 SLA 協定！</title>
+      <link>https://peterpowerfullife.com/blog/service-level-agreement/</link>
+      <pubDate>Fri, 29 Oct 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/service-level-agreement/</guid>
+      <description>日前在協助公司銷售產品，除了 Sales 幫忙推產品之外，我也參與了一項有關政府的相關計畫，因而得知 SLA(Service Level Agreement, 服務等級協定) 這個名詞。
+認識的同業朋友圈當中，也沒人聽過這東西，還以為是跟 Blockchain, Metaverse 有關（近期太多新名詞了 XD</description>
+    </item>
     
     <item>
       <title>來跑 Scrum！但團隊真的準備好了嗎？</title>
