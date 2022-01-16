@@ -6,10 +6,21 @@
     <description>Recent content in Product Development 產品開發 on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 29 Oct 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Nov 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>選擇大於努力，產品經理如何選擇公司？</title>
+      <link>https://peterpowerfullife.com/blog/pdm-howto-choose-company/</link>
+      <pubDate>Thu, 25 Nov 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/pdm-howto-choose-company/</guid>
+      <description>選擇大於努力，選擇不對，努力白費！
+有沒有什麼方式能在面試階段好好認識公司，去選擇匹配自己的公司文化、適合自己的職務？
+ 一個產品有它的 Product Lifecycle(產品生命週期)，而產品經理要有所成長、看到自己奉獻心血的回報，我認為一定要至少經歷 Conception(產品概念) 到 Growth(產品增長) 的階段，不論 B2B / B2C / B2B2C 等任何類型的產品。</description>
+    </item>
     
     <item>
       <title>你正在開發軟體產品嗎？別忘了 SLA 協定！</title>
