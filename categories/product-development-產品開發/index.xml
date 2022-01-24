@@ -33,6 +33,17 @@
     </item>
     
     <item>
+      <title>善用你的技術力，產品經理和工程師協作必須知道的事</title>
+      <link>https://peterpowerfullife.com/blog/howto-working-with-engineers/</link>
+      <pubDate>Wed, 21 Jul 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/howto-working-with-engineers/</guid>
+      <description>沒有技術背景能夠當產品經理嗎？ 沒有技術背景如何和工程師協作？ 所以產品經理要會技術嗎？達到哪種程度才行？  以上大概是許多人一直都有的疑問。擁有技術背景讓我在團隊溝通及協作上有非常大的幫助，但產品經理最重要的並不是會「技術」這個技能，希望以下的資訊希望對你有些幫助。
+​
+目錄  清楚自己是什麼角色 Over-Communication（過度溝通） 懂技術對產品經理有哪些幫助？ RD 不是你的 UberEats 徵才方想要找「懂技術的產品經理」是什麼心態？  ​</description>
+    </item>
+    
+    <item>
       <title>如何快速認識一個產品 - Usability Testing（易用性測試）</title>
       <link>https://peterpowerfullife.com/blog/howto-know-the-product/</link>
       <pubDate>Wed, 07 Jul 2021 15:30:00 +0800</pubDate>
@@ -137,10 +148,9 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <pubDate>Fri, 19 Feb 2021 18:30:00 +0800</pubDate>
       
       <guid>https://peterpowerfullife.com/blog/domain-driven-design-01/</guid>
-      <description>這篇文章主要是探討數位化轉型的過程，以及開始進入軟體開發的初期階段需要留意的細節。
-內容不會提到 RD 把 Domain Knowledge（知識領域）DI（注入）到程式碼當中，這議題很深、很廣，有機會再分享。
- ​
-目錄  數位化轉型的定義＆什麼是DDD?</description>
+      <description>在數位化轉型的過程中，熱愛你產品的所屬產業、認識你既有的產品領域，不僅是 PM, 更是每位夥伴都該有的共識。
+工作經驗當中，打造新產品或是把當前既有的服務做數位化轉型，在做數位化轉型如果懂得 DDD（Domain Driven Design）， 這對產品開發有絕對的幫助，甚至可以少浪費一些時間去摸索原先的服務（流程、習慣、文化） &amp;hellip;
+​</description>
     </item>
     
     <item>
