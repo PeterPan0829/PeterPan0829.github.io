@@ -6,10 +6,20 @@
     <description>Recent content on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 25 Nov 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Dec 2021 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>StartUp 的 Prioritization(優先級策略) 和你想的不一樣</title>
+      <link>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</link>
+      <pubDate>Sat, 18 Dec 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</guid>
+      <description>在產品開發團隊當中，不管有沒有跑敏捷開發，產品經理無時無刻都會遇到一個問題：如何排定開發項目? 什麼時候會開發完成?
+這裏談的不是日常上 Sprint 要開發的功能，而是新創公司在 Early-stage 階段，針對產品還沒有找到 PMF(Product-Market Fit) 之前，擬定 Prioritization(優先級策略) 該注意的幾個重點。</description>
+    </item>
     
     <item>
       <title>選擇大於努力，產品經理如何選擇公司？</title>
@@ -305,6 +315,16 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <description>在台灣，求學過程連產品管理都沒聽過，更不可能知道產品經理這個職務到底在做哪些事情。這也是為什麼產品管理困難的地方，因為你並沒有一個途徑可循。這篇簡短的文章希望可以幫助你認識這個角色定位以及職務工作內容。
 ​
 目錄  什麼是產品？為什麼要開發產品？ 需要哪些資源才能做出一個產品？ 組成產品的三個要素 商業領域的職務、產品經理要做哪些事？ 產品經理是商業策略的角色之一  ​</description>
+    </item>
+    
+    <item>
+      <title>『2022 網站開發的基準』The baseline for web development in 2022</title>
+      <link>https://peterpowerfullife.com/blog/baseline-forweb-development-in-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/baseline-forweb-development-in-2022/</guid>
+      <description>在產品開發團隊當中，不管有沒有跑敏捷開發，產品經理無時無刻都會遇到一個問題：如何排定開發項目? 什麼時候會開發完成?
+這裏想談的不只是日常上 Sprint 要開發的功能、解決主要問題帶給客戶滿足的功能，而是在新創公司 Early-stage 階段，針對產品還沒有找到 PMF(Product-Market Fit) 之前的 Prioritization(優先級策略)。</description>
     </item>
     
   </channel>
