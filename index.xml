@@ -6,10 +6,20 @@
     <description>Recent content on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 18 Dec 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2022 年網站開發的基準（The baseline for web development in 2022）</title>
+      <link>https://peterpowerfullife.com/blog/baseline-forweb-development-in-2022/</link>
+      <pubDate>Fri, 28 Jan 2022 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/baseline-forweb-development-in-2022/</guid>
+      <description>本篇文章是由 Line 前端工程師 - Alan Dávalos 所分享，這裡只有節錄幾個重點，想看更多細節可以看原始的文章唷
+ ​</description>
+    </item>
     
     <item>
       <title>StartUp 的 Prioritization(優先級策略) 和你想的不一樣</title>
