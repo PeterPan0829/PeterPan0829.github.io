@@ -24,7 +24,6 @@ if(searchQuery){
 }
 
 
-
 function executeSearch(searchQuery){
   $.getJSON( indexURL, function( data ) {
     var pages = data;
