@@ -6,10 +6,20 @@
     <description>Recent content in Product Development 產品開發 on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 18 Dec 2021 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Feb 2022 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>【生活中的產品經理】－NFL 七冠的 Tom Brady 在產品團隊會是一個什麼樣的產品經理？</title>
+      <link>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</link>
+      <pubDate>Thu, 10 Feb 2022 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</guid>
+      <description>Foreword:
+我一直都是 Las Vegas Raiders 的球迷，但本身對美式足球沒有像 NBA, MLB 還有 MMA 這麼感興趣，通常只會看每年的 Super Bowl 或一些 Highlight, 螢幕前的讀者若是 Tom Brady 的死忠粉絲請別太認真呀 😅 😅</description>
+    </item>
     
     <item>
       <title>StartUp 的 Prioritization(優先級策略) 和你想的不一樣</title>
@@ -183,17 +193,6 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
       <guid>https://peterpowerfullife.com/blog/prototype/</guid>
       <description>​
 目錄  什麼是 Prototype? 為什麼需要 Prototype? 模擬 Scenario Visualization High &amp;amp; Low Fidelity Prototype Usability Testing（易用性測試） 最後的最後  ​</description>
-    </item>
-    
-    <item>
-      <title>產品經理到底在做什麼？</title>
-      <link>https://peterpowerfullife.com/blog/what-is-product-manager/</link>
-      <pubDate>Thu, 03 Dec 2020 14:27:00 +0800</pubDate>
-      
-      <guid>https://peterpowerfullife.com/blog/what-is-product-manager/</guid>
-      <description>在台灣，求學過程連產品管理都沒聽過，更不可能知道產品經理這個職務到底在做哪些事情。這也是為什麼產品管理困難的地方，因為你並沒有一個途徑可循。這篇簡短的文章希望可以幫助你認識這個角色定位以及職務工作內容。
-​
-目錄  什麼是產品？為什麼要開發產品？ 需要哪些資源才能做出一個產品？ 組成產品的三個要素 商業領域的職務、產品經理要做哪些事？ 產品經理是商業策略的角色之一  ​</description>
     </item>
     
   </channel>
