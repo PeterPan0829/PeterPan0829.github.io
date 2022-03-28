@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>【生活中的產品經理】－NFL 七冠的 Tom Brady 在產品團隊會是一個什麼樣的產品經理？</title>
+      <title>【生活中的產品經理】－NFL 七冠的 Tom Brady 在團隊會是什麼樣的產品經理？</title>
       <link>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</link>
       <pubDate>Thu, 10 Feb 2022 15:30:00 +0800</pubDate>
       
@@ -51,6 +51,17 @@
       <guid>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</guid>
       <description>在產品開發團隊當中，不管有沒有跑敏捷開發，產品經理無時無刻都會遇到一個問題：如何排定開發項目? 什麼時候會開發完成?
 這裏談的不是日常上 Sprint 要開發的功能，而是新創公司在 Early-stage 階段，針對產品還沒有找到 PMF(Product-Market Fit) 之前，擬定 Prioritization(優先級策略) 該注意的幾個重點。</description>
+    </item>
+    
+    <item>
+      <title>【SEO】搜尋引擎只要懂這 3 點就夠了（上）</title>
+      <link>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-one/</link>
+      <pubDate>Thu, 02 Dec 2021 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-one/</guid>
+      <description>SEO(Search Engine Optimization, 搜尋引擎優化)，是透過搜尋引擎認可的運作規則、方法，在搜尋結果上取得排名，藉以獲得更多的自然流量 (Organic Traffic)，爭取網站本身與品牌曝光。
+如果你只是要自己架網站或初步入門 SEO 這個坑，了解檢索、索引和排名機制就非常夠了～
+  上集 - 了解搜尋引擎的運作，包含檢索、索引。</description>
     </item>
     
     <item>
@@ -140,7 +151,7 @@ Scrum 這個 Agile Methodology(敏捷式開發) 的方法對於產品開發團�
     </item>
     
     <item>
-      <title>SEO - 改善圖片，優化搜尋引擎</title>
+      <title>【SEO】改善圖片，優化搜尋引擎</title>
       <link>https://peterpowerfullife.com/blog/seo-image-howto-optimize-image-for-seo/</link>
       <pubDate>Sat, 03 Jul 2021 15:30:00 +0800</pubDate>
       
