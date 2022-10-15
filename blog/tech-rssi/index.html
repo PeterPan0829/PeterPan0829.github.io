@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>#人生剩力組</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="構成生命的要素應該要多加一個「網路」才對 ...">
+  <meta name="author" content="Peter">
+  
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="https://peterpowerfullife.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://peterpowerfullife.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://peterpowerfullife.com/images/favicon.png " type="image/x-icon">
+
+  <!--google analitycs-->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-190185324-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon.ico">
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+             src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+               src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://peterpowerfullife.com/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://peterpowerfullife.com/blog">Blog</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://peterpowerfullife.com/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        
+        <h2>IoT 的基礎知識 - RSSI</h2>
+        <div class="mb-3 post-meta">
+          <span>By Peter</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>18 April 2022</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          
+          <a href="/categories/tech-%e6%8a%80%e8%a1%93" class="text-primary">Tech 技術</a>
+        
+        </div>
+        
+        <img src="https://peterpowerfullife.com/images/blog-content-pic/Tech%EF%BC%BFFieldTestMode.jpg" class="img-fluid w-100 mb-4" alt="IoT 的基礎知識 - RSSI">
+        
+        <div class="content mb-5">
+          <blockquote>
+<p><em><strong>Foreword:</strong></em></p>
+<p>目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - <em>RSSI(Received Signal Strength IndicationI)</em>, 還有容易造成混淆的 dBM 名詞。</p>
+</blockquote>
+<p>​</p>
+<h2 id="目錄">目錄</h2>
+<ul>
+<li><strong><a href="#rssi-%E6%9C%AC%E8%BA%AB%E6%98%AF%E4%BB%80%E9%BA%BC">RSSI 本身是什麼</a></strong></li>
+<li><strong><a href="#rssi-%E5%92%8C-dbm-%E4%B9%8B%E9%96%93%E7%9A%84%E9%97%9C%E4%BF%82">RSSI 和 dBM 之間的關係</a></strong></li>
+<li><strong><a href="#%E5%A6%82%E4%BD%95%E6%B8%AC%E8%A9%A6%E6%89%8B%E6%A9%9F%E7%9A%84%E8%A8%8A%E8%99%9F%E5%BC%B7%E5%BA%A6">如何測試手機的訊號強度</a></strong></li>
+</ul>
+<p>​</p>
+<h2 id="rssi-本身是什麼">RSSI 本身是什麼</h2>
+<p>針對 RSSI 這個名詞本身，英文很容易理解，但翻成中文-接收信號的強度指示，其中的「指式」還真有點難懂，但把它理解成<strong>信號、指標</strong>就很好理解了。</p>
+<p>RSSI 是<strong>衡量</strong>設備從接收端<strong>接收信號能力</strong>的<strong>指標</strong>，所以它是可以被衡量、偵測的。</p>
+<p>在現今 IoT（Internet of Things, 物聯網）浪潮中，生活上都有 RSSI 的影子存在，WiFi 和藍牙都是透過 RSSI 判定訊號強弱，讓電子設備彼此串聯有更多應用、更多無限可能。</p>
+<p>手上的智慧型手機要和床頭櫃的 Apple Homepod Mini 連線，它們之間就是透過 RSSI 信號強度去做識別。這裡要特別說明一下，RSSI 本身無法識別出位置，只是在 Application Layer（應用層）做特別處理，將訊號強、弱標記出位置的遠、近。</p>
+<p>Homepod Mini 只要是開機的狀態就不斷地在運作，它持續地投射訊號告訴手機自己在哪裡並持續連線。</p>
+<p>其訊號廣播(Homepod Mini)是廣播器、手機就是 client-side 的接收器，而手機位置是根據 <strong>RSSI (Received Signal Strength Indication, 接收信號強度指示)</strong> 給精算出來的。</p>
+<p>不過現在的 IOT 設備既是 Transmitter(訊號廣播器) 也是 Receiver(接收器)，單看這個設備在什麼情境要能做到哪些事而有不同的定位。</p>
+<p>​</p>
+<h2 id="rssi-和-dbm-之間的關係">RSSI 和 dBM 之間的關係</h2>
+<p>RSSI 是衡量設備從接收點接收信號能力的指標，但在 IOT 設備的商品說明書一定也會看到 <strong>&ldquo;dBM&rdquo;</strong> 這個名詞。</p>
+<p>那麼 dBM 是什麼？RSSI 和 dBM 之間又是什麼關係？RSSI 和 dBM 是不同的東西，但都代表<strong>信號強度</strong>！</p>
+<ol>
+<li>
+<p>RSSI 是一個<strong>相對指標</strong></p>
+</li>
+<li>
+<p>而 dBm（decibel relative to one milliwatt, 分貝毫瓦）是 RSSI 的單位，dBM 是一個<strong>絕對數值</strong>，以 mW（milliwatts, 毫瓦）表示.</p>
+</li>
+</ol>
+<p><a href="https://www.wikiwand.com/en/DBm">dBm</a> 是 RSSI 的單位，數值大小表示信號的靈敏度，dBm 的值<strong>愈小</strong>表示接收訊號的靈敏度愈好，也就是說一個設備的Sensitivity(靈敏度) -160 dBm 比 -110還要靈敏。</p>
+<p>​</p>
+<h2 id="如何測試手機的訊號強度">如何測試手機的訊號強度</h2>
+<p>陽光、空氣、水是構成生命的 3 大要素，但這年頭應該要多加一個「網路」併為四大要素 XD</p>
+<p>4G / 5G 的手機訊號強度和當前所處的位置有絕對關係，因為訊號的好壞和電信商的基地台位置有關。</p>
+<p>下次手機訊號差不妨可以試試以下工具。</p>
+<p>​</p>
+<h4 id="查詢所處位置有幾臺基地臺">－查詢所處位置有幾臺基地臺</h4>
+<p>進入 <a href="https://freqdbo.ncc.gov.tw/Portal/NCCB06Q_01v1.aspx">NCC（國家通訊傳播委員會）頻率資料庫查詢系統</a> 系統後，輸入住家地址等資訊就可以看到詳細的基地臺位置。</p>
+<p>或是直接看 NCC 提供的基地臺點位 - <a href="https://twbsmap.paoyuan.org/">台灣基地台分佈地圖資訊</a></p>
+<p>​</p>
+<h4 id="field-test-mode測試模式">－Field Test Mode(測試模式)</h4>
+<blockquote>
+<p>iOS, 和 Android 有不同的測試方式，以下為 iOS 為例，Android 的用戶可以參考這款<a href="https://play.google.com/store/apps/details?id=com.waveform.signalstream">SignalStream by Waveform - Google Play 應用程式</a>工具。</p>
+</blockquote>
+<p><img src="../../images/blog-content-pic/Tech%EF%BC%BFFieldTestMode.jpg" alt="image"><em>(圖 - iOS Field Test Mode)</em></p>
+<p>透過 Field Test Mode 可以在當下進測量信號，測量步驟如下：</p>
+<ol>
+<li>關閉手機 WiFi 服務</li>
+<li>進入「電話」應用程式並輸入：<em><strong>＊3001#12345#＊</strong></em>，然後按下撥號按鍵</li>
+<li>進入 Fleld Test Mod 頁面，有一個 <em><strong>Dashboard</strong></em> 和 <em><strong>所有清單</strong></em>，點擊右上角三行的 <em><strong>所有清單</strong></em></li>
+<li>在 <em><strong>LTE</strong></em> 選取 <em><strong>Serving Cell Meas</strong></em></li>
+</ol>
+<p>這裡觀測的數值是 <strong>RSCP(Received Signal Code Power, 接收信號碼功率)</strong> , 俗稱電平值，是手機接收到的<strong>信號強度</strong>。</p>
+<p>雖然我們不會閒閒沒事去測這些數值，但在搬家、爬山或郊遊真的實蠻受用的。</p>
+<p>明明是用 4G/ 5G 方案，但訊號卻很差就可以實際測量一下，不用被電信客服唬爛。
+出門露營或爬山，到就定位置可以先行測試看誰的手機訊號最好，要管制訊號最好的朋友的手機，真正用到的時候不用怕沒電、沒訊號 XD</p>
+<p>收到基地台訊號強度愈強，撥打出去機會愈高！快把 <em><strong>＊3001#12345#＊</strong></em> 記到你的記事本吧～</p>
+<p>​</p>
+<h1 id="ref">Ref</h1>
+<ul>
+<li><a href="https://freqdbo.ncc.gov.tw/Portal/NCCB06Q_01v1.aspx">國家通訊傳播委員會（NCC）頻率資料庫查詢系統</a></li>
+<li><a href="https://www.waveform.com/a/b/guides/field-test-guide#what-do-my-rsrp-and-sinrrssnr-measurements-mean">Field Test Mode for iPhones and Android</a></li>
+<li><a href="https://www.wikiwand.com/en/Received_signal_code_power">Wiki - Received signal code power</a></li>
+<li><a href="https://www.wikiwand.com/en/Received_signal_strength_indication">Wiki - Received signal strength indication</a></li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "peterpowerfullife" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  var indexURL = {
+    {
+      "index.json" | absURL
+    }
+  }
+</script>
+
+ <!-- JS Plugins -->
+
+<script src="https://peterpowerfullife.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/mark.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/search.js"></script>
+
+ <!-- Main Script -->
+
+<script src="https://peterpowerfullife.com/js/script.min.js"></script>
+
+
+
+
+</body>
+</html>
