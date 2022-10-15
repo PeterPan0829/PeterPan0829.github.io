@@ -6,10 +6,20 @@
     <description>Recent content in Tech 技術 on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 28 Jan 2022 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2022 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/tech-%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IoT 的基礎知識 - RSSI</title>
+      <link>https://peterpowerfullife.com/blog/tech-rssi/</link>
+      <pubDate>Mon, 18 Apr 2022 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/tech-rssi/</guid>
+      <description>Foreword:
+目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - RSSI(Received Signal Strength IndicationI), 還有容易造成混淆的 dBM 名詞。</description>
+    </item>
     
     <item>
       <title>2022 年網站開發的基準（The baseline for web development in 2022）</title>
