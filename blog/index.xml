@@ -18,7 +18,7 @@
       
       <guid>https://peterpowerfullife.com/blog/tech-rssi/</guid>
       <description>Foreword:
-目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - RSSI(Received Signal Strength IndicationI), 還有容易造成混淆的 dBM 名詞。</description>
+目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - RSSI(Received Signal Strength IndicationI), 還有容易造成混淆的 dBm 名詞。</description>
     </item>
     
     <item>

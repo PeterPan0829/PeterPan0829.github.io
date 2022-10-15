@@ -137,13 +137,13 @@
         <div class="content mb-5">
           <blockquote>
 <p><em><strong>Foreword:</strong></em></p>
-<p>目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - <em>RSSI(Received Signal Strength IndicationI)</em>, 還有容易造成混淆的 dBM 名詞。</p>
+<p>目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - <em>RSSI(Received Signal Strength IndicationI)</em>, 還有容易造成混淆的 dBm 名詞。</p>
 </blockquote>
 <p>​</p>
 <h2 id="目錄">目錄</h2>
 <ul>
 <li><strong><a href="#rssi-%E6%9C%AC%E8%BA%AB%E6%98%AF%E4%BB%80%E9%BA%BC">RSSI 本身是什麼</a></strong></li>
-<li><strong><a href="#rssi-%E5%92%8C-dbm-%E4%B9%8B%E9%96%93%E7%9A%84%E9%97%9C%E4%BF%82">RSSI 和 dBM 之間的關係</a></strong></li>
+<li><strong><a href="#rssi-%E5%92%8C-dbm-%E4%B9%8B%E9%96%93%E7%9A%84%E9%97%9C%E4%BF%82">RSSI 和 dBm 之間的關係</a></strong></li>
 <li><strong><a href="#%E5%A6%82%E4%BD%95%E6%B8%AC%E8%A9%A6%E6%89%8B%E6%A9%9F%E7%9A%84%E8%A8%8A%E8%99%9F%E5%BC%B7%E5%BA%A6">如何測試手機的訊號強度</a></strong></li>
 </ul>
 <p>​</p>
@@ -151,23 +151,23 @@
 <p>針對 RSSI 這個名詞本身，英文很容易理解，但翻成中文-接收信號的強度指示，其中的「指式」還真有點難懂，但把它理解成<strong>信號、指標</strong>就很好理解了。</p>
 <p>RSSI 是<strong>衡量</strong>設備從接收端<strong>接收信號能力</strong>的<strong>指標</strong>，所以它是可以被衡量、偵測的。</p>
 <p>在現今 IoT（Internet of Things, 物聯網）浪潮中，生活上都有 RSSI 的影子存在，WiFi 和藍牙都是透過 RSSI 判定訊號強弱，讓電子設備彼此串聯有更多應用、更多無限可能。</p>
-<p>手上的智慧型手機要和床頭櫃的 Apple Homepod Mini 連線，它們之間就是透過 RSSI 信號強度去做識別。這裡要特別說明一下，RSSI 本身無法識別出位置，只是在 Application Layer（應用層）做特別處理，將訊號強、弱標記出位置的遠、近。</p>
-<p>Homepod Mini 只要是開機的狀態就不斷地在運作，它持續地投射訊號告訴手機自己在哪裡並持續連線。</p>
-<p>其訊號廣播(Homepod Mini)是廣播器、手機就是 client-side 的接收器，而手機位置是根據 <strong>RSSI (Received Signal Strength Indication, 接收信號強度指示)</strong> 給精算出來的。</p>
+<p>手上的智慧型手機要和床頭櫃的 Apple HomePod mini 連線，它們之間就是透過 RSSI 信號強度去做識別。這裡要特別說明一下，RSSI 本身無法識別出位置，只是在 Application Layer（應用層）做特別處理，將訊號強、弱標記出位置的遠、近。</p>
+<p>HomePod mini 只要是開機的狀態就不斷地在運作，它持續地投射訊號告訴手機自己在哪裡並持續連線。</p>
+<p>其訊號廣播(HomePod mini)是廣播器、手機就是 client-side 的接收器，而手機位置是根據 <strong>RSSI (Received Signal Strength Indication, 接收信號強度指示)</strong> 給精算出來的。</p>
 <p>不過現在的 IOT 設備既是 Transmitter(訊號廣播器) 也是 Receiver(接收器)，單看這個設備在什麼情境要能做到哪些事而有不同的定位。</p>
 <p>​</p>
-<h2 id="rssi-和-dbm-之間的關係">RSSI 和 dBM 之間的關係</h2>
-<p>RSSI 是衡量設備從接收點接收信號能力的指標，但在 IOT 設備的商品說明書一定也會看到 <strong>&ldquo;dBM&rdquo;</strong> 這個名詞。</p>
-<p>那麼 dBM 是什麼？RSSI 和 dBM 之間又是什麼關係？RSSI 和 dBM 是不同的東西，但都代表<strong>信號強度</strong>！</p>
+<h2 id="rssi-和-dbm-之間的關係">RSSI 和 dBm 之間的關係</h2>
+<p>RSSI 是衡量設備從接收點接收信號能力的指標，但在 IOT 設備的商品說明書一定也會看到 <strong>&ldquo;dBm&rdquo;</strong> 這個名詞。</p>
+<p>那麼 dBm 是什麼？RSSI 和 dBm 之間又是什麼關係？RSSI 和 dBm 是不同的東西，但都代表<strong>信號強度</strong>！</p>
 <ol>
 <li>
 <p>RSSI 是一個<strong>相對指標</strong></p>
 </li>
 <li>
-<p>而 dBm（decibel relative to one milliwatt, 分貝毫瓦）是 RSSI 的單位，dBM 是一個<strong>絕對數值</strong>，以 mW（milliwatts, 毫瓦）表示.</p>
+<p>而 dBm（decibel relative to one milliwatt, 分貝毫瓦）是 RSSI 的單位，dBm 是一個<strong>絕對數值</strong>，以 mW（milliwatts, 毫瓦）表示.</p>
 </li>
 </ol>
-<p><a href="https://www.wikiwand.com/en/DBm">dBm</a> 是 RSSI 的單位，數值大小表示信號的靈敏度，dBm 的值<strong>愈小</strong>表示接收訊號的靈敏度愈好，也就是說一個設備的Sensitivity(靈敏度) -160 dBm 比 -110還要靈敏。</p>
+<p><a href="https://www.wikiwand.com/en/dBm">dBm</a> 是 RSSI 的單位，數值大小表示信號的靈敏度，dBm 的值<strong>愈小</strong>表示接收訊號的靈敏度愈好，也就是說一個設備的Sensitivity(靈敏度) -160 dBm 比 -110還要靈敏。</p>
 <p>​</p>
 <h2 id="如何測試手機的訊號強度">如何測試手機的訊號強度</h2>
 <p>陽光、空氣、水是構成生命的 3 大要素，但這年頭應該要多加一個「網路」併為四大要素 XD</p>
@@ -199,7 +199,7 @@
 <h1 id="ref">Ref</h1>
 <ul>
 <li><a href="https://freqdbo.ncc.gov.tw/Portal/NCCB06Q_01v1.aspx">國家通訊傳播委員會（NCC）頻率資料庫查詢系統</a></li>
-<li><a href="https://www.waveform.com/a/b/guides/field-test-guide#what-do-my-rsrp-and-sinrrssnr-measurements-mean">Field Test Mode for iPhones and Android</a></li>
+<li><a href="https://www.waveform.com">Field Test Mode for iPhones and Android</a></li>
 <li><a href="https://www.wikiwand.com/en/Received_signal_code_power">Wiki - Received signal code power</a></li>
 <li><a href="https://www.wikiwand.com/en/Received_signal_strength_indication">Wiki - Received signal strength indication</a></li>
 </ul>
