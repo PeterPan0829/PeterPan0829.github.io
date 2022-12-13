@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 18 Apr 2022 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jun 2022 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Impossible Trinity(三元悖論) - 產品經理必定面臨的難處</title>
+      <link>https://peterpowerfullife.com/blog/project-mundellian-trilemma/</link>
+      <pubDate>Sat, 25 Jun 2022 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/project-mundellian-trilemma/</guid>
+      <description>在台灣許多公司環境，PM 是不分產品或是專案的，甚至還要去管理 DevOps 維運，這問題牽扯到很多層面。
+身為產品經理 / 專案經理的你，向利害關係人（老闆 / 客戶）闡述完你接下來要做的事期，他們一定都會跟你說：
+ 兩個 Sprint 才能完成的功項，給我壓縮到一個 Sprint 成本最好壓低一點，最低價最好是能再砍個三分之一 系統功能的交互 Loading 不能大於 2 秒  這些問題都發生在產品經理的工作日常上。初入行的產品經理遇到上述的問題，當下可能會非常地懊惱，最後想不出辦法只能默默接受 &amp;hellip;</description>
+    </item>
     
     <item>
       <title>IoT 的基礎知識 - RSSI</title>
