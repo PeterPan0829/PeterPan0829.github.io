@@ -144,9 +144,9 @@
 <ul>
 <li><strong><a href="#rssi-%E6%9C%AC%E8%BA%AB%E6%98%AF%E4%BB%80%E9%BA%BC">RSSI 本身是什麼</a></strong></li>
 <li><strong><a href="#rssi-%E5%92%8C-dbm-%E4%B9%8B%E9%96%93%E7%9A%84%E9%97%9C%E4%BF%82">RSSI 和 dBm 之間的關係</a></strong></li>
+<li><strong><a href="#%E8%A8%8A%E8%99%9F%E5%BC%B7%E5%BA%A6%E5%A4%AA%E4%BD%8E%E9%82%A3%E5%B0%B1%E8%87%AA%E5%B7%B1%E5%AE%9A%E7%BE%A9%E5%90%A7">訊號強度太低？那就自己定義吧</a></strong></li>
 <li><strong><a href="#%E5%A6%82%E4%BD%95%E6%B8%AC%E8%A9%A6%E6%89%8B%E6%A9%9F%E7%9A%84%E8%A8%8A%E8%99%9F%E5%BC%B7%E5%BA%A6">如何測試手機的訊號強度</a></strong></li>
 </ul>
-<p>​</p>
 <h2 id="rssi-本身是什麼">RSSI 本身是什麼</h2>
 <p>針對 RSSI 這個名詞本身，英文很容易理解，但翻成中文-接收信號的強度指示，其中的「指式」還真有點難懂，但把它理解成<strong>信號、指標</strong>就很好理解了。</p>
 <p>RSSI 是<strong>衡量</strong>設備從接收端<strong>接收信號能力</strong>的<strong>指標</strong>，所以它是可以被衡量、偵測的。</p>
@@ -168,6 +168,16 @@
 </li>
 </ol>
 <p><a href="https://www.wikiwand.com/en/dBm">dBm</a> 是 RSSI 的單位，數值大小表示信號的靈敏度，dBm 的值<strong>愈小</strong>表示接收訊號的靈敏度愈好，也就是說一個設備的Sensitivity(靈敏度) -160 dBm 比 -110還要靈敏。</p>
+<p>​</p>
+<h2 id="訊號強度太低那就自己定義吧">訊號強度太低？那就自己定義吧</h2>
+<p>上述有提到，IOT 設備既是 Transmitter(訊號廣播器) 也是 Receiver(接收器)。快速認識兩個名詞，直接看實例了解用途：</p>
+<ol>
+<li><strong>Transmission power (傳輸功率, 簡稱：Tx Power)</strong></li>
+<li><strong>Receivemission power (接收功率, 簡稱：Rx Power)</strong></li>
+</ol>
+<p>假設今天你所使用的設備是採用 4G SIM 卡，吃的是台灣大x大的網路，若剛好附近沒有 <a href="https://www.wikiwand.com/en/Cell_site">Cell Site(基地台)</a>, 當訊號不夠強，連線就會斷斷續續的。所以你去電信公司申辦網路，在場勘、到府安裝前，服務人員會先跟你確認住哪裡，看那一帶距離基地台近不近、網路傳輸品質如何，藉此評估網速會不會有問題。</p>
+<p>我們在使用手機時，當你距離基地台<strong>很近</strong>訊號強度<strong>較強</strong>，這時候<strong>傳輸功率(Tx power)</strong> 比較弱，而<strong>接收功率(Rx power)</strong> 相對較高，<strong>手機更省電</strong>；反之，離基地台<strong>越遠</strong>訊號就<strong>越弱</strong>，手機的傳輸功率(Tx Power) 上升，接收功率(Rx Power) 下降，這時候電池要努力運作就比較耗電。</p>
+<p>而在 IoT 的硬體設備上，TX Power, RX Power 的傳輸/ 接收數值是可以自行定義的，系統上會有 Tx-Power= 30dBm. 可以透過一些工具去進行調整，所以工程師也會把 Tx, Rx 稱為自定義數值。</p>
 <p>​</p>
 <h2 id="如何測試手機的訊號強度">如何測試手機的訊號強度</h2>
 <p>陽光、空氣、水是構成生命的 3 大要素，但這年頭應該要多加一個「網路」併為四大要素 XD</p>
