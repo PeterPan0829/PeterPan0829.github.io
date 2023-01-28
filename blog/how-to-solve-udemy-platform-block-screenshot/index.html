@@ -184,6 +184,7 @@
 <p>許多科技公司諸如：Netflix, Apple 還有 Microsoft 所開發的 <strong>DRM</strong>(Digital rights management, 數位版權管理) 用於<strong>保護數位內容</strong>的技術。 DRM 技術使用加密和其他方法來控制數位內容的使用和訪問方式。</p>
 <p>幾年前 <a href="https://www.w3.org/TR/encrypted-media/">W3C</a> 通過了<strong>EME</strong>(<strong>E</strong>ncrypted <strong>M</strong>edia <strong>E</strong>xtensions, <strong>EME</strong>, 加密媒體擴充）規範，用來約束 DRM 技術廠商之間的通用性，制定相同的標準。EME 提供了一個 API，讓 Web 應用程式能夠與受保護的內容進行交互，並允許播放加密過的音樂和影片。</p>
 <p>所以當你在 Netflix, Udemy 這些平台上進行電腦截圖和錄影，它只要一偵測到上述行為，就會去呼叫 API 把螢幕上的內容做隱藏。</p>
+<p>而之所以能透過關閉瀏覽器的硬體加速功能進行截圖，是因為開啟硬體加速設定，意思是把「顯卡」正在處理的圖像數據直接顯示在螢幕上，不需要把截圖畫面儲存在記憶體；而關閉硬體加速就得讓 CPU 來處理所有圖像數據，這時候就沒辦法用高速、高畫質來播放。</p>
 <p>​</p>
 <h1 id="ref">Ref</h1>
 <ul>
