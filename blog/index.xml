@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 12 Aug 2022 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Oct 2022 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>產品經理應該站在 RD 的角度描述產品需求</title>
+      <link>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</link>
+      <pubDate>Tue, 18 Oct 2022 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</guid>
+      <description>目錄  ​Feature 和 User Story 有什麼差別？ 你搞得我好複雜啊，什麼是 Epic ? 什麼時候用 User Story, Epic ?</description>
+    </item>
     
     <item>
       <title>Udemy 不能截圖？只需 1 步驟即可恢復截圖功能！</title>

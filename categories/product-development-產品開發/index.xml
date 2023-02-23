@@ -6,10 +6,19 @@
     <description>Recent content in Product Development 產品開發 on #人生剩力組</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 25 Jun 2022 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Oct 2022 15:30:00 +0800</lastBuildDate>
     
 	<atom:link href="https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>產品經理應該站在 RD 的角度描述產品需求</title>
+      <link>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</link>
+      <pubDate>Tue, 18 Oct 2022 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</guid>
+      <description>目錄  ​Feature 和 User Story 有什麼差別？ 你搞得我好複雜啊，什麼是 Epic ? 什麼時候用 User Story, Epic ?</description>
+    </item>
     
     <item>
       <title>The Impossible Trinity(三元悖論) - 產品經理必定面臨的難處</title>
