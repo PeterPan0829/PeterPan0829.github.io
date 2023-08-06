@@ -62,6 +62,16 @@
     </item>
     
     <item>
+      <title>解析智能合約在區塊鏈的運作原理</title>
+      <link>https://peterpowerfullife.com/blog/what-is-smart-contract-and-how-does-it-work/</link>
+      <pubDate>Thu, 28 May 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/what-is-smart-contract-and-how-does-it-work/</guid>
+      <description>智能合約是在區塊鏈上運作的自動化、不可更改的程式碼，可以根據程式碼的條件和規則自動執行特定的交易或功能，也就是由程式自動執行的合約。
+Nick Szabo 這位密碼學專家在 1994 年前後的研究論文就有提到智能合約，它結合密碼學、去中心化元素， 在中本聰之前就提過 “Bit Gold” 的概念，他的研究工作可以說直接或間接影響比特幣、Ethereum(以太坊) 的設計。</description>
+    </item>
+    
+    <item>
       <title>TxStreet：新手輕鬆學 Blockchain（區塊鏈）</title>
       <link>https://peterpowerfullife.com/blog/easy-learn-blockchain/</link>
       <pubDate>Sun, 17 May 2020 15:30:00 +0800</pubDate>
