@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="透過交易實例來了解智能合約的底層運作 ...">
+  <meta name="description" content="智能合約從開發、上鏈到交易，它做了哪些事情 ...">
   <meta name="author" content="Peter">
   
   <meta name="generator" content="Hugo 0.74.3" />
@@ -137,7 +137,7 @@
         <div class="content mb-5">
           <p>智能合約是在區塊鏈上運作的<strong>自動化、不可更改的程式碼</strong>，可以根據程式碼的條件和規則自動執行特定的交易或功能，也就是<strong>由程式自動執行的合約</strong>。</p>
 <p><a href="https://twitter.com/NickSzabo4?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E485970285254815745%7Ctwgr%5E472e1cc7e3bd8fcd0a12e634c32b8abb30414d59%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fwww.blocktempo.com%2Felon-musk-thinks-nick-szabo-created-bitcoin%2F">Nick Szabo</a> 這位密碼學專家在 1994 年前後的<a href="https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html">研究論文</a>就有提到智能合約，它結合密碼學、去中心化元素， 在中本聰之前就提過 “Bit Gold” 的概念，他的研究工作可以說直接或間接影響比特幣、Ethereum(以太坊) 的設計。</p>
-<p>雖然比特幣也有智能合約的概念，但它的合約功能有限，主要用於實現簡單的交易和合約。相較之下，以太坊的智能合約支援更多的功能和操作，包括 DeFi（去中心化金融）和 DApp（去中心化應用程式），所以初步學習智能合約可以從以太坊的生態開始。</p>
+<p>雖然比特幣也有智能合約的概念，但它的合約功能有限，主要用於實現簡單的交易和合約。相較之下，以太坊的智能合約支援更多的功能和操作，包括 DeFi（Decentralized Finance, 去中心化金融）和 DApp（Decentralized Application, 去中心化應用程式），所以初步學習智能合約可以從以太坊的生態開始。</p>
 <p>區塊鏈在不同領域（醫療、供應鏈）實現智能合約會有不同的方法，以下內容都是圍繞在以太坊區塊鏈的智能合約。</p>
 <p>​</p>
 <h2 id="目錄">目錄</h2>
@@ -163,7 +163,7 @@
 <p><img src="../../images/blog-content-pic/Smart-Contract%EF%BC%BFProcess-Java.jpg" alt="image"> <em>(圖-Java 程式語言的編譯過程)</em></p>
 <p>​</p>
 <h4 id="deployment部署">－Deployment（部署）</h4>
-<p>當智能合約開發完成後，必須將程式碼 Deployment（部署）到區塊鏈上，不過只會把僅 Bytecode 上鏈，而不是整個 Source Code(原始碼)，但是開發者可以將 Source Code 上傳到像 <a href="https://etherscan.io/">Etherscan</a> 這樣的區塊鏈瀏覽器做驗證、公開。</p>
+<p>當智能合約開發完成後，必須將程式碼 deploy 到區塊鏈上，不過只會把僅 Bytecode 上鏈，而不是整個 Source Code(原始碼)，但是開發者可以將 Source Code 上傳到像 <a href="https://etherscan.io/">Etherscan</a> 這樣的區塊鏈瀏覽器做驗證、公開。</p>
 <p>以 ERC20 發幣的 Token 智能合約來說，它的本質就是一個<strong>帳本</strong>，在這個帳本裡面去做加 1 減 1 這種計算，在這樣的計算基礎完成智能合約的運作。工程師一開始寫出來的智能合約程式碼部署到區塊鏈上，這個程式碼區塊鏈是看不懂認不得的，所以要先把智能合約進行 Compile(編譯)，編譯成 Bytecode 讓它能以 0,1 機器語言去做識別。</p>
 <p>把智能合約部署到區塊鏈上就是每個 Ndoe（節點）都儲存了一份合約，每個節點儲存的數據都是一樣的，而在節點這個儲存空間當中還儲存了狀態變數，ERC20 這個帳本裡面對應哪個地址、帳戶餘額，這些都是儲存空間裡面的數據。</p>
 <p>​</p>
@@ -173,29 +173,45 @@
 <p>到目前為止，我自己對於智能合約的理解，它就像自動感應式窗簾一樣，透過程式碼寫入條件（明亮度數值、數值判斷）後，它會依據光照作為開關。</p>
 <p>​</p>
 <h2 id="evm以太坊智能合約的核心">EVM：以太坊智能合約的核心</h2>
-<p>EVM（Ethereum Virtual Machine, 以太坊虛擬機）是以太坊區塊鏈上執行智能合約的<strong>運作環境</strong>。EVM 執行在以太坊的 Node（節點）上，使用基於 Stack(堆疊) 的計算模型，負責執行智能合約數據讀取寫入計算以及 Command(指令) 、邏輯操作，確保智能合約能夠在分散式環境中執行，不需要依賴任何中心化機構。</p>
-<p>而智能合約當中的 2 種操作：</p>
+<p>EVM（Ethereum Virtual Machine, 以太坊虛擬機）是以太坊區塊鏈上執行智能合約的<strong>運作環境</strong>，基於複雜的<a href="https://medium.com/coinmonks/learn-solidity-lesson-13-storage-memory-calldata-and-the-stack-56342b6e5ed0">記憶體結構</a>，在以太坊的 Node(節點)上，負責執行智能合約數據讀取寫入計算以及 Command(指令) 、邏輯操作，確保智能合約能夠在分散式環境中執行，不需要依賴任何中心化機構。</p>
+<p>​</p>
+<h4 id="智能合約當中的-2-種操作">－智能合約當中的 2 種操作</h4>
 <ol>
 <li>讀取 &gt; 讀取智能合約現在記錄中的狀態變數，得知它具體的值是多少</li>
 <li>寫入 &gt; 修改狀態變數的值</li>
 </ol>
 <p>要特別留意寫入操作會收取 Gas Fee 費用, 至於這個費用會收取多少是依據寫入的複雜程度而定。</p>
+<p>​</p>
+<h4 id="記憶體結構">－記憶體結構</h4>
+<p>EVM 的記憶體儲存結構有四種：</p>
+<ol>
+<li>Calldata：僅能做唯讀，臨時儲存傳遞給函示的參數</li>
+<li>Stack：所有的 Command 都必須經過 Stack, 雖然無法直接和 Stack 互動，但它是合約運作時必要的資源。</li>
+<li>Memory：變數只存在於 function 執行期間，EVM 運算結束時這個變數記憶體就會被刪掉，所以如果只會在 function 使用或想要暫時宣告一個變數，就可以使用 memory</li>
+<li>Storage：它就是一個資料庫，永久儲存在合約中變數、交易狀態的地方。</li>
+</ol>
+<p>其中 Stack 和 Memory 都是暫時儲存而已，在智能合約結束運作時回收；而 <strong>Storage</strong> 是永久儲存在鏈上，所以它更消耗計算資源（Gas 費用也是最貴的）。</p>
+<p>​</p>
+<h4 id="進行交易有哪些細節">－進行交易有哪些細節</h4>
+<p>如果以執行一筆交易來詳述整個運作流程大概是這樣：</p>
 <p><img src="../../images/blog-content-pic/Smart-Contract%EF%BC%BFProcess-Transaction.jpg" alt="image"></p>
-<p>如果以一筆交易來詳述整個運作流程大概是這樣：</p>
 <ol>
 <li>
-<p>你存進去的時候是一個指令，這個指令經過以太坊區塊鏈的虛擬機的運算並且運算成功後交易就成立了，交易成立後它會將狀態變數進行修改，修改後的結果會 Sync（同步）到整個區塊鏈的狀態。</p>
+<p>智能合約撰寫完成上線時，不用去買/租一台 Server 部署程式，因為合約是部署在區塊鏈上，每當有人呼叫合約裡的函式，就會透過Miners(礦工)的主機來執行函式，若程式中有修改到合約狀態值，主機將會把修改的內容寫入區塊鏈中也就是建立一筆交易紀錄。</p>
+</li>
+<li>
+<p>你存進去的時候是一個指令，這個指令經過以太坊區塊鏈的虛擬機的運算並且運算成功後交易就成立了，交易成立後它會將狀態變數進行修改，修改後的結果會 Sync(同步) 到整個區塊鏈的狀態。</p>
 </li>
 <li>
 <p>加上簽章驗證都通過後會發送廣播給所有的節點，所有節點驗證這個簽章、交易都沒問題，就將新的結果、狀態值記錄並儲存，後續再讀取合約的時候就會發現是新的結果。</p>
 </li>
 <li>
 <p>在上面的<a href="#deployment%E9%83%A8%E7%BD%B2">部署</a>流程中有提到，把智能合約部署到區塊鏈上就是每個節點都儲存了一份合約，每個節點儲存的數據都是一樣的，而在節點這個儲存空間當中還儲存了狀態變數，例如 ERC20 當中的帳本，這個帳本裡面對應著哪個地址、帳戶餘額，這些都是儲存空間裡面的數據。</p>
+<p>所以之後每一次調整數據的這個動作，就是向整個區塊鏈世界發起一個交易，在這個交易裡面夾帶的資訊就是我要把哪一個狀態變數的值調整成哪一個值，等於存進去是一個指令，這個指令經過以太坊區塊鏈的 EVM 運算後，EVM 計算成功後認定可以運作就代表交易成立，最後交易成立後它會將狀態變數調整為修改後的結果。</p>
 </li>
-</ol>
-<p>所以之後每一次調整數據的這個動作，就是向整個區塊鏈世界發起一個交易，在這個交易裡面夾帶的資訊就是我要把哪一個狀態變數的值調整成哪一個值，等於存進去是一個 Command, 這個 Command 經過以太坊區塊鏈的 EVM 運算後，EVM 計算成功後認定可以運作就代表交易成立，最後交易成立後它會將狀態變數調整為修改後的結果。</p>
-<ol start="4">
-<li>那其他節點要怎麼同步接收最新的狀態值呢？上面提到交易成立後它會將狀態變數調整為修改後的結果，加上簽章驗證都通過後會發送廣播給所有的節點 ，其他節點驗證這個簽章都沒問題就將新的結果狀態值記錄並儲存下來，後續再讀取合約的時候就會發現都是新的結果。</li>
+<li>
+<p>那其他節點要怎麼同步接收最新的狀態值呢？上面提到交易成立後它會將狀態變數調整為修改後的結果，加上簽章驗證都通過後會發送廣播給所有的節點 ，其他節點驗證這個簽章都沒問題就將新的結果狀態值記錄並儲存下來，後續再讀取合約的時候就會發現都是新的結果。</p>
+</li>
 </ol>
 <p>EVM 接收來自交易的智能合約的 Bytecode，然後在節點上執行 Bytecode。它確保在整個網絡中每個節點上都按照相同的方式運行智能合約，以確保結果的一致性。</p>
 <p>如果用一句話來濃縮 EVM，它就是以太坊區塊鏈上的虛擬計算機，負責執行智能合約的程式碼並確保網絡中所有節點的結果都一致。</p>
@@ -211,6 +227,8 @@
 <li><a href="https://www.ussc.gov/sites/default/files/pdf/training/annual-national-training-seminar/2018/Emerging_Tech_Bitcoin_Crypto.pdf">Bitcoin: A Peer-to-Peer Electronic Cash System. Satoshi Nakamoto(2008).</a></li>
 <li><a href="https://scalablesolutions.io/zh-hant/news/blog/how-are-smart-contracts-executed/">How are Smart Contracts Executed?</a></li>
 <li><a href="https://www.blocktempo.com/will-pow-nft-be-the-future-of-nft/">用挖礦鑄造的PoW NFT，會是NFT的未來嗎？</a></li>
+<li><a href="https://ethereum.stackexchange.com/questions/126590/storage-memory-and-calldata">Ethereum Stackexchange - Storage, Memory and Calldata</a></li>
+<li>Medium - <a href="https://medium.com/coinmonks/learn-solidity-lesson-13-storage-memory-calldata-and-the-stack-56342b6e5ed0">Learn Solidity lesson 13. Storage, memory, calldata and the stack.</a></li>
 </ul>
 
         </div>
