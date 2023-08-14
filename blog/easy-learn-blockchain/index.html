@@ -183,6 +183,18 @@
 <p>在區塊鏈的三角悖論當中，是指在一條區塊鏈公鏈上，無法同時滿足「去中心化」、「可擴展性」、「安全性」這三點。現今的區塊鏈都只能滿足其中兩點並捨去第三點。而擴容方案就是要解決 Scalability(可擴展性)，進而提升 Efficeiency(交易效率) 。這部分有時間再來仔細做個分享～～</p>
 <p>再來是 Lightning Network 是比特幣在區塊鏈運行的第二層支付解決方案，用來解決區塊鏈的 Scalability(可擴展性)和 Efficeiency(交易效率)問題。</p>
 <p>​</p>
+<h1 id="block區塊-和-chain鏈-是什麼">Block(區塊) 和 Chain(鏈) 是什麼？</h1>
+<p>​</p>
+<h4 id="block區塊">－Block(區塊)</h4>
+<p>上面我們把<a href="#%E7%9C%8B%E5%9C%96%E8%AA%AA%E6%95%85%E4%BA%8B">公車車廂</a>比喻成區塊鏈當中的 Block(區塊)，而這個 Block 當中包含 <strong>「本區塊的交易紀錄、前一個區塊的 Digital Signature(數位簽章) 和 Nonce(隨機數字)」</strong>，確保數據的完整性和不可篡改性，同時也確保了交易的真實性和可信度。</p>
+<p><a href="https://www.wikiwand.com/en/Digital%20signature">數位簽章這個加密技術</a>應用在區塊鏈的交易驗證和身份認證。數位簽章使用公鑰和私鑰的組合，資料的<strong>發送者</strong>使用<strong>私鑰</strong>對資料進行加密簽名，<strong>接收者</strong>使用相應的<strong>公鑰</strong>對簽名進行驗證。</p>
+<p>隨機數字絕對是區塊鏈「安全加密」中最重要的元素之一，<a href="https://www.wikiwand.com/en/Cryptographic_nonce">隨機數是只能使用一次的值或數字</a>，透過 Hash(雜湊) 來實踐隨機數。不過有個小知識一定要知道，Hash(雜湊)本身不是加密，只是它能夠將不固定長度的 input(輸入) 計算成固定長度的 Hash Value(雜湊值) 輸出，而且這個雜湊值沒辦法反推出原來的明文輸入所以很適合用來做加密。在區跨鏈中隨機數會改變數據的雜湊值，它必須確保 Block(區塊) 的雜湊值是獨一無二的（因為它只會使用一次），並阻止非法行為來篡改區塊鏈。</p>
+<p>再回來看 TxStreet 這個遊戲，可以理解到每次新的交易產生時，這筆交易都會被打包成一個新的區塊並添加到鏈的最後一個車廂成為區塊鏈的一個區塊。<del>（這過程要經過 <strong>共識機制驗證</strong>新的區塊才會被添加到區塊鏈中，這部分比較進階後續有機會再補充）</del></p>
+<p>​</p>
+<h4 id="chain鏈">－Chain(鏈)</h4>
+<p>在區塊鏈中每個 Block(區塊) 的內容都包含了上一個區塊的雜湊值，這是為了確保區塊之間的連接性和完整性，所以當一個新的區塊被創建時，它的內容包含了前一個區塊的雜湊值，也就是新的區塊「連接」到前一個區塊上就形成了「鏈」。</p>
+<p>因為區塊鏈使用 <strong><a href="https://www.wikiwand.com/en/SHA-2">SHA-256（Secure Hash Algorithm 256-bit）</a></strong> 進行雜湊計算來提高安全性，所以每個區塊都含有上一個區塊的 SHA-256 函數值，因此只要任一個區塊的資料被篡改，SHA-256 這個函示的雜湊值就會出現錯誤，這筆交易資料就不被認可。</p>
+<p>​</p>
 <h1 id="寫在最後">寫在最後</h1>
 <p>這篇文章可能提到很多名詞，對於初入坑的新手可能會有點模糊，但是別急，這裡我們是從一個有趣的應用來看待加密貨幣市場的交易是如何形成的。</p>
 <p>之所以想透過「應用層」來探討區塊鏈、加密貨幣，是因為身邊許多朋友看到密碼學、Merkle tree（默克樹數據結構）、Hash（雜湊演算法）等這類 Hardcore 技術就打了退堂鼓。</p>
@@ -196,6 +208,7 @@
 <li><a href="https://www.youtube.com/watch?v=mNOz3-Lu1TQ">Visualize Blockchains with a Bus Stop Analogy - TxStreet.com</a></li>
 <li>Txstreet - <a href="https://medium.com/txstreet">Medium</a></li>
 <li><a href="https://www.gemini.com/cryptopedia/bitcoin-lightning-network-scaling-solution">Lightning Network: Next-Generation Bitcoin Architecture</a></li>
+<li><a href="https://www.jollen.org/blog/2016/12/blockchain-developer-how-mining.html">Blockchain Developer - 簡單易懂的 Mining 演算法設計</a></li>
 </ul>
 
         </div>
