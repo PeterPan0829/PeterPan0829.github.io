@@ -233,6 +233,11 @@
   </url>
   
   <url>
+    <loc>https://peterpowerfullife.com/blog/consensus-mechanism/</loc>
+    <lastmod>2020-06-28T15:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://peterpowerfullife.com/blog/what-is-blockchain-explorer/</loc>
     <lastmod>2020-06-12T14:27:00+08:00</lastmod>
   </url>
@@ -269,6 +274,10 @@
   
   <url>
     <loc>https://peterpowerfullife.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://peterpowerfullife.com/categories/web3-/-blockchain/</loc>
   </url>
   
 </urlset>

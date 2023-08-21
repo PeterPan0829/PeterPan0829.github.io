@@ -410,6 +410,15 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
     </item>
     
     <item>
+      <title>區塊鏈必須有共識才有去中心化，為什麼共識機制這麼難懂？</title>
+      <link>https://peterpowerfullife.com/blog/consensus-mechanism/</link>
+      <pubDate>Sun, 28 Jun 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/consensus-mechanism/</guid>
+      <description>我覺得學習區塊鏈、虛擬貨幣的難處跟初期接觸股票、外匯的感覺很像，在你還沒把錢存到銀行交割戶之前看再多書都沒啥感覺。今天你要買 100 股不小心按成 100「張」，這時你的交割戶銀行會打電話來催你補錢進去；而虛擬貨幣除非你今天用的是中心化交易所（例如：Max 交易所 - MaiCoin / ACE 王牌虛擬貨幣交易所），不然根本沒有人會跟你講交易上的細節。</description>
+    </item>
+    
+    <item>
       <title>交易前必須學會的工具：區塊鏈瀏覽器</title>
       <link>https://peterpowerfullife.com/blog/what-is-blockchain-explorer/</link>
       <pubDate>Fri, 12 Jun 2020 14:27:00 +0800</pubDate>
