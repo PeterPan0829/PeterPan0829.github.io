@@ -159,12 +159,12 @@
 </ul>
 <h2 id="節點是什麼長什麼樣子">節點是什麼？長什麼樣子？</h2>
 <p>在傳統的銀行世界裡，我們把銀行當作中間人，銀行可以幫你進行存款、提款等動作，不過所有的資訊都存在銀行裡面，基本上，你就是信任銀行會幫你搞定所有帳本紀錄，並且不會偷偷竄改資訊，這是中心化的世界。</p>
-<p>之前有有提<a href="https://peterpowerfullife.com/blog/easy-learn-blockchain/">區塊鏈是「去中心化」的「分散式帳本」</a>，它不像傳統的銀行交易軟體只有一個主要的中心主機(Main Server) 存取紀錄每個人的交易紀錄，相反地，它需要透過各個「節點」幫忙維護及驗證鏈上的交易資訊，這些交易記錄都無法竄改，所有的操作都得經過本人同意才能執行，這就必須仰賴多個節點（電腦、手機等裝置）共同維護鏈上的資料，每個節點都要確保自身的帳本和其他節點的帳本保持一致。</p>
-<p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFNodeTracker.png" alt="image"><em>達成共識的「節點」，意思是彼此有著共識，而這些節點有的可能是礦工，礦工會幫忙把資料做打包。<a href="https://ethernodes.org/countries">Ethereum Mainnet Statistics</a> 和 <a href="https://etherscan.io/nodetracker">Ethereum Node Tracker</a> 這兩個工具我們可以看到達成共識的「節點」分布在哪些國家。</em></p>
-<p>不過該怎麼讓這些帳本紀錄都一致，這需要<strong>共識機制(Consensus Mechanism)</strong> 的介入，共識機制制定的算法、遊戲規則讓每個節點都按照這個規則去確認各自的數據，保障帳本中的資訊是一致、安全和公平的，藉此確保區塊鏈能夠順利運作。</p>
+<p>之前有提過<a href="https://peterpowerfullife.com/blog/easy-learn-blockchain/">區塊鏈是「去中心化」的「分散式帳本」</a>，它不是傳統的銀行交易軟體只有一個中心主機(Main Server) 來存取紀錄每個人的交易紀錄，相反地，它需要各個「節點」幫忙維護及驗證鏈上的交易資訊，這些交易記錄都無法竄改，所有的操作都得經過本人同意才能執行，這時就要透過多個節點（電腦、手機等裝置）共同維護鏈上的資料，每個節點都要確保自身的帳本和其他節點的帳本保持一致。</p>
+<p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFNodeTracker.png" alt="image"><em>達成共識的「節點」，意思是彼此有共識，而這些節點可能是礦工，而礦工會幫忙把資料做打包。透過 <strong><a href="https://ethernodes.org/countries">Ethereum Mainnet Statistics</a></strong> 和 <strong><a href="https://etherscan.io/nodetracker">Ethereum Node Tracker</a></strong> 這兩個工具我們可以看到達成共識的「節點」分布在哪些國家。</em></p>
+<p>不過該怎麼讓這些帳本紀錄都一致，這需要<strong>共識機制(Consensus Mechanism)</strong> 的介入來制定算法、遊戲規則，藉此讓每個節點都按照這個規則去確認各自的數據，保障帳本中的資訊是一致、安全和公平的，藉此確保區塊鏈能夠順利運作。</p>
 <p>在不同的鏈上都有自己的生態、共識機制，像 Bitcoin(BTC) 和 Ethereum 2.0(ETH) 是不同的區塊鏈項目，它們各自運行在不同的區塊鏈上。</p>
 <p>拋開複雜的概念、原理，你我的現實生活中有許多情境都需要達成「彼此的共識」才能讓關係、人情交際順利運作，比如居住地方的大樓管委會要選最新的主委代表、又或是你和另一半討論今晚要吃什麼，這些情境都需要一個共識、協議。</p>
-<p>下面是我透過一些開源的工具來輔助學習，透過這些視覺化模擬器，我們可以知道區塊鏈在交易時大致上是怎麼運作、今天買 BTC(比特幣) 它的 Transaction Hash 是怎麼從上個 Block(區塊) 帶到下一個區塊。</p>
+<p>下面是我透過一些開源工具來輔助學習，透過這些視覺化模擬器，我們可以知道區塊鏈在交易時大致上是怎麼運作、今天買 BTC(比特幣) 它的 Transaction Hash 是怎麼從上個 Block(區塊) 帶到下一個 Block。</p>
 <blockquote>
 <p><strong>用一句話來簡單解釋，共識機制就是當網路節點意見不一致時，如何讓節點之間的帳本達成共識的方法。節點有共識，才能保證帳本的一致性與交易的最終性</strong>。</p>
 </blockquote>
@@ -172,7 +172,7 @@
 <h2 id="powproof-of-work-工作證明">PoW（Proof of Work, 工作證明）</h2>
 <p>延續大樓管委會的情境，今天要選出最新的主委代表來管理維護公共空間、執行社區全體的規範決議(例：寵物規定、冷氣裝設、陽台窗戶規劃)。</p>
 <p>出席主委表決會議的這群人當中，一定有人會先私下講好要投票給誰，但無論如何在檯面上終究還是要投票表決，每個主委候選人都有發言權發表自己的理念，反正最後票最多的那個人就當選主委，最後就必須依據這個主委和他的團隊的意見為準。<strong>篩選出最具有代表性的節點，這需要設計出一組條件、規則，而這個規則就是我們所談的共識機制這套算法。</strong></p>
-<p>目前主流的共識機制非常多，像 <a href="https://coinmarketcap.com/zh-tw/currencies/bitcoin/">Bitcoin(BTC)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/ethereum/">Ethereum (ETH)</a>, <a href="https://coinmarketcap.com/currencies/bitcoin-cash/">Bitcoin Cash(BCH)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/litecoin/">Litecoin(LTC)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/dogecoin/">Dogecoin(DOGE)</a> 這些都是採用 PoW 的共識機制，在 PoW 中礦工(Miners) 需要解決複雜的數學問題需要大量的計算能力，第一個成功解決數學題的礦工可以增加新的區塊並獲得獎勵。</p>
+<p>目前主流的共識機制非常多，像 <a href="https://coinmarketcap.com/zh-tw/currencies/bitcoin/">Bitcoin(BTC)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/litecoin/">Litecoin(LTC)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/dogecoin/">Dogecoin(DOGE)</a> 都是採用 PoW 的共識機制，在 PoW 中礦工(Miners) 解決複雜的數學問題需要大量的計算能力，第一個成功解決數學題的礦工可以增加新的區塊並獲得獎勵。</p>
 <p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFPoW-01.png" alt="image"></p>
 <p>在 PoW 運作方式裡，礦工每解決問題都會增加新的區塊也就是新增一筆交易，一直不斷地重複做這件事最後選出最長鏈的優勝者，所以成長最快、最長的鏈就是最值得信任的鏈，這樣就能確保加密貨幣是安全的。</p>
 <p>這個工作證明就很像生活中的畢業證書、證照考試一樣，透過檢驗結果的方式取得所需要的證明。這種方式雖然安全性很高，但交易驗證慢、手續費昂貴，需花費昂貴設備來挖礦，能源消耗高所以整體效率較差。</p>
