@@ -135,8 +135,8 @@
         <img src="https://peterpowerfullife.com/images/blog-content-pic/ConsensusMechanism%EF%BC%BFPoS-02.png" class="img-fluid w-100 mb-4" alt="區塊鏈必須有共識才有去中心化，為什麼共識機制這麼難懂？">
         
         <div class="content mb-5">
-          <p>我覺得學習區塊鏈、虛擬貨幣的難處跟初期接觸股票、外匯的感覺很像，在你還沒把錢存到銀行交割戶之前看再多書都沒啥感覺。今天你要買 100 股不小心按成 100「張」，這時你的交割戶銀行會打電話來催你補錢進去；而虛擬貨幣除非你今天用的是中心化交易所（例如：<a href="https://max.maicoin.com/">Max 交易所 - MaiCoin</a> / <a href="https://ace.io/">ACE 王牌虛擬貨幣交易所</a>），不然根本沒有人會跟你講交易上的細節。</p>
-<p>所以在正式買賣虛擬貨幣前一定要做功課，網路上看到的任何文章、教學絕對不能照著操作，你必須要有自己個人的見解、看法，才知道該買哪一種幣，需不需要買個冷錢包(若是做長期投資)等等。</p>
+          <p>我覺得學習區塊鏈、加密貨幣的難處跟初期接觸股票、外匯的感覺很像，在你還沒把錢存到銀行交割戶之前看再多書都沒啥感覺。今天你要買 100 股不小心按成 100「張」，這時你的交割戶銀行會打電話來催你補錢進去；而加密貨幣除非你今天用的是中心化交易所（例如：<a href="https://max.maicoin.com/">Max 交易所 - MaiCoin</a> / <a href="https://ace.io/">ACE 王牌加密貨幣交易所</a>），不然根本沒有人會跟你講交易上的細節。</p>
+<p>所以在正式買賣加密貨幣前一定要做功課，網路上看到的任何文章、教學絕對不能照著操作，你必須要有自己個人的見解、看法，才知道該買哪一種幣，需不需要買個冷錢包(若是做長期投資)等等。</p>
 <p>​</p>
 <h2 id="目錄">目錄</h2>
 <ul>
@@ -174,8 +174,8 @@
 <p>出席主委表決會議的這群人當中，一定有人會先私下講好要投票給誰，但無論如何在檯面上終究還是要投票表決，每個主委候選人都有發言權發表自己的理念，反正最後票最多的那個人就當選主委，最後就必須依據這個主委和他的團隊的意見為準。<strong>篩選出最具有代表性的節點，這需要設計出一組條件、規則，而這個規則就是我們所談的共識機制這套算法。</strong></p>
 <p>目前主流的共識機制非常多，像 <a href="https://coinmarketcap.com/zh-tw/currencies/bitcoin/">Bitcoin(BTC)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/litecoin/">Litecoin(LTC)</a>, <a href="https://coinmarketcap.com/zh-tw/currencies/dogecoin/">Dogecoin(DOGE)</a> 都是採用 PoW 的共識機制，在 PoW 中礦工(Miners) 解決複雜的數學問題需要大量的計算能力，第一個成功解決數學題的礦工可以增加新的區塊並獲得獎勵。</p>
 <p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFPoW-01.png" alt="image"></p>
-<p>在 PoW 運作方式裡，礦工每解決問題都會增加新的區塊也就是新增一筆交易，一直不斷地重複做這件事最後選出最長鏈的優勝者，所以成長最快、最長的鏈就是最值得信任的鏈，這樣就能確保加密貨幣是安全的。</p>
-<p>這個工作證明就很像生活中的畢業證書、證照考試一樣，透過檢驗結果的方式取得所需要的證明。這種方式雖然安全性很高，但交易驗證慢、手續費昂貴，需花費昂貴設備來挖礦，能源消耗高所以整體效率較差。</p>
+<p>在 PoW 運作方式裡，依賴礦工的算力來搶奪出塊權，礦工每解決問題都會增加新的區塊也就是新增一筆交易，一直不斷地重複做這件事最後選出最長鏈的優勝者，所以成長最快、最長的鏈就是最值得信任的鏈。所以全網算力越大，發動 51％ 算力攻擊的可能性越小，藉此來確保加密貨幣是安全的系統</p>
+<p>PoW 很像證照、畢業證書，透過檢驗結果的方式取得所需要的證明。這種方式雖然安全性很高，但交易驗證慢、手續費昂貴，需花費昂貴設備來挖礦，能源消耗高所以整體效率較差。</p>
 <p>​</p>
 <h4 id="模擬-pow-的運作">－模擬 PoW 的運作</h4>
 <p><strong><a href="https://blockchain-academy.hs-mittweida.de/2021/05/proof-of-work-simulator/">Proof of Work Simulator</a></strong> 這個模擬器就是在 Demo 整個運作，我們來模擬一筆交易：</p>
@@ -183,7 +183,7 @@
 <p>在這個模擬器的 <strong>Data</strong> 欄位隨便填一個數字，點擊 <strong>&ldquo;mine&rdquo;</strong> 按鈕去創建第一個 Block, 這時後所有 <strong>Miners(礦工)</strong> 開始計算 <strong>Hash Value(雜湊值)</strong>（以下簡稱 Hash） 數學題，礦工們在比賽看誰算得最快，最後算出結果後 Block 會變成綠色。</p>
 <p>底層的運作是這樣，透過 Hash 來實踐 <strong>Nonce(隨機數)</strong>，再由只能使用一次的隨機數去計算結果。</p>
 <p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFPoW-04.png" alt="image"></p>
-<p>其中的 Hash 到底在算什麼？有時間可以複習一下之前學到的<a href="https://peterpowerfullife.com/blog/easy-learn-blockchain/#block%E5%8D%80%E5%A1%8A-%E5%92%8C-chain%E9%8F%88-%E6%98%AF%E4%BB%80%E9%BA%BC"> Block(區塊) 基礎知識</a>。</p>
+<p>其中的 Hash 到底在算什麼？有時間可以複習一下之前的<a href="https://peterpowerfullife.com/blog/easy-learn-blockchain/#block%E5%8D%80%E5%A1%8A-%E5%92%8C-chain%E9%8F%88-%E6%98%AF%E4%BB%80%E9%BA%BC"> Block(區塊) 基礎知識</a>。</p>
 <p>以這個交易來說，在 PoW 的共識機制裡面就是去計算一個 256 的長度（2²⁵⁶ 是 2 的 256 次方）的 Hash 結果，這個 Hash 結果裡頭包含了交易資訊、區塊資訊，而這些交易資訊最終會打包到「區塊」，再將區塊發佈到所有節點，這樣所有節點之間就有了關聯。</p>
 <p>其中區塊資訊當中的資料其實就<strong>類似</strong> Etherscan(區塊鏈瀏覽器) 可查看的交易明細，礦工們會拿著這個<strong>勞動證明</strong>去領取獎勵。</p>
 <p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFPoW-03.png" alt="image">
@@ -226,11 +226,11 @@
 <p>而驗證者如果沒有進行投票或是投票速度太慢就有可能拿不到獎勵，但這情節不至於到不可原諒，在以太坊若有以下比較嚴重的違規行為會直接被 <strong>Slash(剔除)</strong> 的，而且還會損失期間所獲得的 ETH(以太幣) ：</p>
 <p><img src="../../images/blog-content-pic/ConsensusMechanism%EF%BC%BFPoS-03.png" alt="image"></p>
 <ol>
-<li><strong>提案違規</strong>：驗證者在同一個時間 Proposing(提案) 和 Signing(簽署) 不同的 Block.</li>
-<li><strong>Surround Vote（包圍投票）</strong>：這個違規行為我花很多時間才搞懂它，直白具體地解釋就是「在同一個時間內開車又騎車」。在 PoS 的共識機制當中，節點每個時間只能認證一個 Block 為有效的，如果一個節點同時認證兩個 Block 這完全行不通的，這時就會演變成一個 Surround(包圍) 的狀況，因為這舉動表示你要推翻過往的的投票結果。</li>
-<li><strong>Double vote（雙重投票）</strong>：一個節點在同一個 Block 重複投票，這就是 Double vote 的概念，用現實中的投票行為來白話解釋，那就是你今天投票給彼得只能投一次不能同一個人投 2 次（計 2 次票）。重複投票會危害整個區塊鏈的一致性和安全性。</li>
+<li><strong>提案違規</strong>：驗證者在同一個時間 Proposing(提案) 和 Signing(簽署) 不同的 Block。</li>
+<li><strong>Surround Vote（包圍投票）</strong>：在 PoS 的共識機制當中，節點每個時間只能認證一個 Block(區塊) 為有效的，如果一個節點同時認證兩個 Block 這完全行不通的，這時就會演變成一個 Surround(包圍) 的狀況，因為這舉動表示你要推翻過往的的投票結果。這個違規行為我花很多時間才搞懂它，直白具體地解釋就是「在同一個時間內開車又騎車」。</li>
+<li><strong>Double vote（雙簽 / 重複投票）</strong>：一個節點在同一個 Block(區塊) 重複投票，這就是 Double vote 的概念，用現實中的投票行為來白話解釋，那就是你今天投票給彼得只能投一次不能同一個人投 2 次（計 2 次票）。重複投票會危害整個區塊鏈的一致性和安全性。</li>
 </ol>
-<p>結論來看，Surround Vote 和 Double vote 看起來很像，但實質不完全相同，Double vote 是一個節點重複投票；Surround Vote 則是一個節點同時認證 2 個 Block.</p>
+<p>結論來看，Surround Vote 和 Double vote 看起來很像，但實質不完全相同，Double vote 是一個節點重複投票；Surround Vote 則是一個節點同時認證 2 個 Block. 提案違規和 Double vote 會導致區塊鏈發生不必要的分叉(Fork), 因為一但 Fork 就會有 2 條鏈。</p>
 <p>不過 PoS 機制在效能和擴展性沒有大幅的進展，所以後來又衍生出改良過的 DPoS 共識機制。</p>
 <p>​</p>
 <h2 id="dposdelegated-proof-of-stake-代理權益證明">DPoS（Delegated Proof of Stake, 代理權益證明）</h2>
