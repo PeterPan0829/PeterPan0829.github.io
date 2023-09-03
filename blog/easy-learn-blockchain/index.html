@@ -138,7 +138,19 @@
           <p>區塊鏈世界艱澀難懂嗎？先從有趣的應用來認識它吧！</p>
 <p><a href="https://txstreet.com/">TxStreet</a> 這個網頁可以說是加密貨幣世界的<a href="https://apps.apple.com/tw/app/%E8%82%A1%E5%B8%82%E5%A4%A7%E5%AF%8C%E7%BF%81/id1407093082">股市大富翁</a>，它的特色是呈現幾乎真實的市場交易環境，用搭車、視覺化的方式，將加密貨幣交易的狀況生動地展示運作過程。</p>
 <p>這裡我們先不談技術、運作原理以及專有名詞，你需要做的就是進到 TxStreet 點選每一個看到的圖案、元件。</p>
-<p>​</p>
+<h2 id="目錄">目錄</h2>
+<ul>
+<li>
+<p><strong><a href="#%E7%9C%8B%E5%9C%96%E8%AA%AA%E6%95%85%E4%BA%8B">看圖說故事</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#block%E5%8D%80%E5%A1%8A-%E5%92%8C-chain%E9%8F%88-%E6%98%AF%E4%BB%80%E9%BA%BC">Block(區塊) 和 Chain(鏈) 是什麼？</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#%E7%94%A2%E5%93%81%E7%B6%93%E7%90%86%E9%9C%80%E4%B8%8D%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E7%9A%84%E5%BA%95%E5%B1%A4%E5%8E%9F%E7%90%86%E5%92%8C%E9%81%8B%E4%BD%9C">產品經理需不需要了解智能合約的底層原理和運作？</a></strong></p>
+<p>​   ​</p>
+</li>
+</ul>
 <h1 id="看圖說故事">看圖說故事</h1>
 <p><img src="../../images/blog-content-pic/TxStreet%EF%BC%BF%E8%BC%95%E9%AC%86%E5%AD%B8%E5%8D%80%E5%A1%8A%E9%8F%8802.jpg" alt="image"></p>
 <ol>
@@ -195,9 +207,14 @@
 <p>在區塊鏈中每個 Block(區塊) 的內容都包含了上一個區塊的雜湊值，這是為了確保區塊之間的連接性和完整性，所以當一個新的區塊被創建時，它的內容包含了前一個區塊的雜湊值，也就是新的區塊「連接」到前一個區塊上就形成了「鏈」。</p>
 <p>因為區塊鏈使用 <strong><a href="https://www.wikiwand.com/en/SHA-2">SHA-256（Secure Hash Algorithm 256-bit）</a></strong> 進行雜湊計算來提高安全性，所以每個區塊都含有上一個區塊的 SHA-256 函數值，因此只要任一個區塊的資料被篡改，SHA-256 這個函示的雜湊值就會出現錯誤，這筆交易資料就不被認可。</p>
 <p>​</p>
+<h1 id="學習路線規劃">學習路線規劃</h1>
+<p>今天你我都在使用的 Facebook, Line 這些應用服務都只是 <strong>OSI 7 Layer(Open System Interconnection Model)</strong> 當中的 <strong>Application Layer(應用層)</strong>，身為互聯網產業領域的最好還是要懂底層的架構。</p>
+<p>以下是我的學習方式和路線規劃，可以從 Computer Science 的角度來看區塊鏈，它底層還是有 OS, 基礎設施當中有網際網路協議和密碼學，再來是智能合約和近幾年大蓬勃發展的 DApp, 而有時間的話可以寫一個 DApp(Mobile APP, Web, Desktop) 不僅僅是從無到有打造一個應用服務，我覺得最重要的是感受開發者在這過程中會遇到的問題，還有未來若有機會踏入 Web3 產業也比較清楚知道整個 Work Flow.</p>
+<p><img src="../../images/blog-content-pic/TxStreet%EF%BC%BF%E8%BC%95%E9%AC%86%E5%AD%B8%E5%8D%80%E5%A1%8A%E9%8F%8803.jpg" alt="image"></p>
+<p>​</p>
 <h1 id="寫在最後">寫在最後</h1>
 <p>這篇文章可能提到很多名詞，對於初入坑的新手可能會有點模糊，但是別急，這裡我們是從一個有趣的應用來看待加密貨幣市場的交易是如何形成的。</p>
-<p>之所以想透過「應用層」來探討區塊鏈、加密貨幣，是因為身邊許多朋友看到密碼學、Merkle tree（默克樹數據結構）、Hash（雜湊演算法）等這類 Hardcore 技術就打了退堂鼓。</p>
+<p>之所以想透過這種小遊戲的「應用層」來探討區塊鏈、加密貨幣，是因為身邊許多朋友看到密碼學、Merkle tree（默克樹數據結構）、Hash（雜湊演算法）等這類 Hardcore 技術就打了退堂鼓。</p>
 <p>透過 TxStreet 以公車為區塊、乘客為交易，再用生動可愛的動畫描繪出區塊鏈上的即時(Real Time) 交易，讓每個人都能輕鬆學區塊鏈 / 加密貨幣。</p>
 <p>不過有一個很基本的知識一定要知道，Blockchain（區塊鏈）和 Cryptocurrency（加密貨幣）並不是一個綁定關係，區塊鏈只是一個底層技術、一個去中心化的分散式資料庫系統，加密貨幣就只是透過區塊鏈技術產生的應用案例，近幾年區塊鏈技術已經應用在各個產業，像是<a href="https://www.nthu.edu.tw/hotNews/content/1028">學歷證明</a>、<a href="https://www.bnext.com.tw/article/59739/carrefour-blockchain-pork">溯源</a>等，之所以全球各地有那麼多金融機關、新創公司都採用區塊鏈技術是因為它和傳統的交易方式相比，能降低交易成本、提高投資效率和流動性，而且交易過程更加透明 <em><strong>（<del>安全</del>先打個問號，後續的三角悖論再另外和大家分享）</strong></em>。</p>
 <p>現在你已經知道，實際上我們每個投資者（使用者 / 用戶）進行交易要呼叫智能合約（房子），此時就會產生一個卡通人物，這個過程就是加密貨幣市場中的<strong>交易</strong>。</p>
@@ -209,6 +226,7 @@
 <li>Txstreet - <a href="https://medium.com/txstreet">Medium</a></li>
 <li><a href="https://www.gemini.com/cryptopedia/bitcoin-lightning-network-scaling-solution">Lightning Network: Next-Generation Bitcoin Architecture</a></li>
 <li><a href="https://www.jollen.org/blog/2016/12/blockchain-developer-how-mining.html">Blockchain Developer - 簡單易懂的 Mining 演算法設計</a></li>
+<li><a href="https://www.horizen.io/academy/blockchain-protocols/">What is a Protocol in Blockchain?</a></li>
 </ul>
 
         </div>
