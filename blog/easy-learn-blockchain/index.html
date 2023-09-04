@@ -119,7 +119,7 @@
       <div class="col-lg-10 mx-auto">
         
         
-        <h2>TxStreet：新手輕鬆學 Blockchain（區塊鏈）</h2>
+        <h2>TxStreet：新手輕鬆學 Blockchain(區塊鏈)</h2>
         <div class="mb-3 post-meta">
           <span>By Peter</span>
           
@@ -132,7 +132,7 @@
         
         </div>
         
-        <img src="https://peterpowerfullife.com/images/blog-content-pic/TxStreet%EF%BC%BF%E8%BC%95%E9%AC%86%E5%AD%B8%E5%8D%80%E5%A1%8A%E9%8F%8801.jpg" class="img-fluid w-100 mb-4" alt="TxStreet：新手輕鬆學 Blockchain（區塊鏈）">
+        <img src="https://peterpowerfullife.com/images/blog-content-pic/TxStreet%EF%BC%BF%E8%BC%95%E9%AC%86%E5%AD%B8%E5%8D%80%E5%A1%8A%E9%8F%8801.jpg" class="img-fluid w-100 mb-4" alt="TxStreet：新手輕鬆學 Blockchain(區塊鏈)">
         
         <div class="content mb-5">
           <p>區塊鏈世界艱澀難懂嗎？先從有趣的應用來認識它吧！</p>
@@ -196,28 +196,43 @@
 <p>再來是 Lightning Network 是比特幣在區塊鏈運行的第二層支付解決方案，用來解決區塊鏈的 Scalability(可擴展性)和 Efficeiency(交易效率)問題。</p>
 <p>​</p>
 <h1 id="block區塊-和-chain鏈-是什麼">Block(區塊) 和 Chain(鏈) 是什麼？</h1>
+<p><img src="../../images/blog-content-pic/TxStreet%EF%BC%BF%E8%BC%95%E9%AC%86%E5%AD%B8%E5%8D%80%E5%A1%8A%E9%8F%8804.jpg" alt="image"></p>
 <p>​</p>
 <h4 id="block區塊">－Block(區塊)</h4>
 <p>上面我們把<a href="#%E7%9C%8B%E5%9C%96%E8%AA%AA%E6%95%85%E4%BA%8B">公車車廂</a>比喻成區塊鏈當中的 Block(區塊)，而這個 Block 當中包含 <strong>「本區塊的交易紀錄、前一個區塊的 Digital Signature(數位簽章) 和 Nonce(隨機數字)」</strong>，確保數據的完整性和不可篡改性，同時也確保了交易的真實性和可信度。</p>
 <p><a href="https://www.wikiwand.com/en/Digital%20signature">數位簽章這個加密技術</a>應用在區塊鏈的交易驗證和身份認證。數位簽章使用公鑰和私鑰的組合，資料的<strong>發送者</strong>使用<strong>私鑰</strong>對資料進行加密簽名，<strong>接收者</strong>使用相應的<strong>公鑰</strong>對簽名進行驗證。</p>
 <p>隨機數字絕對是區塊鏈「安全加密」中最重要的元素之一，<a href="https://www.wikiwand.com/en/Cryptographic_nonce">隨機數是只能使用一次的值或數字</a>，透過 Hash(雜湊) 來實踐隨機數。不過有個小知識一定要知道，Hash(雜湊)本身不是加密，只是它能夠將不固定長度的 input(輸入) 計算成固定長度的 Hash Value(雜湊值) 輸出，而且這個雜湊值沒辦法反推出原來的明文輸入所以很適合用來做加密。在區跨鏈中隨機數會改變數據的雜湊值，它必須確保 Block(區塊) 的雜湊值是獨一無二的（因為它只會使用一次），並阻止非法行為來篡改區塊鏈。</p>
-<p>再回來看 TxStreet 這個遊戲，可以理解到每次新的交易產生時，這筆交易都會被打包成一個新的區塊並添加到鏈的最後一個車廂成為區塊鏈的一個區塊。<del>（這過程要經過 <strong>共識機制驗證</strong>新的區塊才會被添加到區塊鏈中，這部分比較進階後續有機會再補充）</del></p>
+<p>​</p>
+<h4 id="block-height區塊高度genesis-block創世區塊">－Block Height(區塊高度)＆Genesis Block(創世區塊)</h4>
+<p><strong>Block Height(區塊高度)</strong> 是指區塊的編號，通常會用<strong>塊高</strong>來稱呼，而 <strong>Genesis Block(創世區塊)</strong> 顧名思義就是區塊鏈上第一個產生的區塊，這裡可以想像成第一節車廂。</p>
+<blockquote>
+<p>另外要特別留意，創世區塊的區塊高度是 0 而不是 1！區塊高度的多寡取決於在特定時期內有多少人試圖進行交易，以及其中有多少交易已經過驗證，通常區塊越高，完成的交易筆數就越多。</p>
+</blockquote>
+<p>順便補充一下，我們再查詢某個區塊交易資訊，除了透過它的 Hash, 也可以透過塊高進行查詢，這裡我從<strong>區塊鏈瀏覽器 - Etherscan</strong> 隨便<a href="https://etherscan.io/tx/0x5d5127ccd70d727c59aeb544a7a77e6f8c4c44d525c43197c6201623b9c096b6">找一個合約並查詢交易</a>，當中的灰色標籤 <em><strong>「4 Block Confirmations」</strong></em> 表示這個區塊之後已經連接了 3 個區塊（包含本區塊共有 4 個區塊已經確認）。</p>
+<p>這裡再從交易明細當中的 Block 點擊該數字，例如目前是 <strong><a href="https://etherscan.io/block/18061599">18061599</a></strong>, 而這裡我們在 URL 網址把 <strong><a href="https://etherscan.io/block/0">數字改成 0</a></strong> 就立即查詢到它的<strong>創世區塊</strong>。</p>
+<p>不同鏈的出塊時間都不一樣，以太坊是 10s ~ 15s 產生一個區塊；而比特幣是 600s 才產生一個區塊。<a href="https://peterpowerfullife.com/blog/consensus-mechanism/#%E7%AF%80%E9%BB%9E%E6%98%AF%E4%BB%80%E9%BA%BC%E9%95%B7%E4%BB%80%E9%BA%BC%E6%A8%A3%E5%AD%90">區塊鏈是一個分散式的網絡，彼此是透過節點來進行訊息的傳遞以及合約操作。</a></p>
 <p>​</p>
 <h4 id="chain鏈">－Chain(鏈)</h4>
 <p>在區塊鏈中每個 Block(區塊) 的內容都包含了上一個區塊的雜湊值，這是為了確保區塊之間的連接性和完整性，所以當一個新的區塊被創建時，它的內容包含了前一個區塊的雜湊值，也就是新的區塊「連接」到前一個區塊上就形成了「鏈」。</p>
 <p>因為區塊鏈使用 <strong><a href="https://www.wikiwand.com/en/SHA-2">SHA-256（Secure Hash Algorithm 256-bit）</a></strong> 進行雜湊計算來提高安全性，所以每個區塊都含有上一個區塊的 SHA-256 函數值，因此只要任一個區塊的資料被篡改，SHA-256 這個函示的雜湊值就會出現錯誤，這筆交易資料就不被認可。</p>
+<p>區塊鏈上的每個「帳戶」都可以進行「交易」，這些交易會構成一個區塊，而多個區塊透過 <strong>Merkle tree(默克樹數據結構)</strong> 的方式連接起來就構成了「區塊鏈」。<del>（有機會再補充 Merkle tree）</del></p>
+<p>再回來看 TxStreet 這個遊戲，我們可以理解到每次新的交易產生時，這筆交易都會被打包成一個新的區塊並添加到鏈的最後一個車廂成為區塊鏈的其中一個區塊。</p>
 <p>​</p>
 <h1 id="學習路線規劃">學習路線規劃</h1>
-<p>今天你我都在使用的 Facebook, Line 這些應用服務都只是 <strong>OSI 7 Layer(Open System Interconnection Model)</strong> 當中的 <strong>Application Layer(應用層)</strong>，身為互聯網產業領域的最好還是要懂底層的架構。</p>
+<p>今天你我都在使用的 Facebook, Line 這些應用服務都只是 <strong>OSI 7 Layer(Open System Interconnection Model)</strong> 當中的 <strong>Application Layer(應用層)</strong>，但身處在互聯網產業的我們最好還是要懂底層的架構，所以我會從底層到具體的應用層面來擬定大方向。</p>
 <p>以下是我的學習方式和路線規劃，可以從 Computer Science 的角度來看區塊鏈，它底層還是有 OS, 基礎設施當中有網際網路協議和密碼學，再來是智能合約和近幾年大蓬勃發展的 DApp, 而有時間的話可以寫一個 DApp(Mobile APP, Web, Desktop) 不僅僅是從無到有打造一個應用服務，我覺得最重要的是感受開發者在這過程中會遇到的問題，還有未來若有機會踏入 Web3 產業也比較清楚知道整個 Work Flow.</p>
 <p><img src="../../images/blog-content-pic/TxStreet%EF%BC%BF%E8%BC%95%E9%AC%86%E5%AD%B8%E5%8D%80%E5%A1%8A%E9%8F%8803.jpg" alt="image"></p>
 <p>​</p>
 <h1 id="寫在最後">寫在最後</h1>
 <p>這篇文章可能提到很多名詞，對於初入坑的新手可能會有點模糊，但是別急，這裡我們是從一個有趣的應用來看待加密貨幣市場的交易是如何形成的。</p>
-<p>之所以想透過這種小遊戲的「應用層」來探討區塊鏈、加密貨幣，是因為身邊許多朋友看到密碼學、Merkle tree（默克樹數據結構）、Hash（雜湊演算法）等這類 Hardcore 技術就打了退堂鼓。</p>
-<p>透過 TxStreet 以公車為區塊、乘客為交易，再用生動可愛的動畫描繪出區塊鏈上的即時(Real Time) 交易，讓每個人都能輕鬆學區塊鏈 / 加密貨幣。</p>
-<p>不過有一個很基本的知識一定要知道，Blockchain（區塊鏈）和 Cryptocurrency（加密貨幣）並不是一個綁定關係，區塊鏈只是一個底層技術、一個去中心化的分散式資料庫系統，加密貨幣就只是透過區塊鏈技術產生的應用案例，近幾年區塊鏈技術已經應用在各個產業，像是<a href="https://www.nthu.edu.tw/hotNews/content/1028">學歷證明</a>、<a href="https://www.bnext.com.tw/article/59739/carrefour-blockchain-pork">溯源</a>等，之所以全球各地有那麼多金融機關、新創公司都採用區塊鏈技術是因為它和傳統的交易方式相比，能降低交易成本、提高投資效率和流動性，而且交易過程更加透明 <em><strong>（<del>安全</del>先打個問號，後續的三角悖論再另外和大家分享）</strong></em>。</p>
-<p>現在你已經知道，實際上我們每個投資者（使用者 / 用戶）進行交易要呼叫智能合約（房子），此時就會產生一個卡通人物，這個過程就是加密貨幣市場中的<strong>交易</strong>。</p>
+<p>之所以想透過這種小遊戲的「應用層」來探討區塊鏈、加密貨幣，是因為身邊許多朋友看到密碼學、Merkle tree(默克樹數據結構)、Hash(雜湊演算法) 等這類 Hardcore 技術就打了退堂鼓，所以想透過 TxStreet 以公車為區塊、乘客為交易，再用生動可愛的動畫描繪出區塊鏈上的即時(Real Time) 交易，讓每個人都能輕鬆學區塊鏈 / 加密貨幣。</p>
+<p>不過有一個很基本的知識一定要知道，Blockchain(區塊鏈) 和 Cryptocurrency(加密貨幣) 並不是一個綁定關係，區塊鏈只是一個底層技術、一個去中心化的分散式資料庫系統，加密貨幣就只是透過區塊鏈技術產生的應用案例，近幾年區塊鏈技術已經應用在各個產業，像是<a href="https://www.nthu.edu.tw/hotNews/content/1028">學歷證明</a>、<a href="https://www.bnext.com.tw/article/59739/carrefour-blockchain-pork">溯源</a>等，之所以全球各地有那麼多金融機關、新創公司都採用區塊鏈技術是因為它和傳統的交易方式相比，能降低交易成本、提高投資效率和流動性，而且交易過程更加透明 <em><strong>（<del>安全</del>先打個問號，後續的三角悖論再另外和大家分享）</strong></em>。</p>
+<p>上面的 <a href="#%E5%AD%B8%E7%BF%92%E8%B7%AF%E7%B7%9A%E8%A6%8F%E5%8A%83">學習路線規劃</a>只是我個人的方式，但不管今天你是從哪個環節切入去學習，都還是要掌握一些必要概念知識，以下就是首要入門的關鍵字希望對你有所幫助：</p>
+<ul>
+<li>區塊、鏈、Block Height(塊高)、區塊鏈、區塊時間、帳戶、交易</li>
+<li>共識機制、智能合約、以太坊網絡、DApp</li>
+</ul>
+<p>現在你已經知道，實際上我們每個投資者（使用者 / 用戶）進行交易要呼叫智能合約（房子），這時就會產生一個卡通人物，而這個過程就是加密貨幣市場中的<strong>交易</strong>。</p>
 <p>​</p>
 <h1 id="ref">Ref</h1>
 <ul>
@@ -225,8 +240,11 @@
 <li><a href="https://www.youtube.com/watch?v=mNOz3-Lu1TQ">Visualize Blockchains with a Bus Stop Analogy - TxStreet.com</a></li>
 <li>Txstreet - <a href="https://medium.com/txstreet">Medium</a></li>
 <li><a href="https://www.gemini.com/cryptopedia/bitcoin-lightning-network-scaling-solution">Lightning Network: Next-Generation Bitcoin Architecture</a></li>
+<li><a href="https://ithelp.ithome.com.tw/articles/10216383">IT 邦幫忙</a></li>
 <li><a href="https://www.jollen.org/blog/2016/12/blockchain-developer-how-mining.html">Blockchain Developer - 簡單易懂的 Mining 演算法設計</a></li>
 <li><a href="https://www.horizen.io/academy/blockchain-protocols/">What is a Protocol in Blockchain?</a></li>
+<li><a href="https://www.investopedia.com/terms/b/block-time-cryptocurrency.asp">What Is Block Time? What It Measures, Verification, and Example</a></li>
+<li>2023 Update</li>
 </ul>
 
         </div>
