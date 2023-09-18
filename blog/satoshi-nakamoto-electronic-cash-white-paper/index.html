@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>#人生剩力組</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="白皮書裡面完全沒提到「區塊鏈」這三個字，卻完整說明了比特幣網絡的運作 ...">
+  <meta name="author" content="Peter">
+  
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="https://peterpowerfullife.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://peterpowerfullife.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://peterpowerfullife.com/images/favicon.png " type="image/x-icon">
+
+  <!--google analitycs-->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-190185324-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon.ico">
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+             src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+               src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://peterpowerfullife.com/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://peterpowerfullife.com/blog">Blog</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://peterpowerfullife.com/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        
+        <h2>區塊鏈技術好難懂？帶你讀中本聰比特幣白皮書</h2>
+        <div class="mb-3 post-meta">
+          <span>By Peter</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>05 July 2020</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          
+          <a href="/categories/web3-/-blockchain" class="text-primary">Web3 / blockchain</a>
+        
+        </div>
+        
+        <img src="https://peterpowerfullife.com/images/blog-content-pic/Satoshi-Nakamoto_White-Paper%EF%BC%BFCover.jpg" class="img-fluid w-100 mb-4" alt="區塊鏈技術好難懂？帶你讀中本聰比特幣白皮書">
+        
+        <div class="content mb-5">
+          <p>在區塊鏈、加密貨幣領域，你一定要認識被稱為「比特幣之父」的 <strong>Satoshi Nakamoto(中本聰)</strong> 。</p>
+<p>比特幣發展到至今，中本聰的身世一直是個謎，他的「尋人啟事」就留給政府監管單位去煩惱，我們應該深入了解他在 2008 年 10 月 31 日發表的論文：<em><strong>《Bitcoin: A Peer-to-Peer Electronic Cash System》</strong></em>。</p>
+<p>前陣子線下讀書會和朋友研讀這篇論文，最近找個時間把內容做個收斂、整理，在前面的文章 - <strong><a href="https://peterpowerfullife.com/blog/easy-learn-blockchain/">新手輕鬆學 Blockchain(區塊鏈)</a></strong> 我們透過視覺化的遊戲大概了解一下 Blockchain(區塊鏈) 的運作，有了基本概念後我們把難度稍微提高來看原作者中本聰的論文，若你本身有投資加密貨幣或是在相關產業工作一定要花時間讀這篇文章。</p>
+<p>這篇文章我只會紀錄每個章節段落的重點和心得，文末我有註記原始的論文，文章的章節標題和原文是一樣的，避免整個篇幅過長，除非有更進一步的描述不我不會把每個章節的原文都放上來，所以建議搭配一起看唷 💪🏾</p>
+<p>​</p>
+<h2 id="目錄">目錄</h2>
+<ul>
+<li>
+<p><strong><a href="#abstract%E6%91%98%E8%A6%81">Abstract(摘要)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#introduction%E7%B0%A1%E4%BB%8B">Introduction(簡介)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#transactions%E4%BA%A4%E6%98%93">Transactions(交易)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#timestamp-server%E6%99%82%E9%96%93%E6%88%B3%E8%A8%98%E4%BC%BA%E6%9C%8D%E5%99%A8">Timestamp server(時間戳記伺服器)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#proof-of-work%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AD%89%E6%98%8E">Proof-of-Work(工作量證明)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#network%E7%B6%B2%E8%B7%AF">Network(網路)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#incentive%E6%BF%80%E5%8B%B5">Incentive(激勵)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#reclaiming-disk-space%E5%9B%9E%E6%94%B6%E7%A1%AC%E7%A2%9F%E7%A9%BA%E9%96%93">Reclaiming Disk Space(回收硬碟空間)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#simplified-payment-verification%E7%B0%A1%E5%8C%96%E7%9A%84%E6%94%AF%E4%BB%98%E7%A2%BA%E8%AA%8D">Simplified Payment Verification(簡化的支付確認)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#combining-and-splitting-value%E5%83%B9%E5%80%BC%E7%9A%84%E7%B5%84%E5%90%88%E8%88%87%E5%88%86%E5%89%B2">Combining and Splitting Value(價值的組合與分割)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#privacy%E9%9A%B1%E7%A7%81">Privacy(隱私)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#calculations%E8%A8%88%E7%AE%97">Calculations(計算)</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#%E6%9C%80%E5%BE%8C">最後</a></strong></p>
+<p>​</p>
+</li>
+</ul>
+<h2 id="abstract摘要">Abstract(摘要)</h2>
+<p>在 <strong>Abstract(摘要)</strong> 當中，他簡述一下這篇論文(白皮書) <strong>出現的背景</strong>、為什麼要開發完全通過點對點技術實現的電子現金支付系統，然後描述了這套系統的基本運作原理，具體的運作方式在下文中繼續展開。</p>
+<p>​</p>
+<h2 id="introduction簡介">Introduction(簡介)</h2>
+<p>一開始先描述了傳統現金交易系統的現狀和問題，像是中間機構增加了交易成本、限制交易規模。</p>
+<p>第二段則快速說明這套點對點交易系統的基本原理。這裡他想表達的就是，你需要一個去中心化機制來保護賣家和買家，並且是以 <strong>Cooperating(合作) 的關係</strong>來維持運作。</p>
+<p>在這章節從字面的含義來看沒有太多不好理解的部分，最重要的是他強調金融體系是一種合作關係，這個合作不是我們和銀行的往來而是指我們在全網絡作為 Node(節點) 與節點之間的合作互動。</p>
+<p>​</p>
+<h2 id="transactions交易">Transactions(交易)</h2>
+<p><img src="../../images/blog-content-pic/Satoshi-Nakamoto_White-Paper%EF%BC%BFTransactions.jpg" alt="image"></p>
+<p>Tx 代表 Transaction(交易)，這張圖片所描述的是一個 Cryptographic(加密)、虛擬貨幣的概念。這裡電子貨幣定義 chain of digital signatures，有趣的是他還沒有提到 Blockchain(區塊鏈)。這裡就先用「虛擬貨幣」來定義吧 <strong>（我自己是不認同比特幣、以太幣用虛擬貨幣這個代名詞）</strong>。</p>
+<p>這個虛擬貨幣指的是 <strong>Hashing(隨機散列)</strong>，而 Hashing 是一種貨幣，把 Owner(所有者) 的 Public Key(公鑰) 進行 Digital signatures(數位簽章) 後和上一個區塊擱在一起，再將下一個 Owner(所有者) 的公鑰進行 <strong>Verify(校驗、驗證)</strong>。</p>
+<blockquote>
+<p>（第二段）The problem of course is the payee can&rsquo;t verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.</p>
+</blockquote>
+<blockquote>
+<p>（第三段）We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don&rsquo;t care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced [1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.</p>
+</blockquote>
+<p>這裡提到 <strong>Double-spending(雙重支付)</strong> 還有傳統的貨幣模型是需要一個中心化的機構存在，確保不會有雙重支付的問題，那如果沒有這個中心化機構又要防止雙重支付，那就是要在網絡中 broadcasts(廣播) 公開宣布所有的交易，把所有的交易讓全網接收並驗證確認，確保這筆交易是可靠的。</p>
+<p>​</p>
+<h2 id="timestamp-server時間戳記伺服器">Timestamp server(時間戳記伺服器)</h2>
+<p>這裡提到的 <strong>Timestamp server(時間戳記伺服器)</strong> 概念其實有點矇，因為 Sever 就是傳統的中心化伺服器，那怎麼會跟 Decentralization(去中心化) 有關係？</p>
+<p>如果是中心化的 Server, 也就是所有的比特幣網絡節點都要向中心化的 伺服器去請求時間戳，假設真的是這樣，那這個中心化 Server 如果被攻擊、被造假就會產生巨大的影響。</p>
+<p>這裡我反覆看了好幾次才有那麼一丁點的搞懂（希望不是自己腦補），這篇論文裡面他從來沒有提到 Blockchain(區塊鏈) 這個名詞，在看完 5.Network(網絡, 網路)後我更深的體悟到，他其實是把 Timestamp server 喻為他起初提到的 <strong>Peer-to-Peer Electronic Cash System</strong>.</p>
+<p>他不太可能去發表一個既有存在的東西，一開始也有點出傳統金融的問題(中心化網路伺服器)，所以我更加確定他這裡提到的的 Timestamp server, Peer-to-Peer Electronic Cash System 就是我們理解的 Blockchain(區塊鏈)，而這個 Blockchain 就是要取代傳統金融的中心伺服器。</p>
+<p>所以實際上在這個比特幣網絡的 Timestamp server 方案是在臨近的節點中收集時間戳，並取得一個臨近節點中時間戳的中位數，這裡可以看到中本聰秉承著「善」的理念，也就是作惡的人是少數誠實的人是多數。</p>
+<p>​</p>
+<h2 id="proof-of-work工作量證明">Proof-of-Work(工作量證明)</h2>
+<blockquote>
+<p>（第一段）To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back&rsquo;s Hashcash [6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.</p>
+</blockquote>
+<p>第一段所描述的就是<strong>挖礦的一個基本原理</strong>，就是透過 SHA-256 的方式計算去找到一個或多個隨機數做一個工作量證明。</p>
+<blockquote>
+<p>（第二段）For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block&rsquo;s hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.</p>
+</blockquote>
+<p>第二段則更深一層解釋了工作量證明，也就是 <strong><a href="https://peterpowerfullife.com/blog/consensus-mechanism/">Consensus Mechanism(共識機制) </a></strong>。</p>
+<p>我們要把打包這個區塊就要找到隨機數，找這個隨機數是要花時間的，那花時間找到隨機數之後區塊又生成了，然後被連接到區塊鏈上，這個時候若來了一個作惡的節點要改變(攻擊) 上一個節點的交易數據，該怎麼辦？</p>
+<p>因為他修改了上一個區塊的數值，所以他再用上一個區塊的隨機數就不對了，這時他就需要再重新找到一個隨機數，而由於找到隨機數又需要花時間，在他找到一個新的隨機數去替代上一個區塊的時候下一個區塊又產生了，所以他很難追上下一個區塊。</p>
+<p>除非他的算力非常大硬是要改掉上一個區塊，改完了以後我就能在其他所有節點都還沒找到下一個區塊的過程中，就直接兩個區塊都生成了，除非有這種可能性他才能夠改掉上一個區塊的值，並且他自己來形成一個最長鏈，所以説共識機制的作用就是在這！這個設計並不只是說要讓幣有足夠的價值，最重要的是整個網絡的安全性。</p>
+<p><img src="../../images/blog-content-pic/Satoshi-Nakamoto_White-Paper%EF%BC%BFProof-of-Work.jpg" alt="image"></p>
+<p>這張圖描述的就是一個區塊鏈，這個區塊有包含了交易資訊(像是：Tx1, Tx2, Tx3)，然後這個交易資訊還有 Nonce(隨機數) 去計算出隨機的 hash(散列值)，這個 hash 就是一長串的數字、字母的組合，一個個的箭頭就是 Chain(鏈)，所以鏈和區塊組合成區塊鏈。</p>
+<p>在這個區塊中有之前上一個區塊的 hash(隨機散列值)，把上一個區塊的 hash 放置在這個 Block header(區塊頭)上，然後再放上 Nonce(隨機數), 後面的 Tx 就代表這個區塊裡的 Transaction(交易)，然後再打包這個隨機數前面的結果進行計算，只要算對了並得到前面區塊的 hash 結果那麼這個隨機數就答對了，而個區塊就可以連接上去然後再等下一個區塊去連接。</p>
+<p>那如果有人想修改(破壞)這裡面的交易，就算能成功修改但隨機數就不對了，必須得重新算一遍之後把下一個區塊產生出來，所以你的時間永遠是不夠往後繼續連接的，從這一點來看這個工作量證明是起到安全性作用的，也對之後區塊鏈網絡的發展有很大的幫助，因為大部分的共識機制都是從 PoW 去延伸。</p>
+<blockquote>
+<p>（第三段）The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority  decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.</p>
+</blockquote>
+<blockquote>
+<p>（第四段）To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they&rsquo;re generated too fast, the difficulty increases.
+ ​</p>
+</blockquote>
+<p>這是在講挖礦的問題。</p>
+<p>在這個打包過程中，它其實是有一個難度值的，這個難度值會隨著全網的算力提升而提升難度，如果全網的算力效率降低了那難度也會降低，這是以什麼做為標準？是以<strong>出塊(每個區塊所產生的時間)</strong> 來定義，要在 10 分鐘左右去調整難度值，這段話是這個意思。</p>
+<p>那為什麼比特幣要設定 10 分鐘出塊一次？</p>
+<p>因為出塊的時間是依照整個比特幣的難度推算出來，而平均時間確保區塊跟區塊之間產生的時間間隔不要太近，平均一個新生成的區塊廣播到所有的節點需要 2 分鐘的時間，而如果出塊時間過短，就來不及傳送到所有節點。</p>
+<p>所以等待比特幣網絡確認基本上要等一個小時。</p>
+<p>因為比特幣交易要被驗證，此交易會廣播在比特幣網路給所有節點去驗證，等待所有節點驗證後，而依據 10 分鐘出塊的方式，該筆交易被打包到這個區塊後，然後再 10 分鐘產生一個新的區塊再次被驗證，而一般是被 6 個區塊得到驗證才確保這個交易是不可逆轉，所以換算 6 個區塊產生時間就是 1 個小時。</p>
+<p>​</p>
+<h2 id="network網路">Network(網路)</h2>
+<p>這六點的意思是這樣，首先是新的交易將向全網進行廣播也就是 A 到 B 轉帳轉多少比特幣，然後每個節點收到交易資訊後，把它納入到一個區塊中，這時候這個區塊還沒有被打包好，每個節點都在嘗試在自己的區塊中找到一個足夠的難度工作量證明，也就是這個節點把這些交易信息擱在一起之後，去找隨機數進行工作量證明，當一個節點找到了工作量證明就是找到隨機數，可以讓區塊打包後的結果滿足多少位的隨機數找到後，它就會向全網進行廣播，然後其他節點就會驗證它的有效性，要驗證有效性就要驗證這個區塊的所有交易，也就是在之前的所有區塊中都沒有發生過的新交易，那這個區塊中的所有交易才是有效的。</p>
+<p>只有這個區塊中所有交易有效，才能表示這個區塊是有效的，而其他節點如果認同了這個區塊是有效的，那麼他們只需要在這個區塊之後 去延長、連接自己的新區塊就可以了(不需要投票表決 XD），這樣就表示接受了之前別人廣播出來的交易區塊。</p>
+<blockquote>
+<p>（第六點）Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.</p>
+</blockquote>
+<p>這裡特別說明一下第六點，這意思就是說接受到這個區塊的 hash(隨機散列值), 就是被認為下一個新區塊包含在區塊頭裡面的 hash 值。</p>
+<blockquote>
+<p>（第一段）Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof- of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.</p>
+</blockquote>
+<p>這裡討論的就是 <strong>The Longest Chain Rule(最長鏈原則)</strong>，探討如何保持最長鏈。</p>
+<p>如果有兩個節點同時找到不同的隨機數那它們打包的交易也會不同，也就是說在同一個時間點產生兩個不同的區塊，那該怎麼辦？就要看接受到這個區塊的節點，要先接受哪個、後接受哪個，他會把先接受到的區塊繼續的延長，但後接受到的區塊也會留著（反正就是先接受的延長，後接受的等待）。</p>
+<p>可是萬一後面接受到的區塊是只有你後接受了，但別人都先接受了，這時又該怎麼辦？那就要繼續等待，等待後發現別人接的是另一條我後接受到的那條鏈，那麼原來的那條鏈條就該轉移到現在這個鏈上去，確保最長鏈永遠是最可信的。</p>
+<blockquote>
+<p>（第二段）New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.</p>
+</blockquote>
+<p>這就是如果你在區塊鏈錢包進行轉帳比特幣時會發現有一個確認數，這個確認數達到幾十個的時候交易就已經生效了，意思就是如果你的節點找到了新的區塊的隨機數，然後去進行廣播的時候只要廣播到幾十個節點就可以了，這幾十個節點只要驗證透過之後就會去延長最長鏈了，那麼其他那些沒有收到廣播的節點也會慢慢發現自己沒有收到廣播而少了一個節點，這時他們就會請求去下載缺少的那一個區塊就可以了。</p>
+<p>​</p>
+<h2 id="incentive激勵">Incentive(激勵)</h2>
+<blockquote>
+<p>（第一段）By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.</p>
+</blockquote>
+<p>這段話所表達的就是挖礦獎勵的過程。</p>
+<p>這些節點要去記帳而且記帳不能白記，因為他們要拿著工作量證明去得到這個獎勵。</p>
+<p>分配獎勵的意義是將貨幣發送到流通領域的一個特殊的方法，也就是印出來然後該把錢給誰，是一個公平合理的機制，透過時間、電力消耗來去分配給網絡上負責記帳的節點。</p>
+<blockquote>
+<p>（第二段）The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.</p>
+</blockquote>
+<p>挖礦其實除了系統的獎勵以外，還有帳本裡的交易手續費，這也是歸予挖到礦的節點所有的。</p>
+<p>只要既定數量的電子錢已經進入流通，那麼激勵機制就可以漸進轉換為完全依靠交易費，那麼本貨幣系統就能夠免於通貨膨脹。</p>
+<p>這意思就是說作為激勵用途獎勵的幣會逐漸慢慢地把它發完，比特幣也有 <strong>「Bitcoin Halving (四年減半)」</strong> 的設計原理，一開始是每個 Block(區塊)獎勵 50 個，之後就是每 4 年減半。</p>
+<p>這個減半的目的是為了讓它可以慢慢的通貨緊縮，直到獎勵發完，之後挖礦的獎勵就可以完全依靠交易手續費了。</p>
+<p>如果沒有設定挖礦總量速度，有可能在短期內產出大量的貨幣，造成市場流通量過多，進而影響貨幣本身的價值，所以透過每四年減半的規則來控制貨幣的產量。</p>
+<blockquote>
+<p>（第三段）The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.</p>
+</blockquote>
+<p>這意思就是如果你有足夠的算力對比特幣網絡進行攻擊、破壞，通常破壞它目的是要修改這個交易數據（拿走別人的幣 / 把你的幣進行雙重支付），那前提條件一定是這個幣是有價值的，你修改(破壞)這個網絡來去獲得這個幣額外的價值，可是問題是你只要破壞了這個比特幣的網絡，你的幣就不會有價值了，那為什麼還要去破壞這個網絡呢？</p>
+<p>比特幣網絡有存在一個 51% 攻擊的問題，就算你真的掌握了全網 51% 的算力，那麼你就可以為所欲為的修改比特幣，可是當你掌握 51% 的比特幣算力所需要的成本是巨大的！</p>
+<p>這背後的收益是什麼呢？是比特幣都歸你這個人嗎？</p>
+<p>其實不是！只要你掌握了 51% 的算力，那比特幣網絡的價值就沒有了，你這個行為就沒有收益而你的成本卻是巨大的，所以這套獎勵的設計能夠從經濟學原理上來杜絕攻擊的產生。</p>
+<p>​</p>
+<h2 id="reclaiming-disk-space回收硬碟空間">Reclaiming Disk Space(回收硬碟空間)</h2>
+<blockquote>
+<p>（第一段）Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block&rsquo;s hash, transactions are hashed in a Merkle Tree, with only the root included in the block&rsquo;s hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.</p>
+</blockquote>
+<p>這裡完整解釋了什麼是 <strong>Merkle tree(默克樹, 雜湊樹)</strong>，也就是說在老區塊中，這些交易資訊已經不是特別有用了，那麼就不用把它存在這個區塊中，必須得壓縮一下空間，壓縮之後之前的交易紀錄不就沒有了嗎？其實沒關係！</p>
+<p>我們採取默克樹的做法也就是只記錄最後一個 <strong>Root(根)</strong>, 記錄完根之後，那其他的交易數據可以透過像區塊鏈瀏覽器（帶連結）之類的中心化資料庫去保存就可以了，中心化資料庫保存了這個數據是不怕被修改的，因為中心化資料庫保存的數據即使被修改，它會進行一個 Hashing(隨機散列) 的散列值，隨機散列後透過默克樹找它的根，找到了根之後就發現記錄在區塊裡的那個根是錯的，那中心化資料庫記錄的那個值也是錯的，所以透過默克樹的根來去確保這個值是正確的，不管其他怎麼記這筆帳，反正我這個根不會有錯就可以了。</p>
+<p><img src="../../images/blog-content-pic/Satoshi-Nakamoto_White-Paper%EF%BC%BFReclaiming-Disk-Space.jpg" alt="image"></p>
+<p>從這張圖查看默克樹的結構，<strong>(圖左)是一個沒有被壓縮的區塊</strong>，這裡 Tx0、Tx1 就是一比一的交易，然後把它們(Tx0, Tx1) 進行 hash(散列值) 後, 再把 Tx0, Tx1 的 hash 值結合在一起後再次進行 hash, Tx2 和 Tx3 也是一樣的作法。</p>
+<p>最後把這個包含 Tx0, Tx1 的 hash 值和 Tx2, Tx3 的 hash 值結合在一起，再進行一次 hash, 最後得到一個 hash 的根，所以它們都是兩兩成對的，只要把這個根記下來就好，然後剩下的都不要。</p>
+<blockquote>
+<p>（第二段）A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore&rsquo;s Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.</p>
+</blockquote>
+<p>這裡居然提到了 Gordon Moore 所提出的 <strong><a href="https://zh.wikipedia.org/zh-tw/%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B">Moore&rsquo;s Law(摩爾定律)</a></strong>，摩爾他預測，積體電路上可容納的電晶體數目，約每隔 18-24 個月就會增加一倍，同時，同樣運算能力的晶片價格則變成二分之一。也就是說，每一年半到兩年，晶片運算能力就會增加一倍、價格剩下一半。簡單說就是技術提升、同時降低成本。</p>
+<p>但「摩爾定律」不是定理，它只是一個預測，這裡我猜想中本聰想表達的意思是根據摩爾定律，區塊增長的速度是遠遠不及 PC 的儲存容量，或是說這個運算速度是遠遠達不到的。</p>
+<p>​</p>
+<h2 id="simplified-payment-verification簡化的支付確認">Simplified Payment Verification(簡化的支付確認)</h2>
+<blockquote>
+<p>（第一段）It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he&rsquo;s convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it&rsquo;s timestamped in. He can&rsquo;t check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.</p>
+</blockquote>
+<blockquote>
+<p>（第二段）As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker&rsquo;s fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user&rsquo;s software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.</p>
+</blockquote>
+<p>這裡傳遞的是一種 <strong>「簡化的支付方式」</strong>，這種簡化支付簽認存在一定的問題但卻有它存在的意義，就是說每個進行交易的節點不一定把完整的網絡都保存下來。</p>
+<p>這裡雖然沒有直接提到錢包，但依據當前的時空背景必須有一個 <strong>Wallet(錢包)</strong> 才能夠進行簡化支付、交易，以目前的方式就是透過手機來發送交易，但是如果用電子錢包交易，最好要有全網的多個確認後這筆交易才算成立。</p>
+<p>目前來看它還是存在一些缺陷，如果你是一個像銀行這種商業機構，那用錢包就不可以了，可是如果是一個交易所，就需要擁有一整個完整的節點，透過所有的節點來去確認每一筆交易，以保持較大的獨立完整性和校驗的快速性。</p>
+<p>​</p>
+<h2 id="combining-and-splitting-value價值的組合與分割">Combining and Splitting Value(價值的組合與分割)</h2>
+<p>這章節就是在講 <strong>UTXO(Unspent Transaction Output, 未花費交易輸出)</strong>。</p>
+<p>首先 <strong>Account(帳戶)</strong> 就是我們日常常見的帳戶模型，彼得在銀行帳戶有 1 塊，帳戶餘額顯示的就是 1 塊，以太坊就是採用這個模型，而比特幣採用的 UTXO 模型，是一種帳戶差異化的金融交易模式，以<strong>輸入 = 輸出</strong>的概念，也就是未花費交易輸出是交易金額的總和。</p>
+<p>Account(帳戶) 模型在於節省大量儲存空間，每筆交易只有一個輸入、一個輸出、一個簽名，簡單且有更大的可替代性，而 UTXO 每筆交易會先追朔到先前的交易，對於 Double Spending(雙重支付) 和 Replay Attack(重放攻擊) 可以達到保護的作用，而且資安保護相對於傳統 Account(帳戶) 模型還要強。</p>
+<p>​</p>
+<h2 id="privacy隱私">Privacy(隱私)</h2>
+<p>這裡討論的是比特幣所謂的「匿名交易」，但其實不然，因為比特幣的每一筆交易都是可以追溯的！也就是說如果你帳戶裡有幣，那麼這個幣是誰給你的？那麼上一次又是誰給他的？他之前的上一次又是誰持有這個幣的？它是可以一直往前倒出源頭的。</p>
+<p>尤其是目前大部分的中心化交易所都要做 KYC 實名認證，只要是有做 KYC, 就一定有一個實名認證的地方去追溯他。</p>
+<p>所以要透過比特幣來洗錢也是有難度在的，除非這些比特幣都不進入中心化交易所就能把法幣兌換出來，不然只要進入到交易所兌換法幣 就會有實名身份來找到這個人。</p>
+<p>​</p>
+<h2 id="calculations計算">Calculations(計算)</h2>
+<p>這裡提到的公式所要表達的意思就是如果攻擊者準備了一個假的區塊，過沒多久我會準備接到新的區塊鏈上，然後這時候給你一個新的密鑰組合，然後讓別人把幣轉過來，轉過來之後我就把這個區塊加入到我的鏈當中，然後繼續往後延伸這個鏈，一但延伸那條鏈之後，就會發現這個交易已經進入區塊了，這時作為收款人發現轉帳成功並且又延伸了幾個區塊然後就信以為真。</p>
+<p>從程式碼計算的結果來看，這件事發生的機率是非常小的，因為攻擊者要追趕上後面的鏈是非常困難的，就像賭徒想要翻本的機率越來越低是同樣的意思。</p>
+<p>​</p>
+<h2 id="最後">最後</h2>
+<p>在 Conclusion(結論) 的地方中本聰再次強調了這個 P2P 電子貨幣系統的重要性。</p>
+<p>以上就是比特幣完整的白皮書內容心得，當中探討網絡設計的安全性＆對攻擊者的防範措施、獎勵機制以及 PoW 共識機制，透過這些方式讓整個網絡自我延伸及成長。</p>
+<p>比特幣相關的組織 <a href="https://bitcoin.org/en/bitcoin-paper">Bitcoin.org</a> 開發者 - Dave Harding 在 <a href="https://gist.github.com/harding/dabea3d83c695e6b937bf090eddf2bb3">GitHub</a> 有保留白皮書的內容，紀錄過去到現在的一些紀錄，有興趣可以再去看看。</p>
+<p>而比特幣與和後續的以太坊最大差別在於，比特幣提供一個支付系統並且透過網絡維繫一個共同帳目，而以太坊是透過部署在去中心化網絡的智能合去運作的，以高階語言編寫而成（例：Solidity），並透過 EVM(以太坊虛擬機) 轉譯成機器語言來執行，且部署與執行智能合約都需要支付燃料費。</p>
+<p>​</p>
+<h2 id="ref">Ref</h2>
+<ul>
+<li><a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://bitcoin.org/bitcoin.pdf">Bitcoin: A Peer-to-Peer Electronic Cash System</a>（EN）</li>
+<li><a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/http://satoshinakamoto.me/zh-tw/bitcoin.pdf">比特幣：一種點對點的電子現金系統</a>（CN）</li>
+<li><a href="https://blockcast.it/2020/05/27/patoshi-pattern-explained/">解密你不知道的中本聰挖礦「習慣」！曾留下獨特記號無人可冒充</a></li>
+<li><a href="https://medium.com/@anna_max/%E4%BB%80%E9%BA%BC%E6%98%AF%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9A%84-%E5%9B%9B%E5%B9%B4%E6%B8%9B%E5%8D%8A-8f1c8380fd23">什麼是比特幣的「四年減半」？</a></li>
+<li><a href="https://www.bitcoinblockhalf.com/">Bitcoin Block Reward Halving Countdown</a></li>
+<li><a href="https://medium.com/swlh/the-51-attack-what-is-it-d295e70b9ac4">The 51% Attack. What is it?</a></li>
+<li><a href="https://academy.binance.com/en/articles/what-is-a-replay-attack">What Is a Replay Attack?</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1391829">晓说区块链 | 比特币区块的产生速度为何被设定为10分钟？</a></li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "peterpowerfullife" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  var indexURL = {
+    {
+      "index.json" | absURL
+    }
+  }
+</script>
+
+ <!-- JS Plugins -->
+
+<script src="https://peterpowerfullife.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/mark.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/search.js"></script>
+
+ <!-- Main Script -->
+
+<script src="https://peterpowerfullife.com/js/script.min.js"></script>
+
+
+
+
+</body>
+</html>
