@@ -286,7 +286,7 @@
 <p>（第一段）Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block&rsquo;s hash, transactions are hashed in a Merkle Tree, with only the root included in the block&rsquo;s hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.</p>
 </blockquote>
 <p>這裡完整解釋了什麼是 <strong>Merkle tree(默克樹, 雜湊樹)</strong>，也就是說在老區塊中，這些交易資訊已經不是特別有用了，那麼就不用把它存在這個區塊中，必須得壓縮一下空間，壓縮之後之前的交易紀錄不就沒有了嗎？其實沒關係！</p>
-<p>我們採取默克樹的做法也就是只記錄最後一個 <strong>Root(根)</strong>, 記錄完根之後，那其他的交易數據可以透過像區塊鏈瀏覽器（帶連結）之類的中心化資料庫去保存就可以了，中心化資料庫保存了這個數據是不怕被修改的，因為中心化資料庫保存的數據即使被修改，它會進行一個 Hashing(隨機散列) 的散列值，隨機散列後透過默克樹找它的根，找到了根之後就發現記錄在區塊裡的那個根是錯的，那中心化資料庫記錄的那個值也是錯的，所以透過默克樹的根來去確保這個值是正確的，不管其他怎麼記這筆帳，反正我這個根不會有錯就可以了。</p>
+<p>我們採取默克樹的做法也就是只記錄最後一個 <strong>Root(根)</strong>, 記錄完根之後，那其他的交易數據可以透過像 <strong><a href="https://peterpowerfullife.com/blog/what-is-blockchain-explorer/">區塊鏈瀏覽器</a></strong> 之類的中心化資料庫去保存就可以了，中心化資料庫保存了這個數據是不怕被修改的，因為中心化資料庫保存的數據即使被修改，它會進行一個 Hashing(隨機散列) 的散列值，隨機散列後透過默克樹找它的根，找到了根之後就發現記錄在區塊裡的那個根是錯的，那中心化資料庫記錄的那個值也是錯的，所以透過默克樹的根來去確保這個值是正確的，不管其他怎麼記這筆帳，反正我這個根不會有錯就可以了。</p>
 <p><img src="../../images/blog-content-pic/Satoshi-Nakamoto_White-Paper%EF%BC%BFReclaiming-Disk-Space.jpg" alt="image"></p>
 <p>從這張圖查看默克樹的結構，<strong>(圖左)是一個沒有被壓縮的區塊</strong>，這裡 Tx0、Tx1 就是一比一的交易，然後把它們(Tx0, Tx1) 進行 hash(散列值) 後, 再把 Tx0, Tx1 的 hash 值結合在一起後再次進行 hash, Tx2 和 Tx3 也是一樣的作法。</p>
 <p>最後把這個包含 Tx0, Tx1 的 hash 值和 Tx2, Tx3 的 hash 值結合在一起，再進行一次 hash, 最後得到一個 hash 的根，所以它們都是兩兩成對的，只要把這個根記下來就好，然後剩下的都不要。</p>
