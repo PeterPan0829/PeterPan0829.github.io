@@ -61,5 +61,14 @@
 一起來認識 npkill，讓我輕鬆快速刪除了 5.8 GB 的 node_modules 檔案。</description>
     </item>
     
+    <item>
+      <title>還在使用 grep？試試專門為開發者設計的 Command Line 搜尋工具 - ripgrep</title>
+      <link>https://peterpowerfullife.com/blog/tool-command-line-ripgrep/</link>
+      <pubDate>Tue, 30 Jun 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/tool-command-line-ripgrep/</guid>
+      <description>ripgrep(rg) 是一個使用 Rust 程式語言編寫的 Command line 搜尋工具，作者解釋 rip 的意思不是超越、摧毀 grep, 而是 &amp;ldquo;rips through your code very quickly&amp;rdquo;.</description>
+    </item>
+    
   </channel>
 </rss>

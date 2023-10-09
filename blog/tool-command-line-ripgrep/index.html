@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>#人生剩力組</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="爆炸快的字串搜尋工具！還在茫茫大海中找關鍵字嗎？趕緊來試試！">
+  <meta name="author" content="Peter">
+  
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://peterpowerfullife.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="https://peterpowerfullife.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://peterpowerfullife.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://peterpowerfullife.com/images/favicon.png " type="image/x-icon">
+
+  <!--google analitycs-->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-190185324-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon.ico">
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+             src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+               src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://peterpowerfullife.com/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://peterpowerfullife.com/blog">Blog</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://peterpowerfullife.com/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        
+        <h2>還在使用 grep？試試專門為開發者設計的 Command Line 搜尋工具 - ripgrep</h2>
+        <div class="mb-3 post-meta">
+          <span>By Peter</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>30 June 2020</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          
+          <a href="/categories/tech-%e6%8a%80%e8%a1%93" class="text-primary">Tech 技術</a>
+        
+        </div>
+        
+        <img src="https://peterpowerfullife.com/images/blog-content-pic/Tool%EF%BC%BFripgrep-coverpic.jpg" class="img-fluid w-100 mb-4" alt="還在使用 grep？試試專門為開發者設計的 Command Line 搜尋工具 - ripgrep">
+        
+        <div class="content mb-5">
+          <p><strong><a href="https://github.com/BurntSushi/ripgrep">ripgrep(rg)</a></strong> 是一個使用 <a href="https://www.wikiwand.com/en/Rust%20(programming%20language)">Rust</a> 程式語言編寫的 Command line 搜尋工具，作者解釋 rip 的意思不是超越、摧毀 grep, 而是 <strong>&ldquo;rips through your code very quickly&rdquo;</strong>.</p>
+<p>它的特點是結合：</p>
+<ul>
+<li><strong><a href="https://github.com/ggreer/the_silver_searcher">Ag(The Silver Searcher)</a></strong> 的 <a href="https://en.wikipedia.org/wiki/POSIX_Threads">Pthreads</a> 搜尋特點 - 利用多個 CPU 搜尋檔案</li>
+<li>GNU grep 的 <strong><a href="https://www.wikiwand.com/en/Boyer%E2%80%93Moore_string-search_algorithm">Boyer-Moore 演算法</a></strong>，透過 <strong>「減法搜索」</strong> 從要搜尋的最後一個字開始查找，發現不匹配的字元數量後，直接跳過它們並繼續查找，在處理中、長文字搜尋有很好的效能。</li>
+</ul>
+<p>除了 Smart &amp; Fast 我找不到其他的形容詞，如果你還在使用 Ag 或 grep, 不妨嘗試 ripgrep 帶給你的飛速體驗 !!</p>
+<p>​</p>
+<h2 id="目錄">目錄</h2>
+<ul>
+<li>
+<p><strong><a href="#%E5%92%8C%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7%E7%9A%84%E6%90%9C%E5%B0%8B%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BC%83">和其他工具的搜尋速度比較</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%9D-ripgrep">如何安裝 ripgrep</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#ripgrep-%E7%9C%9F%E6%AD%A3%E7%AB%84%E7%B4%85%E7%9A%84%E5%8E%9F%E5%9B%A0">ripgrep 真正竄紅的原因</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#gitignore-%E5%BF%BD%E7%95%A5%E6%95%8F%E6%84%9F%E8%B3%87%E8%A8%8A">gitignore 忽略敏感資訊</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E6%90%9C%E5%B0%8B%E6%96%B9%E5%BC%8F">常用的搜尋方式</a></strong></p>
+</li>
+<li>
+<p><strong><a href="#ripgrep-%E9%96%8B%E7%99%BC%E9%81%8E%E7%A8%8B%E7%9A%84%E6%8F%92%E6%9B%B2">ripgrep 開發過程的插曲</a></strong></p>
+<p>​</p>
+</li>
+</ul>
+<h2 id="和其他工具的搜尋速度比較">和其他工具的搜尋速度比較</h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Command</th>
+<th>Line count</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ripgrep (Unicode)</td>
+<td><code>rg -n -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td><strong>0.136s</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.kernel.org/pub/software/scm/git/docs/git-grep.html">git grep</a></td>
+<td><code>git grep -P -n -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td>0.348s</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Genivia/ugrep">ugrep (Unicode)</a></td>
+<td><code>ugrep -r --ignore-files --no-hidden -I -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td>0.506s</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ggreer/the_silver_searcher">The Silver Searcher</a></td>
+<td><code>ag -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td>0.654s</td>
+</tr>
+<tr>
+<td><a href="https://www.kernel.org/pub/software/scm/git/docs/git-grep.html">git grep</a></td>
+<td><code>LC_ALL=C git grep -E -n -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td>1.150s</td>
+</tr>
+<tr>
+<td><a href="https://github.com/beyondgrep/ack3">ack</a></td>
+<td><code>ack -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td>4.054s</td>
+</tr>
+<tr>
+<td><a href="https://www.kernel.org/pub/software/scm/git/docs/git-grep.html">git grep (Unicode)</a></td>
+<td><code>LC_ALL=en_US.UTF-8 git grep -E -n -w '[A-Z]+_SUSPEND'</code></td>
+<td>452</td>
+<td>4.205s</td>
+</tr>
+</tbody>
+</table>
+<p>雖說如此，但其實不太清楚這是在什麼環境下(Linux, Windows)測試出來的結果？但應該不會差太多？如果有人測試過請跟我分享一下 XD</p>
+<p>​</p>
+<h2 id="如何安裝-ripgrep">如何安裝 ripgrep</h2>
+<p>基本上在 Windows, MacOS 以及 Linux 作業系統上使用 ripgrep 的方式都差不多，因為它是一個<strong>跨平台的工具</strong>。</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew install ripgrep
+</code></pre></div><p>上述是 MacOS 作業系統透過 Homebrew 的安裝方式，若是使用其他的作業系統可以參考 <strong><a href="https://github.com/BurntSushi/ripgrep#installation">官方的安裝指南</a></strong>。</p>
+<p>​</p>
+<h2 id="ripgrep-真正竄紅的原因">ripgrep 真正竄紅的原因</h2>
+<p>這幾個功能讓它在眾多 Command Line Tool 脫穎而出：</p>
+<ol>
+<li>
+<p>遞迴搜尋模式(Recursive search)</p>
+</li>
+<li>
+<p>輸出內容用顏色標示(Color highlighting)</p>
+</li>
+<li>
+<p>除了 UTF-8 以外，更支援其他編文件，像是 UTF-16(自動偵測)、latin-1、GBK、EUC-JP、Shift_JIS</p>
+</li>
+<li>
+<p>可以搜尋 <strong><code>zip</code></strong> 壓縮檔案（gzip、xz、lzma、bzip2 或 lz4 都可以）</p>
+</li>
+<li>
+<p>預設自動忽略 <strong><code>.gitignore</code></strong> 隱藏檔案</p>
+</li>
+<li>
+<p>ripgrep 不會去修改文件（有人用 Vim 來查看而誤按？</p>
+<p>​</p>
+</li>
+</ol>
+<h2 id="gitignore-忽略敏感資訊">gitignore 忽略敏感資訊</h2>
+<p>它可以遵照你在 <strong><code>.gitignore</code></strong>的設定下，進行搜尋會自動忽略 <a href="https://www.wikiwand.com/en/Binary_file">binary(二進位檔案)</a> 和你要查找的檔案，而且是在<strong>預設模式</strong>下就進行這樣的預設設定，真的非常的聰明!!</p>
+<p>在軟體實務開發上，我們不想把 API key 這種敏感、資安的內容放到 Repo 上，也不會想讓它顯示在螢幕，所以 ripgrep 不會去搜尋你忽略的檔案。</p>
+<p>​</p>
+<h2 id="常用的搜尋方式">常用的搜尋方式</h2>
+<p>ripgrep 的二進位名稱是 <strong><code>rg</code></strong>, 所以我們在搜尋任何檔案都會以 rg 起頭。
+如果你之前用過 grep 再使用 ripgrep 真的是無痛轉移！它很多 command 都跟 ripgrep 的原理類似。</p>
+<p>​</p>
+<h4 id="快速入門">－快速入門</h4>
+<ul>
+<li>
+<p><strong><code>ripgrep</code></strong> 指令為 <strong><code>rg</code></strong> 。</p>
+</li>
+<li>
+<p><strong><code>rg PATTERN</code></strong> 這個 PATTERN 就是關鍵字，PATTERN 可以帶入<strong>正規表達式</strong>，會去搜尋當前目錄<strong>所有檔案</strong>含有關鍵字內容的結果。</p>
+</li>
+<li>
+<p><strong><code>rg PATTERN PATH</code></strong> 這個 PATH 就是你指定的檔案(路徑)，去搜尋<strong>特定檔案</strong>中含有關鍵字內容的結果。</p>
+</li>
+<li>
+<p><strong><code>rg OPTIONS PATTERN</code></strong> 結合 OPTIONS(參數)，用特殊的形式去呈現搜尋結果，例如：<strong><code>-c / --count</code></strong> 是匹配行總數。</p>
+<p>​</p>
+</li>
+</ul>
+<h4 id="搜尋字串最簡單">－搜尋字串（最簡單）</h4>
+<p>語法：</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg &lt;pattern&gt; <span style="color:#666">[</span>files/directories<span style="color:#666">]</span>
+</code></pre></div><p>簡單來說就是這樣啦：</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg keyword
+
+<span style="color:#080;font-style:italic"># output</span>
+
+$ rg ripgrepisdope
+ripgrep_01.md <span style="color:#080;font-style:italic"># 哪個檔案</span>
+1221:ripgrepisdope <span style="color:#080;font-style:italic"># 第幾行</span>
+</code></pre></div><p>這是最常見的用法，在當前目前目錄下所有檔案內容中，遞歸搜尋字串。</p>
+<p>「keyword」可以輸入任何你要查找的<strong>關鍵字</strong>。因爲它會去搜尋所有文件，所以你不需要跟它說檔案名稱，如果匹配的話，它還會跟你說在這個檔案的第幾行。今天忘記某個筆記關鍵字是放在哪個文件檔案時這非常有用誒！</p>
+<p>​</p>
+<h4 id="搜尋特定檔案">－搜尋特定檔案</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg ripgrepisdope ripgrep_01.md
+
+<span style="color:#080;font-style:italic"># output</span>
+
+1221:ripgrepisdope
+</code></pre></div><p>使用第二個參數來搜尋特定檔案，這裡的意思就是你要在 <strong><code>ripgrep_01.md</code></strong> 這個 Markdown 檔案中查找 <strong><code>ripgrepisdope</code></strong> 這個關鍵字。</p>
+<p>​</p>
+<h4 id="正規表達式">－正規表達式</h4>
+<p>ripgrep 非常適合來搜尋 <strong>UTF-8 萬國碼(支援 Unicode)</strong>，因為可以使用 <strong>Regular expression(正規表達式)</strong> 來進行進階搜尋，例如：<strong><code>'\w'</code></strong>就會根據 Unicode 的定義匹配出所有字符。</p>
+<p>不過根據我的經驗，除非是真的要在程式碼大海找正規表達式相關的程式碼，不然其實很少用到。</p>
+<p>​</p>
+<h4 id="匹配的行總數">－匹配的行總數</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg -c ripgrepisdope
+
+<span style="color:#080;font-style:italic"># output</span>
+
+ripgrep_04.md:1
+ripgrep_03.md:1
+ripgrep_05.md:1
+ripgrep_01.md:1
+ripgrep_02.md:1
+</code></pre></div><p>在參數上加上 <strong><code>-c</code></strong> 或 <strong><code>--count</code></strong> 就是報告匹配行總數(Report a count of total matched lines)，意思就是所有檔案中有 ripgrepisdope 這個關鍵字的有哪幾個檔案，且行數有幾行。</p>
+<p>有支援行數這參數真的很方便！ripgrep 雖然不能去修改文件，但今天你在開發過程中 Code 都跑不起來或是遇到一些 bug, 除了用 VS Code 去編輯外，如果透過關鍵字找到對應的檔案（例如設定檔），發現後直接在 Terminal 用 Command 開啟 Vim 直接去編輯就好了。</p>
+<p>​</p>
+<h4 id="顯示關鍵字前後的內容">－顯示關鍵字前後的內容</h4>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg -A <span style="color:#666">2</span> ripgrepisdope <span style="color:#080;font-style:italic"># 關鍵字後 2 行的內容</span>
+
+<span style="color:#080;font-style:italic"># output</span>
+
+ripgrep_05.md
+1221:ripgrepisdope
+1222-
+1223-dope
+
+ripgrep_04.md
+1221:ripgrepisdope
+1222-
+1223-
+
+$ rg -B <span style="color:#666">5</span> ripgrepisdope <span style="color:#080;font-style:italic"># 關鍵字前 5 行的內容</span>
+
+<span style="color:#080;font-style:italic"># output</span>
+
+ripgrep_01.md
+1216-
+1217-ag
+1218-
+1219-grep ....
+1220-
+1221:ripgrepisdope
+
+ripgrep_03.md
+1216-
+1217-
+1218-
+1219-
+1220-
+1221:ripgrepisdope
+</code></pre></div><p>參數：</p>
+<ul>
+<li>顯示<strong>關鍵字後</strong>的行數：<strong><code>-A</code></strong> 或 <code>--after-context </code></li>
+<li>顯示<strong>關鍵字前</strong>的行數：<strong><code>-B</code></strong> 或 <code>--before-context</code></li>
+</ul>
+<p>參數後面加上<strong>數值</strong>(例如上述的 2 和 5)，就是告訴它我同時要找關鍵字前 / 後幾行的內容。</p>
+<p>​</p>
+<h2 id="ripgrep-開發過程的插曲">ripgrep 開發過程的插曲</h2>
+<p>現代的知識份子都有文人相輕的習氣、彼此互相嫉妒，而這也發生在 rg 的開發歷程上。</p>
+<p>在 <a href="https://news.ycombinator.com/item?id=12564442">Hacker News</a> 上完整記載了 rg 和 ag(The Silver Searcher) 作者彼此的交流，一開始兩人都在互懟，但到後面態度開始放軟，彼此給予建議合力建造開發者社群最需要的工具，從競爭到合作絕對是開發社群要學習的態度之一。</p>
+<p>上述就是我最常使用的搜尋方式，若想要學習更多搜尋方式可以在 Terminal 透過 <strong><code>rg -h</code></strong> 或<strong><code>rg --help</code></strong> 看更多的介紹，趕快安裝試試看吧 💪🏾💪🏾</p>
+<p>​</p>
+<h2 id="ref">Ref</h2>
+<ul>
+<li><a href="http://heikezhi.com/2011/08/18/why-gnu-grep-is-fast/">why GNU grep is fast</a></li>
+<li><a href="https://www.wikiwand.com/en/Boyer%E2%80%93Moore_string_search_algorithm">Boyer–Moore string-search algorithm</a></li>
+<li><a href="https://www.gnu.org/software/grep/manual/html_node/">GNU grep</a></li>
+<li><a href="https://github.com/BurntSushi/ripgrep">BurntSushi / ripgrep</a>
+<ul>
+<li><a href="https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#user-guide">User Guide</a></li>
+</ul>
+</li>
+<li><a href="https://news.ycombinator.com/item?id=12564442">Hacker News</a></li>
+<li><a href="https://unsplash.com/">Pic - unsplash</a></li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "peterpowerfullife" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  var indexURL = {
+    {
+      "index.json" | absURL
+    }
+  }
+</script>
+
+ <!-- JS Plugins -->
+
+<script src="https://peterpowerfullife.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/mark.js"></script>
+
+<script src="https://peterpowerfullife.com/plugins/search/search.js"></script>
+
+ <!-- Main Script -->
+
+<script src="https://peterpowerfullife.com/js/script.min.js"></script>
+
+
+
+
+</body>
+</html>

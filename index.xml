@@ -443,6 +443,15 @@ Persona(人物誌) 就是用來解決我們對於產品的使用者有不同想�
     </item>
     
     <item>
+      <title>還在使用 grep？試試專門為開發者設計的 Command Line 搜尋工具 - ripgrep</title>
+      <link>https://peterpowerfullife.com/blog/tool-command-line-ripgrep/</link>
+      <pubDate>Tue, 30 Jun 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://peterpowerfullife.com/blog/tool-command-line-ripgrep/</guid>
+      <description>ripgrep(rg) 是一個使用 Rust 程式語言編寫的 Command line 搜尋工具，作者解釋 rip 的意思不是超越、摧毀 grep, 而是 &amp;ldquo;rips through your code very quickly&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>區塊鏈必須有共識才有去中心化，為什麼共識機制這麼難懂？</title>
       <link>https://peterpowerfullife.com/blog/consensus-mechanism/</link>
       <pubDate>Sun, 28 Jun 2020 15:30:00 +0800</pubDate>
