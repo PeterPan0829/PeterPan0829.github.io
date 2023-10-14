@@ -274,10 +274,10 @@
 <p>​</p>
 </li>
 </ul>
-<h4 id="搜尋字串最簡單">－搜尋字串（最簡單）</h4>
+<h4 id="搜尋字串常用最簡單">－搜尋字串（常用、最簡單）</h4>
 <p>語法：</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg &lt;pattern&gt; <span style="color:#666">[</span>files/directories<span style="color:#666">]</span>
-</code></pre></div><p>簡單來說就是這樣啦：</p>
+</code></pre></div><p>簡單來說就是這樣：</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg keyword
 
 <span style="color:#080;font-style:italic"># output</span>
@@ -285,8 +285,8 @@
 $ rg ripgrepisdope
 ripgrep_01.md <span style="color:#080;font-style:italic"># 哪個檔案</span>
 1221:ripgrepisdope <span style="color:#080;font-style:italic"># 第幾行</span>
-</code></pre></div><p>這是最常見的用法，在當前目前目錄下所有檔案內容中，遞歸搜尋字串。</p>
-<p>「keyword」可以輸入任何你要查找的<strong>關鍵字</strong>。因爲它會去搜尋所有文件，所以你不需要跟它說檔案名稱，如果匹配的話，它還會跟你說在這個檔案的第幾行。今天忘記某個筆記關鍵字是放在哪個文件檔案時這非常有用誒！</p>
+</code></pre></div><p>這是最常見的用法，在當前目前目錄下所有檔案內容中遞迴搜尋字串。</p>
+<p>「keyword」可以輸入任何你要查找的<strong>關鍵字</strong>。因爲它會去搜尋所有文件，所以你不需要跟它說檔案名稱，進行搜尋如果匹配的話，它會跟你說在這個檔案的第幾行。今天忘記某個關鍵字是放在哪個筆記文件時非常有用啊！！</p>
 <p>​</p>
 <h4 id="搜尋特定檔案">－搜尋特定檔案</h4>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rg ripgrepisdope ripgrep_01.md
@@ -357,7 +357,7 @@ ripgrep_03.md
 <h2 id="ripgrep-開發過程的插曲">ripgrep 開發過程的插曲</h2>
 <p>現代的知識份子都有文人相輕的習氣、彼此互相嫉妒，而這也發生在 rg 的開發歷程上。</p>
 <p>在 <a href="https://news.ycombinator.com/item?id=12564442">Hacker News</a> 上完整記載了 rg 和 ag(The Silver Searcher) 作者彼此的交流，一開始兩人都在互懟，但到後面態度開始放軟，彼此給予建議合力建造開發者社群最需要的工具，從競爭到合作絕對是開發社群要學習的態度之一。</p>
-<p>上述就是我最常使用的搜尋方式，若想要學習更多搜尋方式可以在 Terminal 透過 <strong><code>rg -h</code></strong> 或<strong><code>rg --help</code></strong> 看更多的介紹，趕快安裝試試看吧 💪🏾💪🏾</p>
+<p><a href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E6%90%9C%E5%B0%8B%E6%96%B9%E5%BC%8F">上述就是我最常使用的搜尋方式</a>，若想要學習更多搜尋方式可以在 Terminal 透過 <strong><code>rg -h</code></strong> 或<strong><code>rg --help</code></strong> 看更多的介紹，趕快安裝試試看吧 💪🏾💪🏾</p>
 <p>​</p>
 <h2 id="ref">Ref</h2>
 <ul>
