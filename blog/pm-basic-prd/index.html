@@ -8,7 +8,7 @@
   <meta name="description" content="廚師有食譜，身為產品經理能沒有 PRD 嗎？">
   <meta name="author" content="Peter">
   
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.155.3">
 
   <!-- plugins -->
   
@@ -37,7 +37,6 @@
 
   gtag('config', 'G-W0GHTGN007');
 </script>
-
 </head>
 <body>
 <!-- preloader start -->
@@ -51,7 +50,7 @@
     
     <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon.ico">
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+      <a class="navbar-brand mobile-view" href="https://peterpowerfullife.com/"><img class="img-fluid"
              src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu h3"></i>
@@ -64,7 +63,7 @@
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="https://peterpowerfullife.com"><img class="img-fluid"
+        <a class="navbar-brand mx-auto desktop-view" href="https://peterpowerfullife.com/"><img class="img-fluid"
                src="https://peterpowerfullife.com/images/Logo%EF%BC%BFopt%EF%BC%BF%E4%BA%BA%E7%94%9F%E5%89%A9%E5%8A%9B%E7%B5%84-resize25.png" alt="#人生剩力組"></a>
 
         <ul class="navbar-nav">
@@ -88,7 +87,7 @@
         <div class="search pl-lg-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="https://peterpowerfullife.com/search" class="h-100">
+            <form action="https://peterpowerfullife.com//search" class="h-100">
               <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -308,8 +307,8 @@
 
         
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
@@ -333,13 +332,78 @@
 </section>
 
 
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+<div class="widget newsletter-widget">
+  <h4 class="widget-title">免費訂閱電子報</h4>
+  <div class="newsletter-form-wrap">
+    
+<form action="#" method="post" class="newsletter-form">
+  <div class="input-group">
+    <input type="email" name="email" class="form-control" placeholder="輸入你的 Email" required aria-label="Email">
+    <div class="input-group-append">
+      <button type="submit" class="btn btn-primary">訂閱</button>
+    </div>
+  </div>
+</form>
+<p class="mt-2 small text-muted">訂閱後請至信箱點擊驗證連結完成訂閱。</p>
 
-<script>
-  var indexURL = {
-    {
-      "index.json" | absURL
+  </div>
+</div>
+<style>
+   
+  .newsletter-form-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .newsletter-form-wrap .input-group {
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+  .newsletter-form-wrap .form-control {
+    min-width: 0;
+  }
+  .newsletter-form-wrap .btn {
+    white-space: nowrap;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+  .newsletter-form-wrap .small.text-muted {
+    margin-top: 0.5rem;
+  }
+   
+  @media (min-width: 992px) {
+    .col-lg-4 .newsletter-form-wrap {
+      max-width: 280px;
     }
   }
+   
+  @media (min-width: 992px) {
+    .about-newsletter-wrap .newsletter-form-wrap {
+      max-width: 400px;
+    }
+  }
+  @media (max-width: 991px) {
+    .about-newsletter-wrap .newsletter-form-wrap,
+    .col-lg-4 .newsletter-form-wrap {
+      max-width: 100%;
+    }
+  }
+</style>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  var indexURL = "https:\/\/peterpowerfullife.com\/index.json";
 </script>
 
  <!-- JS Plugins -->

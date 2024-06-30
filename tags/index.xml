@@ -4,11 +4,8 @@
     <title>Tags on #人生剩力組</title>
     <link>https://peterpowerfullife.com/tags/</link>
     <description>Recent content in Tags on #人生剩力組</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
-    
-	<atom:link href="https://peterpowerfullife.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://peterpowerfullife.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

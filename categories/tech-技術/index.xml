@@ -4,71 +4,51 @@
     <title>Tech 技術 on #人生剩力組</title>
     <link>https://peterpowerfullife.com/categories/tech-%E6%8A%80%E8%A1%93/</link>
     <description>Recent content in Tech 技術 on #人生剩力組</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 12 Aug 2022 15:30:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://peterpowerfullife.com/categories/tech-%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://peterpowerfullife.com/categories/tech-%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udemy 不能截圖？只需 1 步驟即可恢復截圖功能！</title>
       <link>https://peterpowerfullife.com/blog/how-to-solve-udemy-platform-block-screenshot/</link>
       <pubDate>Fri, 12 Aug 2022 15:30:00 +0800</pubDate>
-      
       <guid>https://peterpowerfullife.com/blog/how-to-solve-udemy-platform-block-screenshot/</guid>
-      <description>COVID-19(嚴重特殊傳染性肺炎）的全球大流行，迫使學校、公家機關亦或是民間單位，將教學指導轉移到網路上，想必你也常常透過線上課程來進行自學吧？
-在 COVID-19 之前，Education Technology 就已經有高速的增長，無論是 Virtual Tutoring(虛擬輔導)、Video conferencing tools(Ex: Google meet、Zoom)、Online learning software(線上學習軟體)還有語言學習 APP 等。只是在疫情大流行之後，在接受度及使用量又有大幅的增長。</description>
+      <description>&lt;p&gt;COVID-19(嚴重特殊傳染性肺炎）的全球大流行，迫使學校、公家機關亦或是民間單位，將教學指導轉移到網路上，想必你也常常透過線上課程來進行自學吧？&lt;/p&gt;&#xA;&lt;p&gt;在 COVID-19 之前，&lt;a href=&#34;https://www.wikiwand.com/en/Educational_technology&#34;&gt;Education Technology&lt;/a&gt; 就已經有高速的增長，無論是 Virtual Tutoring(虛擬輔導)、Video conferencing tools(Ex: Google meet、Zoom)、Online learning software(線上學習軟體)還有語言學習 APP 等。只是在疫情大流行之後，在接受度及使用量又有大幅的增長。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IoT 的基礎知識 - RSSI</title>
       <link>https://peterpowerfullife.com/blog/tech-rssi/</link>
       <pubDate>Mon, 18 Apr 2022 15:30:00 +0800</pubDate>
-      
       <guid>https://peterpowerfullife.com/blog/tech-rssi/</guid>
-      <description>Foreword:
-目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - RSSI(Received Signal Strength IndicationI), 還有容易造成混淆的 dBm 名詞。</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Foreword:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;目前工作上負責一個基於 Beacon 技術的 IoT 產品，但這篇文章只會單純講述信號強度 - &lt;em&gt;RSSI(Received Signal Strength IndicationI)&lt;/em&gt;, 還有容易造成混淆的 dBm 名詞。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2022 年網站開發的基準（The baseline for web development in 2022）</title>
       <link>https://peterpowerfullife.com/blog/baseline-forweb-development-in-2022/</link>
       <pubDate>Fri, 28 Jan 2022 15:30:00 +0800</pubDate>
-      
       <guid>https://peterpowerfullife.com/blog/baseline-forweb-development-in-2022/</guid>
-      <description>本篇文章是由 Line 前端工程師 - Alan Dávalos 所分享，這裡只有節錄幾個重點，想看更多細節可以看原始的文章唷
- ​</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;本篇文章是由 Line 前端工程師 - &lt;a href=&#34;https://engineering.linecorp.com/en/blog/the-baseline-for-web-development-in-2022/&#34;&gt;Alan Dávalos 所分享&lt;/a&gt;，這裡只有節錄幾個重點，想看更多細節可以看原始的文章唷&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#internet-explorer-%E7%80%8F%E8%A6%BD%E5%99%A8%E5%AE%A3%E5%91%8A%E9%80%80%E5%BD%B9&#34;&gt;Internet Explorer 瀏覽器宣告退役&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#web-standard-%E6%B8%AC%E8%A9%A6&#34;&gt;Web Standard 測試&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#others&#34;&gt;Others&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GitHub 不能再使用密碼驗證，你有更好的選澤 - SSH Key</title>
       <link>https://peterpowerfullife.com/blog/github-shut-down-password/</link>
       <pubDate>Sat, 14 Aug 2021 15:30:00 +0800</pubDate>
-      
       <guid>https://peterpowerfullife.com/blog/github-shut-down-password/</guid>
-      <description>目錄   阿北出事了
-  真香！官方教學設定 SSH Key 還有 Token</description>
+      <description>&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E9%98%BF%E5%8C%97%E5%87%BA%E4%BA%8B%E4%BA%86&#34;&gt;阿北出事了&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%9C%9F%E9%A6%99%E5%AE%98%E6%96%B9%E6%95%99%E5%AD%B8%E8%A8%AD%E5%AE%9A-ssh-key-%E9%82%84%E6%9C%89-token&#34;&gt;真香！官方教學設定 SSH Key 還有 Token&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%9B%BE%E8%A8%AD%E5%AE%9A-ssh-key-%E5%8F%AA%E8%A6%81%E4%B8%80%E8%A1%8C-command-%E5%B0%B1%E8%A7%A3%E6%B1%BA%E9%80%99%E5%95%8F%E9%A1%8C&#34;&gt;曾設定 SSH Key 只要一行 Command 就解決這問題&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>npkill - 如何快速刪除 node_modules</title>
       <link>https://peterpowerfullife.com/blog/tech-npm-npkill/</link>
       <pubDate>Fri, 18 Jun 2021 15:30:00 +0800</pubDate>
-      
       <guid>https://peterpowerfullife.com/blog/tech-npm-npkill/</guid>
-      <description>隨著所開發的專案日益增加，散佈在各處的 node_modules 檔案也越來越多，而這些專案多到你早就忘記放在哪了 &amp;hellip;
-一起來認識 npkill，讓我輕鬆快速刪除了 5.8 GB 的 node_modules 檔案。</description>
+      <description>&lt;p&gt;隨著所開發的專案日益增加，散佈在各處的 node_modules 檔案也越來越多，而這些專案多到你早就忘記放在哪了 &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;一起來認識 npkill，讓我輕鬆快速刪除了 &lt;strong&gt;5.8 GB&lt;/strong&gt; 的 node_modules 檔案。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>還在使用 grep？試試專門為開發者設計的 Command Line 搜尋工具 - ripgrep</title>
       <link>https://peterpowerfullife.com/blog/tool-command-line-ripgrep/</link>
       <pubDate>Tue, 30 Jun 2020 15:30:00 +0800</pubDate>
-      
       <guid>https://peterpowerfullife.com/blog/tool-command-line-ripgrep/</guid>
-      <description>ripgrep(rg) 是一個使用 Rust 程式語言編寫的 Command line 搜尋工具，作者解釋 rip 的意思不是超越、摧毀 grep, 而是 &amp;ldquo;rips through your code very quickly&amp;rdquo;.</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34;&gt;ripgrep(rg)&lt;/a&gt;&lt;/strong&gt; 是一個使用 &lt;a href=&#34;https://www.wikiwand.com/en/Rust%20(programming%20language)&#34;&gt;Rust&lt;/a&gt; 程式語言編寫的 Command line 搜尋工具，作者解釋 rip 的意思不是超越、摧毀 grep, 而是 &lt;strong&gt;&amp;ldquo;rips through your code very quickly&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
