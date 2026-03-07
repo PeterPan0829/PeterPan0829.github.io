@@ -1,33 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>SEO 搜尋引擎最佳化 on #人生剩力組</title>
-    <link>https://peterpowerfullife.com/categories/seo-%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96/</link>
-    <description>Recent content in SEO 搜尋引擎最佳化 on #人生剩力組</description>
-    <generator>Hugo</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 Dec 2021 15:30:00 +0800</lastBuildDate>
-    <atom:link href="https://peterpowerfullife.com/categories/seo-%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>【SEO】搜尋引擎優化，懂這 3 點就夠了（下集）</title>
-      <link>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-two/</link>
-      <pubDate>Sun, 19 Dec 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-two/</guid>
-      <description>&lt;p&gt;SEO(Search Engine Optimization, 搜尋引擎優化) 是提供 &lt;strong&gt;「有價值的結果」&lt;/strong&gt; 給 &lt;strong&gt;「消費者搜尋」&lt;/strong&gt; 的機器。&lt;/p&gt;&#xA;&lt;p&gt;其細節運作是透過搜尋引擎認可的運作規則、方法，去&lt;strong&gt;收錄結果 - 檢索、索引&lt;/strong&gt; ；而在瀏覽器搜尋&lt;strong&gt;呈現的結果就是 - 排名機制。&lt;/strong&gt; 在搜尋結果上取得排名，藉以獲得更多的自然流量 (Organic Traffic)，爭取網站本身與品牌曝光。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【SEO】搜尋引擎優化，懂這 3 點就夠了（上集）</title>
-      <link>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-one/</link>
-      <pubDate>Thu, 02 Dec 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-one/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;SEO(Search Engine Optimization, 搜尋引擎優化)&lt;/strong&gt;，是透過搜尋引擎認可的運作規則、方法，在搜尋結果上取得排名，藉以獲得更多的自然流量 (Organic Traffic)，爭取網站本身與品牌曝光。&lt;/p&gt;&#xA;&lt;p&gt;如果只是要自己架網站或初步入門 SEO 這個坑，了解檢索、索引和排名機制就夠了 😼 😼&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【SEO】改善圖片，優化搜尋引擎</title>
-      <link>https://peterpowerfullife.com/blog/seo-image-howto-optimize-image-for-seo/</link>
-      <pubDate>Sat, 03 Jul 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/seo-image-howto-optimize-image-for-seo/</guid>
-      <description>&lt;p&gt;如果你本身是 Blogger 或是雜誌編輯、報社工作人員等文字工作者，都需要透過圖片來提高視覺感受、輔助說明，這時候怎麼使用圖像來提升 &lt;a href=&#34;https://www.wikiwand.com/en/Findability&#34;&gt;Findability(可查找性、可發現性)&lt;/a&gt; 和網頁運作速度，就是一個必學的課題了。&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E4%BD%BF%E7%94%A8%E5%9C%96%E7%89%87&#34;&gt;為什麼要使用圖片？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%9C%96%E7%89%87%E6%9C%89%E5%8A%A9%E6%96%BC-seo-%E6%98%AF%E4%BB%80%E9%BA%BC%E5%8E%9F%E7%90%86&#34;&gt;圖片有助於 SEO 是什麼原理？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%8F%AA%E6%9C%89%E9%81%A9%E5%90%88%E7%9A%84%E6%A0%BC%E5%BC%8F%E6%B2%92%E6%9C%89%E6%AD%A3%E7%A2%BA%E7%9A%84%E5%9C%96%E7%89%87%E6%A0%BC%E5%BC%8F&#34;&gt;只有適合的格式，沒有正確的圖片格式&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SEO 搜尋引擎最佳化 on #人生剩力組</title><link>https://peterpowerfullife.com/categories/seo-%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96/</link><description>Recent content in SEO 搜尋引擎最佳化 on #人生剩力組</description><generator>Hugo</generator><language>zh-tw</language><lastBuildDate>Sun, 19 Dec 2021 15:30:00 +0800</lastBuildDate><atom:link href="https://peterpowerfullife.com/categories/seo-%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>【SEO】搜尋引擎優化，懂這 3 點就夠了（下集）</title><link>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-two/</link><pubDate>Sun, 19 Dec 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-two/</guid><description>&lt;p&gt;SEO(Search Engine Optimization, 搜尋引擎優化) 是提供 &lt;strong&gt;「有價值的結果」&lt;/strong&gt; 給 &lt;strong&gt;「消費者搜尋」&lt;/strong&gt; 的機器。&lt;/p&gt;
+&lt;p&gt;其細節運作是透過搜尋引擎認可的運作規則、方法，去&lt;strong&gt;收錄結果 - 檢索、索引&lt;/strong&gt; ；而在瀏覽器搜尋&lt;strong&gt;呈現的結果就是 - 排名機制。&lt;/strong&gt; 在搜尋結果上取得排名，藉以獲得更多的自然流量 (Organic Traffic)，爭取網站本身與品牌曝光。&lt;/p&gt;</description></item><item><title>【SEO】搜尋引擎優化，懂這 3 點就夠了（上集）</title><link>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-one/</link><pubDate>Thu, 02 Dec 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/seo-beginner-getting-started-part-one/</guid><description>&lt;p&gt;&lt;strong&gt;SEO(Search Engine Optimization, 搜尋引擎優化)&lt;/strong&gt;，是透過搜尋引擎認可的運作規則、方法，在搜尋結果上取得排名，藉以獲得更多的自然流量 (Organic Traffic)，爭取網站本身與品牌曝光。&lt;/p&gt;
+&lt;p&gt;如果只是要自己架網站或初步入門 SEO 這個坑，了解檢索、索引和排名機制就夠了 😼 😼&lt;/p&gt;</description></item><item><title>【SEO】改善圖片，優化搜尋引擎</title><link>https://peterpowerfullife.com/blog/seo-image-howto-optimize-image-for-seo/</link><pubDate>Sat, 03 Jul 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/seo-image-howto-optimize-image-for-seo/</guid><description>&lt;p&gt;如果你本身是 Blogger 或是雜誌編輯、報社工作人員等文字工作者，都需要透過圖片來提高視覺感受、輔助說明，這時候怎麼使用圖像來提升 &lt;a href="https://www.wikiwand.com/en/Findability"&gt;Findability(可查找性、可發現性)&lt;/a&gt; 和網頁運作速度，就是一個必學的課題了。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E4%BD%BF%E7%94%A8%E5%9C%96%E7%89%87"&gt;為什麼要使用圖片？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E5%9C%96%E7%89%87%E6%9C%89%E5%8A%A9%E6%96%BC-seo-%E6%98%AF%E4%BB%80%E9%BA%BC%E5%8E%9F%E7%90%86"&gt;圖片有助於 SEO 是什麼原理？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E5%8F%AA%E6%9C%89%E9%81%A9%E5%90%88%E7%9A%84%E6%A0%BC%E5%BC%8F%E6%B2%92%E6%9C%89%E6%AD%A3%E7%A2%BA%E7%9A%84%E5%9C%96%E7%89%87%E6%A0%BC%E5%BC%8F"&gt;只有適合的格式，沒有正確的圖片格式&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

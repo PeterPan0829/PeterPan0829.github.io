@@ -1,68 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Web3 / Blockchain on #人生剩力組</title>
-    <link>https://peterpowerfullife.com/categories/web3-/-blockchain/</link>
-    <description>Recent content in Web3 / Blockchain on #人生剩力組</description>
-    <generator>Hugo</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Sat, 09 Sep 2023 15:30:00 +0800</lastBuildDate>
-    <atom:link href="https://peterpowerfullife.com/categories/web3-/-blockchain/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OTC 場外交易 - 為什麼加密貨幣還可以臨櫃交易？</title>
-      <link>https://peterpowerfullife.com/blog/what-is-otc-transaction/</link>
-      <pubDate>Sat, 09 Sep 2023 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/what-is-otc-transaction/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;OTC（Over-The-Counter, 場外交易）&lt;/strong&gt; 也被稱為&lt;strong&gt;櫃台交易、詢價交易&lt;/strong&gt;。是指不在集中市場進行撮合買賣，而是由交易雙方自行協商價格完成交易。在加密貨幣的世界裡，場內交易與場外交易的「場」，就是指交易所。&lt;/p&gt;&#xA;&lt;p&gt;投資經理人、大型交易所或是持有大量加密貨幣資產的大散戶都非常喜歡 OTC 這個交易服務，因為它沒有一個公開的交易帳本，所以極度隱私，而且比較沒有滑動價差(Slippage, 價格滑點) 的問題，&lt;strong&gt;最大的優勢在於交易快速、靈活且匿名不公開。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#otc-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%84%AA%E9%BB%9E%E9%80%99%E9%A0%85%E6%9C%8D%E5%8B%99%E6%98%AF%E6%80%8E%E9%BA%BC%E8%AA%95%E7%94%9F%E7%9A%84&#34;&gt;OTC 有什麼優點？這項服務是怎麼誕生的？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>實戰 Web3 - 我第一個失敗的 NFT 專案</title>
-      <link>https://peterpowerfullife.com/blog/my-first-failed-web3-project/</link>
-      <pubDate>Mon, 05 Sep 2022 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/my-first-failed-web3-project/</guid>
-      <description>&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;服用須知&#34;&gt;服用須知&lt;/h2&gt;&#xA;&lt;p&gt;我上一份工作主要負責 OMO 結合 Beacon 應用的產品經理，但公司有各(雜)式(7)各(雜)樣(8)的產品和合作專案（公司甚至還有開餐廳呢 &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;在 Web3 領域，本身一直都有在自學、參與讀書會，但一直都沒有機會實際參與相關的產品、專案，在當時任職的公司剛好有機會能夠參與這個 NFT 專案，當下真的是樂極了！&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>區塊鏈技術好難懂？帶你讀中本聰比特幣白皮書</title>
-      <link>https://peterpowerfullife.com/blog/satoshi-nakamoto-electronic-cash-white-paper/</link>
-      <pubDate>Sun, 05 Jul 2020 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/satoshi-nakamoto-electronic-cash-white-paper/</guid>
-      <description>&lt;p&gt;在區塊鏈、加密貨幣領域，你一定要認識被稱為「比特幣之父」的 &lt;strong&gt;Satoshi Nakamoto(中本聰)&lt;/strong&gt; 。&lt;/p&gt;&#xA;&lt;p&gt;比特幣發展到至今，中本聰的身世一直是個謎，他的「尋人啟事」就留給政府監管單位去煩惱，我們應該深入了解他在 2008 年 10 月 31 日發表的論文：&lt;em&gt;&lt;strong&gt;《Bitcoin: A Peer-to-Peer Electronic Cash System》&lt;/strong&gt;&lt;/em&gt;。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>區塊鏈必須有共識才有去中心化，為什麼共識機制這麼難懂？</title>
-      <link>https://peterpowerfullife.com/blog/consensus-mechanism/</link>
-      <pubDate>Sun, 28 Jun 2020 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/consensus-mechanism/</guid>
-      <description>&lt;p&gt;我覺得學習區塊鏈、加密貨幣的難處跟初期接觸股票、外匯的感覺很像，在你還沒把錢存到銀行交割戶之前看再多書都沒啥感覺。今天你要買 100 股不小心按成 100「張」，這時你的交割戶銀行會打電話來催你補錢進去；而加密貨幣除非你今天用的是中心化交易所（例如：&lt;a href=&#34;https://max.maicoin.com/&#34;&gt;Max 交易所 - MaiCoin&lt;/a&gt; / &lt;a href=&#34;https://ace.io/&#34;&gt;ACE 王牌加密貨幣交易所&lt;/a&gt;），不然根本沒有人會跟你講交易上的細節。&lt;/p&gt;&#xA;&lt;p&gt;所以在正式買賣加密貨幣前一定要做功課，網路上看到的任何文章、教學絕對不能照著操作，你必須要有自己個人的見解、看法，才知道該買哪一種幣，需不需要買個冷錢包(若是做長期投資)等等。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>交易前必須學會的工具：區塊鏈瀏覽器</title>
-      <link>https://peterpowerfullife.com/blog/what-is-blockchain-explorer/</link>
-      <pubDate>Fri, 12 Jun 2020 14:27:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/what-is-blockchain-explorer/</guid>
-      <description>&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-blockchain-explorer%E5%8D%80%E5%A1%8A%E7%80%8F%E8%A6%BD%E5%99%A8&#34;&gt;什麼是 Blockchain Explorer(區塊瀏覽器)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E9%A0%90%E9%98%B2%E8%A9%90%E9%A8%99&#34;&gt;預防詐騙&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%8D%80%E5%A1%8A%E9%8F%88%E7%80%8F%E8%A6%BD%E5%99%A8%E4%B8%A6%E4%B8%8D%E5%BB%BA%E7%AB%8B%E5%9C%A8%E5%85%AC%E9%8F%88&#34;&gt;區塊鏈瀏覽器並不建立在公鏈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%8D%80%E5%A1%8A%E9%8F%88%E7%80%8F%E8%A6%BD%E5%99%A8%E5%8F%AF%E4%BB%A5%E6%9F%A5%E8%A9%A2%E5%93%AA%E4%BA%9B%E8%B3%87%E8%A8%8A&#34;&gt;區塊鏈瀏覽器可以查詢哪些資訊？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88%E7%80%8F%E8%A6%BD%E5%99%A8&#34;&gt;最好用的區塊鏈瀏覽器？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;什麼是-blockchain-explorer區塊瀏覽器&#34;&gt;什麼是 Blockchain Explorer(區塊瀏覽器)&lt;/h2&gt;&#xA;&lt;p&gt;現今的日常生活中，我們若對一個概念、名詞不認識都會去 Google 一下，要查看 Web 3.0 區塊鏈網絡的特定內容就要使用區塊鏈專屬的瀏覽器 - &lt;strong&gt;Blockchain Explorer(區塊鏈瀏覽器)&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>你也玩謎戀貓嗎？從 ERC 標準認識 NFT</title>
-      <link>https://peterpowerfullife.com/blog/what-is-nft/</link>
-      <pubDate>Sun, 07 Jun 2020 14:27:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/what-is-nft/</guid>
-      <description>&lt;p&gt;​&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;NFT (Non-Fungible Token, 非同質化代幣)&lt;/strong&gt; 是一種在區塊鏈中獨一無二的數字資產，具有獨特的價值和身份。NFT 是下一個風口，因為它在藝術、遊戲和金融領域等多個行業都有廣泛的應用潛力，可以為創作者和投資者帶來新的機會和收益。&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%A5%E5%A4%AA%E5%9D%8A%E4%BB%A3%E5%B9%A3%E7%9A%84%E6%A8%99%E6%BA%96---erc&#34;&gt;以太坊代幣的標準 - ERC&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%90%8C%E5%80%BC%E5%8C%96%E4%BB%A3%E5%B9%A3ft-fungible-token&#34;&gt;同值化代幣(FT, Fungible Token)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-nft-non-fungible-token-%E9%9D%9E%E5%90%8C%E8%B3%AA%E5%8C%96%E4%BB%A3%E5%B9%A3&#34;&gt;什麼是 NFT (Non-Fungible Token, 非同質化代幣)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%B5%90%E8%AB%96&#34;&gt;結論&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>解析智能合約在區塊鏈的運作原理</title>
-      <link>https://peterpowerfullife.com/blog/what-is-smart-contract-and-how-does-it-work/</link>
-      <pubDate>Thu, 28 May 2020 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/what-is-smart-contract-and-how-does-it-work/</guid>
-      <description>&lt;p&gt;智能合約是在區塊鏈上運作的&lt;strong&gt;自動化、不可更改的程式碼&lt;/strong&gt;，可以根據程式碼的條件和規則自動執行特定的交易或功能，也就是&lt;strong&gt;由程式自動執行的合約&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://twitter.com/NickSzabo4?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E485970285254815745%7Ctwgr%5E472e1cc7e3bd8fcd0a12e634c32b8abb30414d59%7Ctwcon%5Es1_&amp;amp;ref_url=https%3A%2F%2Fwww.blocktempo.com%2Felon-musk-thinks-nick-szabo-created-bitcoin%2F&#34;&gt;Nick Szabo&lt;/a&gt; 這位密碼學專家在 1994 年前後的&lt;a href=&#34;https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html&#34;&gt;研究論文&lt;/a&gt;就有提到智能合約，它結合密碼學、去中心化元素， 在中本聰之前就提過 “Bit Gold” 的概念，他的研究工作可以說直接或間接影響比特幣、Ethereum(以太坊) 的設計。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TxStreet：新手輕鬆學 Blockchain(區塊鏈)</title>
-      <link>https://peterpowerfullife.com/blog/easy-learn-blockchain/</link>
-      <pubDate>Sun, 17 May 2020 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/easy-learn-blockchain/</guid>
-      <description>&lt;p&gt;區塊鏈世界艱澀難懂嗎？先從有趣的應用來認識它吧！&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://txstreet.com/&#34;&gt;TxStreet&lt;/a&gt;&lt;/strong&gt; 這個網頁可以說是加密貨幣世界的&lt;a href=&#34;https://apps.apple.com/tw/app/%E8%82%A1%E5%B8%82%E5%A4%A7%E5%AF%8C%E7%BF%81/id1407093082&#34;&gt;股市大富翁&lt;/a&gt;，&lt;strong&gt;Tx&lt;/strong&gt; 表示 &lt;strong&gt;Transaction(交易)&lt;/strong&gt;，它的特色是呈現幾乎真實的市場交易環境，用搭車、視覺化的方式，將加密貨幣交易的狀況生動地展示運作過程。&lt;/p&gt;&#xA;&lt;p&gt;這裡我們不看較艱深的技術面、運作原理和專有名詞，需要做的就是進到 TxStreet 頁面點選每一個看到的圖案、元件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%9C%8B%E5%9C%96%E8%AA%AA%E6%95%85%E4%BA%8B&#34;&gt;看圖說故事&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web3 / Blockchain on #人生剩力組</title><link>https://peterpowerfullife.com/categories/web3-/-blockchain/</link><description>Recent content in Web3 / Blockchain on #人生剩力組</description><generator>Hugo</generator><language>zh-tw</language><lastBuildDate>Sat, 09 Sep 2023 15:30:00 +0800</lastBuildDate><atom:link href="https://peterpowerfullife.com/categories/web3-/-blockchain/index.xml" rel="self" type="application/rss+xml"/><item><title>OTC 場外交易 - 為什麼加密貨幣還可以臨櫃交易？</title><link>https://peterpowerfullife.com/blog/what-is-otc-transaction/</link><pubDate>Sat, 09 Sep 2023 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/what-is-otc-transaction/</guid><description>&lt;p&gt;&lt;strong&gt;OTC（Over-The-Counter, 場外交易）&lt;/strong&gt; 也被稱為&lt;strong&gt;櫃台交易、詢價交易&lt;/strong&gt;。是指不在集中市場進行撮合買賣，而是由交易雙方自行協商價格完成交易。在加密貨幣的世界裡，場內交易與場外交易的「場」，就是指交易所。&lt;/p&gt;
+&lt;p&gt;投資經理人、大型交易所或是持有大量加密貨幣資產的大散戶都非常喜歡 OTC 這個交易服務，因為它沒有一個公開的交易帳本，所以極度隱私，而且比較沒有滑動價差(Slippage, 價格滑點) 的問題，&lt;strong&gt;最大的優勢在於交易快速、靈活且匿名不公開。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#otc-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%84%AA%E9%BB%9E%E9%80%99%E9%A0%85%E6%9C%8D%E5%8B%99%E6%98%AF%E6%80%8E%E9%BA%BC%E8%AA%95%E7%94%9F%E7%9A%84"&gt;OTC 有什麼優點？這項服務是怎麼誕生的？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>實戰 Web3 - 我第一個失敗的 NFT 專案</title><link>https://peterpowerfullife.com/blog/my-first-failed-web3-project/</link><pubDate>Mon, 05 Sep 2022 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/my-first-failed-web3-project/</guid><description>&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="服用須知"&gt;服用須知&lt;/h2&gt;
+&lt;p&gt;我上一份工作主要負責 OMO 結合 Beacon 應用的產品經理，但公司有各(雜)式(7)各(雜)樣(8)的產品和合作專案（公司甚至還有開餐廳呢 &amp;hellip;&lt;/p&gt;
+&lt;p&gt;在 Web3 領域，本身一直都有在自學、參與讀書會，但一直都沒有機會實際參與相關的產品、專案，在當時任職的公司剛好有機會能夠參與這個 NFT 專案，當下真的是樂極了！&lt;/p&gt;</description></item><item><title>區塊鏈技術好難懂？帶你讀中本聰比特幣白皮書</title><link>https://peterpowerfullife.com/blog/satoshi-nakamoto-electronic-cash-white-paper/</link><pubDate>Sun, 05 Jul 2020 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/satoshi-nakamoto-electronic-cash-white-paper/</guid><description>&lt;p&gt;在區塊鏈、加密貨幣領域，你一定要認識被稱為「比特幣之父」的 &lt;strong&gt;Satoshi Nakamoto(中本聰)&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;比特幣發展到至今，中本聰的身世一直是個謎，他的「尋人啟事」就留給政府監管單位去煩惱，我們應該深入了解他在 2008 年 10 月 31 日發表的論文：&lt;em&gt;&lt;strong&gt;《Bitcoin: A Peer-to-Peer Electronic Cash System》&lt;/strong&gt;&lt;/em&gt;。&lt;/p&gt;</description></item><item><title>區塊鏈必須有共識才有去中心化，為什麼共識機制這麼難懂？</title><link>https://peterpowerfullife.com/blog/consensus-mechanism/</link><pubDate>Sun, 28 Jun 2020 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/consensus-mechanism/</guid><description>&lt;p&gt;我覺得學習區塊鏈、加密貨幣的難處跟初期接觸股票、外匯的感覺很像，在你還沒把錢存到銀行交割戶之前看再多書都沒啥感覺。今天你要買 100 股不小心按成 100「張」，這時你的交割戶銀行會打電話來催你補錢進去；而加密貨幣除非你今天用的是中心化交易所（例如：&lt;a href="https://max.maicoin.com/"&gt;Max 交易所 - MaiCoin&lt;/a&gt; / &lt;a href="https://ace.io/"&gt;ACE 王牌加密貨幣交易所&lt;/a&gt;），不然根本沒有人會跟你講交易上的細節。&lt;/p&gt;
+&lt;p&gt;所以在正式買賣加密貨幣前一定要做功課，網路上看到的任何文章、教學絕對不能照著操作，你必須要有自己個人的見解、看法，才知道該買哪一種幣，需不需要買個冷錢包(若是做長期投資)等等。&lt;/p&gt;</description></item><item><title>交易前必須學會的工具：區塊鏈瀏覽器</title><link>https://peterpowerfullife.com/blog/what-is-blockchain-explorer/</link><pubDate>Fri, 12 Jun 2020 14:27:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/what-is-blockchain-explorer/</guid><description>&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-blockchain-explorer%E5%8D%80%E5%A1%8A%E7%80%8F%E8%A6%BD%E5%99%A8"&gt;什麼是 Blockchain Explorer(區塊瀏覽器)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E9%A0%90%E9%98%B2%E8%A9%90%E9%A8%99"&gt;預防詐騙&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E5%8D%80%E5%A1%8A%E9%8F%88%E7%80%8F%E8%A6%BD%E5%99%A8%E4%B8%A6%E4%B8%8D%E5%BB%BA%E7%AB%8B%E5%9C%A8%E5%85%AC%E9%8F%88"&gt;區塊鏈瀏覽器並不建立在公鏈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E5%8D%80%E5%A1%8A%E9%8F%88%E7%80%8F%E8%A6%BD%E5%99%A8%E5%8F%AF%E4%BB%A5%E6%9F%A5%E8%A9%A2%E5%93%AA%E4%BA%9B%E8%B3%87%E8%A8%8A"&gt;區塊鏈瀏覽器可以查詢哪些資訊？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E6%9C%80%E5%A5%BD%E7%94%A8%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88%E7%80%8F%E8%A6%BD%E5%99%A8"&gt;最好用的區塊鏈瀏覽器？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="什麼是-blockchain-explorer區塊瀏覽器"&gt;什麼是 Blockchain Explorer(區塊瀏覽器)&lt;/h2&gt;
+&lt;p&gt;現今的日常生活中，我們若對一個概念、名詞不認識都會去 Google 一下，要查看 Web 3.0 區塊鏈網絡的特定內容就要使用區塊鏈專屬的瀏覽器 - &lt;strong&gt;Blockchain Explorer(區塊鏈瀏覽器)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>你也玩謎戀貓嗎？從 ERC 標準認識 NFT</title><link>https://peterpowerfullife.com/blog/what-is-nft/</link><pubDate>Sun, 07 Jun 2020 14:27:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/what-is-nft/</guid><description>&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NFT (Non-Fungible Token, 非同質化代幣)&lt;/strong&gt; 是一種在區塊鏈中獨一無二的數字資產，具有獨特的價值和身份。NFT 是下一個風口，因為它在藝術、遊戲和金融領域等多個行業都有廣泛的應用潛力，可以為創作者和投資者帶來新的機會和收益。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E4%BB%A5%E5%A4%AA%E5%9D%8A%E4%BB%A3%E5%B9%A3%E7%9A%84%E6%A8%99%E6%BA%96---erc"&gt;以太坊代幣的標準 - ERC&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E5%90%8C%E5%80%BC%E5%8C%96%E4%BB%A3%E5%B9%A3ft-fungible-token"&gt;同值化代幣(FT, Fungible Token)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-nft-non-fungible-token-%E9%9D%9E%E5%90%8C%E8%B3%AA%E5%8C%96%E4%BB%A3%E5%B9%A3"&gt;什麼是 NFT (Non-Fungible Token, 非同質化代幣)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%B5%90%E8%AB%96"&gt;結論&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item><item><title>解析智能合約在區塊鏈的運作原理</title><link>https://peterpowerfullife.com/blog/what-is-smart-contract-and-how-does-it-work/</link><pubDate>Thu, 28 May 2020 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/what-is-smart-contract-and-how-does-it-work/</guid><description>&lt;p&gt;智能合約是在區塊鏈上運作的&lt;strong&gt;自動化、不可更改的程式碼&lt;/strong&gt;，可以根據程式碼的條件和規則自動執行特定的交易或功能，也就是&lt;strong&gt;由程式自動執行的合約&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/NickSzabo4?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E485970285254815745%7Ctwgr%5E472e1cc7e3bd8fcd0a12e634c32b8abb30414d59%7Ctwcon%5Es1_&amp;amp;ref_url=https%3A%2F%2Fwww.blocktempo.com%2Felon-musk-thinks-nick-szabo-created-bitcoin%2F"&gt;Nick Szabo&lt;/a&gt; 這位密碼學專家在 1994 年前後的&lt;a href="https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html"&gt;研究論文&lt;/a&gt;就有提到智能合約，它結合密碼學、去中心化元素， 在中本聰之前就提過 “Bit Gold” 的概念，他的研究工作可以說直接或間接影響比特幣、Ethereum(以太坊) 的設計。&lt;/p&gt;</description></item><item><title>TxStreet：新手輕鬆學 Blockchain(區塊鏈)</title><link>https://peterpowerfullife.com/blog/easy-learn-blockchain/</link><pubDate>Sun, 17 May 2020 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/easy-learn-blockchain/</guid><description>&lt;p&gt;區塊鏈世界艱澀難懂嗎？先從有趣的應用來認識它吧！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://txstreet.com/"&gt;TxStreet&lt;/a&gt;&lt;/strong&gt; 這個網頁可以說是加密貨幣世界的&lt;a href="https://apps.apple.com/tw/app/%E8%82%A1%E5%B8%82%E5%A4%A7%E5%AF%8C%E7%BF%81/id1407093082"&gt;股市大富翁&lt;/a&gt;，&lt;strong&gt;Tx&lt;/strong&gt; 表示 &lt;strong&gt;Transaction(交易)&lt;/strong&gt;，它的特色是呈現幾乎真實的市場交易環境，用搭車、視覺化的方式，將加密貨幣交易的狀況生動地展示運作過程。&lt;/p&gt;
+&lt;p&gt;這裡我們不看較艱深的技術面、運作原理和專有名詞，需要做的就是進到 TxStreet 頁面點選每一個看到的圖案、元件。&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E7%9C%8B%E5%9C%96%E8%AA%AA%E6%95%85%E4%BA%8B"&gt;看圖說故事&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

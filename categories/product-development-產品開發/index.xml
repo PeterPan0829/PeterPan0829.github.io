@@ -1,152 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Product Development 產品開發 on #人生剩力組</title>
-    <link>https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/</link>
-    <description>Recent content in Product Development 產品開發 on #人生剩力組</description>
-    <generator>Hugo</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Tue, 18 Oct 2022 15:30:00 +0800</lastBuildDate>
-    <atom:link href="https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>產品經理應該站在 RD 的角度描述產品需求</title>
-      <link>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</link>
-      <pubDate>Tue, 18 Oct 2022 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</guid>
-      <description>&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E2%80%8Bfeature-%E5%92%8C-user-story-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%B7%AE%E5%88%A5-&#34;&gt;​Feature 和 User Story 有什麼差別？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E9%82%A3-epic-%E5%8F%88%E6%98%AF%E4%BB%80%E9%BA%BC&#34;&gt;那 Epic 又是什麼?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%99%82%E5%80%99%E7%94%A8-user-story-epic-&#34;&gt;什麼時候用 User Story, Epic ?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%89%80%E4%BB%A5%E5%85%B6%E5%AF%A6%E4%BD%A0%E5%8F%AF%E4%BB%A5%E9%80%99%E6%A8%A3%E8%B7%9F-rd-%E6%BA%9D%E9%80%9A&#34;&gt;所以其實你可以這樣跟 RD 溝通&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Impossible Trinity(三元悖論) - 產品經理必定面臨的難處</title>
-      <link>https://peterpowerfullife.com/blog/project-mundellian-trilemma/</link>
-      <pubDate>Sat, 25 Jun 2022 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/project-mundellian-trilemma/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://peterpowerfullife.com/blog/projectmanager-and-jobdetail/#%E5%8F%B0%E7%81%A3%E7%92%B0%E5%A2%83%E7%9A%84-pm--product--project-&#34;&gt;在台灣許多公司環境，PM 是不分產品或是專案的，甚至還要去管理 DevOps 維運，這問題牽扯到很多層面。&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;身為產品經理 / 專案經理的你，向利害關係人（老闆 / 客戶）闡述完你接下來要做的事期，他們一定都會跟你說：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;兩個 Sprint 才能完成的功項，給我壓縮到一個 Sprint&lt;/li&gt;&#xA;&lt;li&gt;成本最好壓低一點，最低價最好是能再砍個三分之一&lt;/li&gt;&#xA;&lt;li&gt;系統功能的交互 Loading 不能大於 2 秒&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;這些問題都發生在產品經理的工作日常上。初入行的產品經理遇到上述的問題，當下可能會非常地懊惱，最後想不出辦法只能默默接受 &amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【生活中的產品經理】－NFL 七冠的 Tom Brady 在團隊會是什麼樣的產品經理？</title>
-      <link>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</link>
-      <pubDate>Thu, 10 Feb 2022 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Foreword:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;我一直都是 &lt;strong&gt;&lt;a href=&#34;https://www.nfl.com/teams/las-vegas-raiders/&#34;&gt;Las Vegas Raiders&lt;/a&gt;&lt;/strong&gt; 的球迷，但本身對美式足球沒有像 NBA, MLB 還有 MMA 這麼感興趣，通常只會看每年的 Super Bowl 或一些 Highlight, 螢幕前的讀者若是 Tom Brady 的死忠粉絲請別太認真呀 😅 😅&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StartUp 的 Prioritization(優先級策略) 和你想的不一樣</title>
-      <link>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</link>
-      <pubDate>Sat, 18 Dec 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</guid>
-      <description>&lt;p&gt;在產品開發團隊當中，不管有沒有跑敏捷開發，產品經理無時無刻都會遇到一個問題：&lt;strong&gt;如何排定開發項目? 什麼時候會開發完成?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;這裏談的不是日常上 Sprint 要開發的功能，而是&lt;strong&gt;新創公司在 Early-stage 階段，針對產品還沒有找到 &lt;a href=&#34;https://www.wikiwand.com/en/Product/market_fit&#34;&gt;PMF(Product-Market Fit)&lt;/a&gt; 之前，擬定 Prioritization(優先級策略) 該注意的幾個重點。&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>選擇大於努力，產品經理如何選擇公司？</title>
-      <link>https://peterpowerfullife.com/blog/pdm-howto-choose-company/</link>
-      <pubDate>Thu, 25 Nov 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/pdm-howto-choose-company/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;選擇大於努力，選擇不對，努力白費！&lt;/p&gt;&#xA;&lt;p&gt;有沒有什麼方式能在面試階段好好認識公司，去選擇匹配自己的公司文化、適合自己的職務？&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;大部分的人選擇一間公司最基本會透過幾個象限來做選擇：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;B2C硬體產品&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;iPhone、Samsung 手機&lt;/li&gt;&#xA;&lt;li&gt;家用電器：例如冷氣機、洗衣機&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;B2B硬體產品&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工業用機器：例如生產線上的自動化設備&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;B2C軟體產品&lt;/strong&gt;：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>你正在開發軟體產品嗎？別忘了 SLA 協定！</title>
-      <link>https://peterpowerfullife.com/blog/service-level-agreement/</link>
-      <pubDate>Fri, 29 Oct 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/service-level-agreement/</guid>
-      <description>&lt;p&gt;日前在協助公司銷售產品，除了 Sales 幫忙推產品之外，我也參與了一項有關政府的相關計畫，因而得知 &lt;strong&gt;&lt;a href=&#34;https://www.wikiwand.com/en/Service-level_agreement&#34;&gt;SLA(Service Level Agreement, 服務等級協定)&lt;/a&gt;&lt;/strong&gt; 這個名詞。&lt;/p&gt;&#xA;&lt;p&gt;認識的同業朋友圈當中，也沒人聽過這東西，還以為是跟 Blockchain, Metaverse 有關（近期太多新名詞了 XD&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>善用你的技術力，產品經理和工程師協作必須知道的事</title>
-      <link>https://peterpowerfullife.com/blog/howto-working-with-engineers/</link>
-      <pubDate>Wed, 21 Jul 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/howto-working-with-engineers/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;沒有技術背景能夠當產品經理嗎？&lt;/li&gt;&#xA;&lt;li&gt;沒有技術背景如何和工程師協作？&lt;/li&gt;&#xA;&lt;li&gt;所以產品經理要會技術嗎？達到哪種程度才行？&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;以上大概是許多人一直都有的疑問。擁有技術背景讓我在團隊溝通及協作上有非常大的幫助，但產品經理最重要的並不是會「技術」這個技能，希望以下的資訊希望對你有些幫助。&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%B8%85%E6%A5%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AE%9A%E4%BD%8D&#34;&gt;清楚自己的定位&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#over-communication%E9%81%8E%E5%BA%A6%E6%BA%9D%E9%80%9A&#34;&gt;Over-Communication（過度溝通）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%87%82%E6%8A%80%E8%A1%93%E5%B0%8D%E7%94%A2%E5%93%81%E7%B6%93%E7%90%86%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B9%AB%E5%8A%A9&#34;&gt;懂技術對產品經理有哪些幫助？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#rd-%E4%B8%8D%E6%98%AF%E4%BD%A0%E7%9A%84-ubereats&#34;&gt;RD 不是你的 UberEats&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%BE%B5%E6%89%8D%E6%96%B9%E6%83%B3%E8%A6%81%E6%89%BE%E6%87%82%E6%8A%80%E8%A1%93%E7%9A%84%E7%94%A2%E5%93%81%E7%B6%93%E7%90%86%E6%98%AF%E4%BB%80%E9%BA%BC%E5%BF%83%E6%85%8B&#34;&gt;徵才方想要找「懂技術的產品經理」是什麼心態？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何快速認識一個產品 - Usability Testing（易用性測試）</title>
-      <link>https://peterpowerfullife.com/blog/howto-know-the-product/</link>
-      <pubDate>Wed, 07 Jul 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/howto-know-the-product/</guid>
-      <description>&lt;p&gt;當你 &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;要優化一個產品，你必須先對這個產品有所認識&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;用戶反應產品體驗差，那要怎麼查看產品出了什麼問題？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;團隊沒有設計師，你怎麼確認產品的 UI / UX 沒問題？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這裡好好來認識一下 10 大易用性原則，以及淺談 &lt;strong&gt;Heuristic evaluation(啟發式評估)&lt;/strong&gt; 和 &lt;strong&gt;Usability testing(易用性測試)&lt;/strong&gt;，而他們又有什麼差異？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>產品經理的硬實力 - 最清楚易懂的競品分析</title>
-      <link>https://peterpowerfullife.com/blog/pm-basic-competitive-analysis/</link>
-      <pubDate>Thu, 01 Jul 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/pm-basic-competitive-analysis/</guid>
-      <description>&lt;p&gt;如果看完前面分享過的 &lt;strong&gt;&lt;a href=&#34;https://peterpowerfullife.com/blog/pm-basic-persona/&#34;&gt;Persona&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;https://peterpowerfullife.com/blog/pm-basic-user-journey-map/&#34;&gt;User Journey Map&lt;/a&gt;&lt;/strong&gt; 後，想必你對自身產品絕對有足夠的認識，理解競品分析之前可以問問自己這幾個問題：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;我的產品潛在用戶已經找到他們所需要的產品、服務了嗎？&lt;/li&gt;&#xA;&lt;li&gt;分析競品之前，我真的完全&lt;strong&gt;清楚自己&lt;/strong&gt;產品的定位、優劣勢嗎？&lt;/li&gt;&#xA;&lt;li&gt;除了我的產品之外，還有其他公司 &lt;strong&gt;正在做（想要做）&lt;/strong&gt; 和我同性質的產品嗎？&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;沒錯，在競品分析之前，你要先認識自己本身再來對外研究分析。&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>產品經理的硬實力 - User Journey Map(用戶體驗地圖)</title>
-      <link>https://peterpowerfullife.com/blog/pm-basic-user-journey-map/</link>
-      <pubDate>Wed, 23 Jun 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/pm-basic-user-journey-map/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://peterpowerfullife.com/blog/pm-basic-persona/&#34;&gt;前面提過&lt;/a&gt;，進入產品開發之前，我們需要做好一個產品策略，而了解產品的潛在用戶是誰還不夠，&lt;strong&gt;因為一頁式的 Persona 只是純粹形容這個用戶是誰、有哪些特徵、行為目的等。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;可是 Persona 並沒有具體記載&lt;strong&gt;一個用戶使用產品的前、中、後時間軸&lt;/strong&gt;，此時我們就需要 &lt;strong&gt;User Journey Map(用戶體驗地圖, UJM)&lt;/strong&gt; 來幫助我們透析一個用戶使用產品的週期，這是用同理心以用戶角度去觀察使用產品的旅程。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>產品經理的硬實力 - Persona(人物誌)</title>
-      <link>https://peterpowerfullife.com/blog/pm-basic-persona/</link>
-      <pubDate>Tue, 15 Jun 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/pm-basic-persona/</guid>
-      <description>&lt;p&gt;在產品開發的前期，我們需要做好一個產品策略，而建立產品策略的第一步，就是要了解產品的潛在用戶是誰。&lt;/p&gt;&#xA;&lt;p&gt;試著想一下，今天你要做一個&lt;strong&gt;叫車服務平台&lt;/strong&gt;，心中理想的產品會長怎樣呢？開車的駕駛是誰？乘客族群的年齡區間？&lt;/p&gt;&#xA;&lt;p&gt;這問題如果去問身邊的朋友、工作團隊的夥伴，相信會得到各種不同的答案 &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Persona(人物誌)&lt;/strong&gt; 就是用來解決我們對於產品的使用者有不同想法、認知的問題，是設計師梳理、設計流程的工具外，同時也是產品經理訂定產品策略很重要的環節。&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-persona%E4%BA%BA%E7%89%A9%E8%AA%8C-&#34;&gt;什麼是 Persona(人物誌) ？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>貓抓老鼠的故事 - 產品經理如何和 QA 合作？</title>
-      <link>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</link>
-      <pubDate>Tue, 01 Jun 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</guid>
-      <description>&lt;p&gt;標題雖為產品經理如何和 &lt;strong&gt;QA(Quality Assurance)&lt;/strong&gt; 合作，&#xA;但實際上應是 PM 如何和整個團隊協作才是，此篇文章純粹紀錄團隊和 QA 之間的協作，以及自己經歷的相關紀錄。&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%B8%AC%E8%A9%A6%E9%A0%85%E7%9B%AE%E4%B8%8D%E6%98%8E%E7%A2%BA--%E5%BD%BC%E6%AD%A4%E7%9A%84%E8%AA%A4%E8%A7%A3&#34;&gt;測試項目不明確 / 彼此的誤解&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%B8%8D%E5%88%87%E5%AF%A6%E9%9A%9B%E7%9A%84%E6%99%82%E7%A8%8B&#34;&gt;不切實際的時程&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#retro%E4%B9%9F%E4%B8%8D%E8%A6%81%E8%90%BD%E6%8E%89qa%E7%9A%84%E7%92%B0%E7%AF%80&#34;&gt;Retro也不要落掉QA的環節&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>產品經理的硬實力 - PRD(產品需求規格書)</title>
-      <link>https://peterpowerfullife.com/blog/pm-basic-prd/</link>
-      <pubDate>Thu, 20 May 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/pm-basic-prd/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;PRD（Product Requirements Document）產品需求規格書是什麼？它是做一道菜所需要的食譜 &amp;hellip;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;開出一份合格的 PRD 是產品經理的基本功、硬實力（不過我認為這當中也牽涉到軟實力的養成）之一。&lt;/p&gt;&#xA;&lt;p&gt;廚師出菜都有食譜了，開發一個產品 PM 怎能沒有 PRD 呢？所以在產品開發及現有產品優化、迭代，我們都需要寫好一份 PRD。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>3 個切入點，為產品找出市場機會</title>
-      <link>https://peterpowerfullife.com/blog/what-is-market-and-product-psychology/</link>
-      <pubDate>Mon, 17 May 2021 18:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/what-is-market-and-product-psychology/</guid>
-      <description>&lt;p&gt;職涯中有幸參與大大小小的產品開發、規劃，而成功上市的產品解決了哪些問題？有哪些共通點呢？&lt;/p&gt;&#xA;&lt;p&gt;有些產品本身有很多問題，但還是有龐大的死忠客戶；&#xA;有些產品本身的價格在市面上比其他競品還要高，但還是有客戶願意買單，了解產品心理學，在市場找到突破點是每位產品經理的任務之一。&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%B8%82%E5%A0%B4%E6%98%AF%E4%BB%80%E9%BA%BC&#34;&gt;市場是什麼？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%97%9B%E9%BB%9E%E6%81%90%E6%87%BC&#34;&gt;痛點（恐懼）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%99%A2%E9%BB%9E%E6%86%A7%E6%86%AC%E4%B8%AD%E7%9A%84%E8%87%AA%E6%88%91%E5%B9%BB%E6%83%B3&#34;&gt;癢點（憧憬中的自我幻想）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%88%BD%E9%BB%9E%E9%9C%80%E6%B1%82%E8%83%BD%E5%8D%B3%E6%99%82%E6%BB%BF%E8%B6%B3&#34;&gt;爽點（需求能即時滿足）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#b2b-%E7%94%A2%E5%93%81%E6%B3%A8%E9%87%8D%E7%97%9B%E9%BB%9Eb2c-%E5%89%87%E6%98%AF%E7%88%BD%E9%BB%9E&#34;&gt;B2B 產品注重痛點；B2C 則是爽點&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%94%A8%E6%88%B6%E6%80%9D%E7%B6%AD%E5%B0%B1%E6%98%AF%E6%90%9E%E6%87%82%E7%94%A8%E6%88%B6%E6%83%85%E7%B7%92&#34;&gt;用戶思維就是搞懂用戶情緒&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【生活中的產品經理】－彼得剪髮紀（需求溝通）</title>
-      <link>https://peterpowerfullife.com/blog/life-pm-haircut/</link>
-      <pubDate>Sat, 03 Apr 2021 15:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/life-pm-haircut/</guid>
-      <description>&lt;p&gt;在軟體開發領域的團隊當中常常要和團隊的夥伴（RD, QA, Marketing &amp;hellip;）溝通需求，但不論今天你的職務、年紀，其實都需要「溝通」這項技能。&lt;/p&gt;&#xA;&lt;p&gt;只是因為習慣了工作、生活，我們會覺得這不是一個技能，&#xA;「溝通」一個需求、「描述」一個問題等，都需要良好的敘事能力，才能傳達正確的資訊進而解決問題、放大產出。&lt;/p&gt;&#xA;&lt;p&gt;我常常會在生活中去&lt;strong&gt;練習溝通&lt;/strong&gt;，在各大小會議前先做個會前會、和設計師溝通剪出適合自己的髮型。&lt;/p&gt;&#xA;&lt;p&gt;一同來起來看看生活中的產品經理 - 彼得剪髮紀 XD&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>為什麼 RD 需要搞懂商業邏輯？</title>
-      <link>https://peterpowerfullife.com/blog/rd-must-to-know-business-logic/</link>
-      <pubDate>Thu, 25 Mar 2021 11:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/rd-must-to-know-business-logic/</guid>
-      <description>&lt;p&gt;以前端開發者的角度來看，其實前端不懂商業邏輯也不影響功能開發，因為只要：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PM 把 Spec 開好&lt;/li&gt;&#xA;&lt;li&gt;Designer 把 Mockup 弄出來&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;實作前再過一次功能互動，其實大部分就可以實現了（剩下技術問題），那為什麼做技術研發，要搞懂商業邏輯呢？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>產品生命週期不同階段需要留意哪些事?</title>
-      <link>https://peterpowerfullife.com/blog/product-lifecycle/</link>
-      <pubDate>Mon, 01 Mar 2021 18:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/product-lifecycle/</guid>
-      <description>&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E5%B0%8F%E6%95%85%E4%BA%8B&#34;&gt;生活中的小故事&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F%E7%9A%84%E5%AE%9A%E7%BE%A9&#34;&gt;生命週期的定義&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%94%A2%E5%93%81%E7%9A%84%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F&#34;&gt;產品的生命週期&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;生活中的小故事&#34;&gt;生活中的小故事&lt;/h2&gt;&#xA;&lt;p&gt;在探討 &lt;strong&gt;Product Lifecycle(產品生命週期)&lt;/strong&gt; 之前，我們可以想想手機用戶買 Apple 新手機的問題：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>數位化轉型不可不知 Domain Driven Design</title>
-      <link>https://peterpowerfullife.com/blog/domain-driven-design-01/</link>
-      <pubDate>Fri, 19 Feb 2021 18:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/domain-driven-design-01/</guid>
-      <description>&lt;p&gt;在數位化轉型的過程中，熱愛你產品的所屬產業、認識你既有的產品領域，不僅是 PM, 更是每位夥伴都該有的共識。&lt;/p&gt;&#xA;&lt;p&gt;工作經驗當中，打造新產品或是把當前既有的服務做&lt;strong&gt;數位化轉型&lt;/strong&gt;，在做數位化轉型如果懂得 DDD（Domain Driven Design），&#xA;這對產品開發有絕對的幫助，甚至可以少浪費一些時間去摸索原先的服務（流程、習慣、文化） &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;這篇文章主要是探討數位化轉型的過程，以及開始進入軟體開發的初期階段需要留意的細節。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>開發軟體產品前請先搞懂 Design System</title>
-      <link>https://peterpowerfullife.com/blog/design-system/</link>
-      <pubDate>Mon, 15 Feb 2021 11:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/design-system/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本身不是專業設計師，僅和設計師合作所學到的經驗來做記錄和分享，若有得罪之處和誤解，請見諒～&#xA;​&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-design-system&#34;&gt;什麼是 Design System？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#design-system-%E7%9A%84%E5%84%AA%E7%BC%BA%E9%BB%9E&#34;&gt;Design System 的優缺點？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%82%BA%E4%BB%80%E9%BA%BC%E6%89%93%E9%80%A0%E8%BB%9F%E9%AB%94%E7%94%A2%E5%93%81%E5%89%8D%E6%9C%80%E5%A5%BD%E5%85%88%E6%90%9E%E6%87%82-design-system&#34;&gt;為什麼打造軟體產品前最好先搞懂 Design System？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%A6%82%E4%BD%95%E5%BB%BA%E6%A7%8B-design-system&#34;&gt;如何建構 Design System？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E9%87%8D%E9%A0%AD%E5%81%9A%E4%B8%80%E6%AC%A1%E7%B5%95%E5%B0%8D%E4%B8%8D%E8%A6%81%E5%86%8D%E7%99%BC%E7%94%9F%E9%80%99%E4%BA%9B%E4%BA%8B&#34;&gt;重頭做一次，絕對不要再發生這些事&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Prototype Mystery</title>
-      <link>https://peterpowerfullife.com/blog/prototype/</link>
-      <pubDate>Mon, 21 Dec 2020 18:30:00 +0800</pubDate>
-      <guid>https://peterpowerfullife.com/blog/prototype/</guid>
-      <description>&lt;p&gt;​&lt;/p&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-prototype&#34;&gt;什麼是 Prototype?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E7%82%BA%E4%BB%80%E9%BA%BC%E9%9C%80%E8%A6%81-prototype&#34;&gt;為什麼需要 Prototype?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%A8%A1%E6%93%AC-scenario&#34;&gt;模擬 Scenario&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#visualization&#34;&gt;Visualization&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#high--low-fidelity-prototype&#34;&gt;High &amp;amp; Low Fidelity Prototype&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#usability-testing%E6%98%93%E7%94%A8%E6%80%A7%E6%B8%AC%E8%A9%A6&#34;&gt;Usability Testing（易用性測試）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%9C%80%E5%BE%8C%E7%9A%84%E6%9C%80%E5%BE%8C&#34;&gt;最後的最後&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Product Development 產品開發 on #人生剩力組</title><link>https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/</link><description>Recent content in Product Development 產品開發 on #人生剩力組</description><generator>Hugo</generator><language>zh-tw</language><lastBuildDate>Tue, 18 Oct 2022 15:30:00 +0800</lastBuildDate><atom:link href="https://peterpowerfullife.com/categories/product-development-%E7%94%A2%E5%93%81%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>產品經理應該站在 RD 的角度描述產品需求</title><link>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</link><pubDate>Tue, 18 Oct 2022 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/difference-between-userstories-and-features/</guid><description>&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E2%80%8Bfeature-%E5%92%8C-user-story-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%B7%AE%E5%88%A5-"&gt;​Feature 和 User Story 有什麼差別？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E9%82%A3-epic-%E5%8F%88%E6%98%AF%E4%BB%80%E9%BA%BC"&gt;那 Epic 又是什麼?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E4%BB%80%E9%BA%BC%E6%99%82%E5%80%99%E7%94%A8-user-story-epic-"&gt;什麼時候用 User Story, Epic ?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E6%89%80%E4%BB%A5%E5%85%B6%E5%AF%A6%E4%BD%A0%E5%8F%AF%E4%BB%A5%E9%80%99%E6%A8%A3%E8%B7%9F-rd-%E6%BA%9D%E9%80%9A"&gt;所以其實你可以這樣跟 RD 溝通&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item><item><title>The Impossible Trinity(三元悖論) - 產品經理必定面臨的難處</title><link>https://peterpowerfullife.com/blog/project-mundellian-trilemma/</link><pubDate>Sat, 25 Jun 2022 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/project-mundellian-trilemma/</guid><description>&lt;p&gt;&lt;a href="https://peterpowerfullife.com/blog/projectmanager-and-jobdetail/#%E5%8F%B0%E7%81%A3%E7%92%B0%E5%A2%83%E7%9A%84-pm--product--project-"&gt;在台灣許多公司環境，PM 是不分產品或是專案的，甚至還要去管理 DevOps 維運，這問題牽扯到很多層面。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;身為產品經理 / 專案經理的你，向利害關係人（老闆 / 客戶）闡述完你接下來要做的事期，他們一定都會跟你說：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;兩個 Sprint 才能完成的功項，給我壓縮到一個 Sprint&lt;/li&gt;
+&lt;li&gt;成本最好壓低一點，最低價最好是能再砍個三分之一&lt;/li&gt;
+&lt;li&gt;系統功能的交互 Loading 不能大於 2 秒&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;這些問題都發生在產品經理的工作日常上。初入行的產品經理遇到上述的問題，當下可能會非常地懊惱，最後想不出辦法只能默默接受 &amp;hellip;&lt;/p&gt;</description></item><item><title>【生活中的產品經理】－NFL 七冠的 Tom Brady 在團隊會是什麼樣的產品經理？</title><link>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</link><pubDate>Thu, 10 Feb 2022 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/life-pm-if-tom-brady-is-product-manager/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Foreword:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我一直都是 &lt;strong&gt;&lt;a href="https://www.nfl.com/teams/las-vegas-raiders/"&gt;Las Vegas Raiders&lt;/a&gt;&lt;/strong&gt; 的球迷，但本身對美式足球沒有像 NBA, MLB 還有 MMA 這麼感興趣，通常只會看每年的 Super Bowl 或一些 Highlight, 螢幕前的讀者若是 Tom Brady 的死忠粉絲請別太認真呀 😅 😅&lt;/p&gt;</description></item><item><title>StartUp 的 Prioritization(優先級策略) 和你想的不一樣</title><link>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</link><pubDate>Sat, 18 Dec 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/startup-product-manager-prioritization/</guid><description>&lt;p&gt;在產品開發團隊當中，不管有沒有跑敏捷開發，產品經理無時無刻都會遇到一個問題：&lt;strong&gt;如何排定開發項目? 什麼時候會開發完成?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這裏談的不是日常上 Sprint 要開發的功能，而是&lt;strong&gt;新創公司在 Early-stage 階段，針對產品還沒有找到 &lt;a href="https://www.wikiwand.com/en/Product/market_fit"&gt;PMF(Product-Market Fit)&lt;/a&gt; 之前，擬定 Prioritization(優先級策略) 該注意的幾個重點。&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>選擇大於努力，產品經理如何選擇公司？</title><link>https://peterpowerfullife.com/blog/pdm-howto-choose-company/</link><pubDate>Thu, 25 Nov 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/pdm-howto-choose-company/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;選擇大於努力，選擇不對，努力白費！&lt;/p&gt;
+&lt;p&gt;有沒有什麼方式能在面試階段好好認識公司，去選擇匹配自己的公司文化、適合自己的職務？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大部分的人選擇一間公司最基本會透過幾個象限來做選擇：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;B2C硬體產品&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone、Samsung 手機&lt;/li&gt;
+&lt;li&gt;家用電器：例如冷氣機、洗衣機&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;B2B硬體產品&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;工業用機器：例如生產線上的自動化設備&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;B2C軟體產品&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>你正在開發軟體產品嗎？別忘了 SLA 協定！</title><link>https://peterpowerfullife.com/blog/service-level-agreement/</link><pubDate>Fri, 29 Oct 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/service-level-agreement/</guid><description>&lt;p&gt;日前在協助公司銷售產品，除了 Sales 幫忙推產品之外，我也參與了一項有關政府的相關計畫，因而得知 &lt;strong&gt;&lt;a href="https://www.wikiwand.com/en/Service-level_agreement"&gt;SLA(Service Level Agreement, 服務等級協定)&lt;/a&gt;&lt;/strong&gt; 這個名詞。&lt;/p&gt;
+&lt;p&gt;認識的同業朋友圈當中，也沒人聽過這東西，還以為是跟 Blockchain, Metaverse 有關（近期太多新名詞了 XD&lt;/p&gt;</description></item><item><title>善用你的技術力，產品經理和工程師協作必須知道的事</title><link>https://peterpowerfullife.com/blog/howto-working-with-engineers/</link><pubDate>Wed, 21 Jul 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/howto-working-with-engineers/</guid><description>&lt;ol&gt;
+&lt;li&gt;沒有技術背景能夠當產品經理嗎？&lt;/li&gt;
+&lt;li&gt;沒有技術背景如何和工程師協作？&lt;/li&gt;
+&lt;li&gt;所以產品經理要會技術嗎？達到哪種程度才行？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上大概是許多人一直都有的疑問。擁有技術背景讓我在團隊溝通及協作上有非常大的幫助，但產品經理最重要的並不是會「技術」這個技能，希望以下的資訊希望對你有些幫助。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E6%B8%85%E6%A5%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AE%9A%E4%BD%8D"&gt;清楚自己的定位&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#over-communication%E9%81%8E%E5%BA%A6%E6%BA%9D%E9%80%9A"&gt;Over-Communication（過度溝通）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E6%87%82%E6%8A%80%E8%A1%93%E5%B0%8D%E7%94%A2%E5%93%81%E7%B6%93%E7%90%86%E6%9C%89%E5%93%AA%E4%BA%9B%E5%B9%AB%E5%8A%A9"&gt;懂技術對產品經理有哪些幫助？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#rd-%E4%B8%8D%E6%98%AF%E4%BD%A0%E7%9A%84-ubereats"&gt;RD 不是你的 UberEats&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E5%BE%B5%E6%89%8D%E6%96%B9%E6%83%B3%E8%A6%81%E6%89%BE%E6%87%82%E6%8A%80%E8%A1%93%E7%9A%84%E7%94%A2%E5%93%81%E7%B6%93%E7%90%86%E6%98%AF%E4%BB%80%E9%BA%BC%E5%BF%83%E6%85%8B"&gt;徵才方想要找「懂技術的產品經理」是什麼心態？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item><item><title>如何快速認識一個產品 - Usability Testing（易用性測試）</title><link>https://peterpowerfullife.com/blog/howto-know-the-product/</link><pubDate>Wed, 07 Jul 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/howto-know-the-product/</guid><description>&lt;p&gt;當你 &amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;要優化一個產品，你必須先對這個產品有所認識&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用戶反應產品體驗差，那要怎麼查看產品出了什麼問題？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;團隊沒有設計師，你怎麼確認產品的 UI / UX 沒問題？&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這裡好好來認識一下 10 大易用性原則，以及淺談 &lt;strong&gt;Heuristic evaluation(啟發式評估)&lt;/strong&gt; 和 &lt;strong&gt;Usability testing(易用性測試)&lt;/strong&gt;，而他們又有什麼差異？&lt;/p&gt;</description></item><item><title>產品經理的硬實力 - 最清楚易懂的競品分析</title><link>https://peterpowerfullife.com/blog/pm-basic-competitive-analysis/</link><pubDate>Thu, 01 Jul 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/pm-basic-competitive-analysis/</guid><description>&lt;p&gt;如果看完前面分享過的 &lt;strong&gt;&lt;a href="https://peterpowerfullife.com/blog/pm-basic-persona/"&gt;Persona&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href="https://peterpowerfullife.com/blog/pm-basic-user-journey-map/"&gt;User Journey Map&lt;/a&gt;&lt;/strong&gt; 後，想必你對自身產品絕對有足夠的認識，理解競品分析之前可以問問自己這幾個問題：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;我的產品潛在用戶已經找到他們所需要的產品、服務了嗎？&lt;/li&gt;
+&lt;li&gt;分析競品之前，我真的完全&lt;strong&gt;清楚自己&lt;/strong&gt;產品的定位、優劣勢嗎？&lt;/li&gt;
+&lt;li&gt;除了我的產品之外，還有其他公司 &lt;strong&gt;正在做（想要做）&lt;/strong&gt; 和我同性質的產品嗎？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;沒錯，在競品分析之前，你要先認識自己本身再來對外研究分析。&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>產品經理的硬實力 - User Journey Map(用戶體驗地圖)</title><link>https://peterpowerfullife.com/blog/pm-basic-user-journey-map/</link><pubDate>Wed, 23 Jun 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/pm-basic-user-journey-map/</guid><description>&lt;p&gt;&lt;a href="https://peterpowerfullife.com/blog/pm-basic-persona/"&gt;前面提過&lt;/a&gt;，進入產品開發之前，我們需要做好一個產品策略，而了解產品的潛在用戶是誰還不夠，&lt;strong&gt;因為一頁式的 Persona 只是純粹形容這個用戶是誰、有哪些特徵、行為目的等。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可是 Persona 並沒有具體記載&lt;strong&gt;一個用戶使用產品的前、中、後時間軸&lt;/strong&gt;，此時我們就需要 &lt;strong&gt;User Journey Map(用戶體驗地圖, UJM)&lt;/strong&gt; 來幫助我們透析一個用戶使用產品的週期，這是用同理心以用戶角度去觀察使用產品的旅程。&lt;/p&gt;</description></item><item><title>產品經理的硬實力 - Persona(人物誌)</title><link>https://peterpowerfullife.com/blog/pm-basic-persona/</link><pubDate>Tue, 15 Jun 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/pm-basic-persona/</guid><description>&lt;p&gt;在產品開發的前期，我們需要做好一個產品策略，而建立產品策略的第一步，就是要了解產品的潛在用戶是誰。&lt;/p&gt;
+&lt;p&gt;試著想一下，今天你要做一個&lt;strong&gt;叫車服務平台&lt;/strong&gt;，心中理想的產品會長怎樣呢？開車的駕駛是誰？乘客族群的年齡區間？&lt;/p&gt;
+&lt;p&gt;這問題如果去問身邊的朋友、工作團隊的夥伴，相信會得到各種不同的答案 &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Persona(人物誌)&lt;/strong&gt; 就是用來解決我們對於產品的使用者有不同想法、認知的問題，是設計師梳理、設計流程的工具外，同時也是產品經理訂定產品策略很重要的環節。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-persona%E4%BA%BA%E7%89%A9%E8%AA%8C-"&gt;什麼是 Persona(人物誌) ？&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>貓抓老鼠的故事 - 產品經理如何和 QA 合作？</title><link>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</link><pubDate>Tue, 01 Jun 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/pm-how-to-collaborative-with-qa/</guid><description>&lt;p&gt;標題雖為產品經理如何和 &lt;strong&gt;QA(Quality Assurance)&lt;/strong&gt; 合作，
+但實際上應是 PM 如何和整個團隊協作才是，此篇文章純粹紀錄團隊和 QA 之間的協作，以及自己經歷的相關紀錄。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E6%B8%AC%E8%A9%A6%E9%A0%85%E7%9B%AE%E4%B8%8D%E6%98%8E%E7%A2%BA--%E5%BD%BC%E6%AD%A4%E7%9A%84%E8%AA%A4%E8%A7%A3"&gt;測試項目不明確 / 彼此的誤解&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E4%B8%8D%E5%88%87%E5%AF%A6%E9%9A%9B%E7%9A%84%E6%99%82%E7%A8%8B"&gt;不切實際的時程&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#retro%E4%B9%9F%E4%B8%8D%E8%A6%81%E8%90%BD%E6%8E%89qa%E7%9A%84%E7%92%B0%E7%AF%80"&gt;Retro也不要落掉QA的環節&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item><item><title>產品經理的硬實力 - PRD(產品需求規格書)</title><link>https://peterpowerfullife.com/blog/pm-basic-prd/</link><pubDate>Thu, 20 May 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/pm-basic-prd/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;PRD（Product Requirements Document）產品需求規格書是什麼？它是做一道菜所需要的食譜 &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;開出一份合格的 PRD 是產品經理的基本功、硬實力（不過我認為這當中也牽涉到軟實力的養成）之一。&lt;/p&gt;
+&lt;p&gt;廚師出菜都有食譜了，開發一個產品 PM 怎能沒有 PRD 呢？所以在產品開發及現有產品優化、迭代，我們都需要寫好一份 PRD。&lt;/p&gt;</description></item><item><title>3 個切入點，為產品找出市場機會</title><link>https://peterpowerfullife.com/blog/what-is-market-and-product-psychology/</link><pubDate>Mon, 17 May 2021 18:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/what-is-market-and-product-psychology/</guid><description>&lt;p&gt;職涯中有幸參與大大小小的產品開發、規劃，而成功上市的產品解決了哪些問題？有哪些共通點呢？&lt;/p&gt;
+&lt;p&gt;有些產品本身有很多問題，但還是有龐大的死忠客戶；
+有些產品本身的價格在市面上比其他競品還要高，但還是有客戶願意買單，了解產品心理學，在市場找到突破點是每位產品經理的任務之一。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E5%B8%82%E5%A0%B4%E6%98%AF%E4%BB%80%E9%BA%BC"&gt;市場是什麼？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%97%9B%E9%BB%9E%E6%81%90%E6%87%BC"&gt;痛點（恐懼）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%99%A2%E9%BB%9E%E6%86%A7%E6%86%AC%E4%B8%AD%E7%9A%84%E8%87%AA%E6%88%91%E5%B9%BB%E6%83%B3"&gt;癢點（憧憬中的自我幻想）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%88%BD%E9%BB%9E%E9%9C%80%E6%B1%82%E8%83%BD%E5%8D%B3%E6%99%82%E6%BB%BF%E8%B6%B3"&gt;爽點（需求能即時滿足）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#b2b-%E7%94%A2%E5%93%81%E6%B3%A8%E9%87%8D%E7%97%9B%E9%BB%9Eb2c-%E5%89%87%E6%98%AF%E7%88%BD%E9%BB%9E"&gt;B2B 產品注重痛點；B2C 則是爽點&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%94%A8%E6%88%B6%E6%80%9D%E7%B6%AD%E5%B0%B1%E6%98%AF%E6%90%9E%E6%87%82%E7%94%A8%E6%88%B6%E6%83%85%E7%B7%92"&gt;用戶思維就是搞懂用戶情緒&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item><item><title>【生活中的產品經理】－彼得剪髮紀（需求溝通）</title><link>https://peterpowerfullife.com/blog/life-pm-haircut/</link><pubDate>Sat, 03 Apr 2021 15:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/life-pm-haircut/</guid><description>&lt;p&gt;在軟體開發領域的團隊當中常常要和團隊的夥伴（RD, QA, Marketing &amp;hellip;）溝通需求，但不論今天你的職務、年紀，其實都需要「溝通」這項技能。&lt;/p&gt;
+&lt;p&gt;只是因為習慣了工作、生活，我們會覺得這不是一個技能，
+「溝通」一個需求、「描述」一個問題等，都需要良好的敘事能力，才能傳達正確的資訊進而解決問題、放大產出。&lt;/p&gt;
+&lt;p&gt;我常常會在生活中去&lt;strong&gt;練習溝通&lt;/strong&gt;，在各大小會議前先做個會前會、和設計師溝通剪出適合自己的髮型。&lt;/p&gt;
+&lt;p&gt;一同來起來看看生活中的產品經理 - 彼得剪髮紀 XD&lt;/p&gt;</description></item><item><title>為什麼 RD 需要搞懂商業邏輯？</title><link>https://peterpowerfullife.com/blog/rd-must-to-know-business-logic/</link><pubDate>Thu, 25 Mar 2021 11:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/rd-must-to-know-business-logic/</guid><description>&lt;p&gt;以前端開發者的角度來看，其實前端不懂商業邏輯也不影響功能開發，因為只要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PM 把 Spec 開好&lt;/li&gt;
+&lt;li&gt;Designer 把 Mockup 弄出來&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;實作前再過一次功能互動，其實大部分就可以實現了（剩下技術問題），那為什麼做技術研發，要搞懂商業邏輯呢？&lt;/p&gt;</description></item><item><title>產品生命週期不同階段需要留意哪些事?</title><link>https://peterpowerfullife.com/blog/product-lifecycle/</link><pubDate>Mon, 01 Mar 2021 18:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/product-lifecycle/</guid><description>&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E5%B0%8F%E6%95%85%E4%BA%8B"&gt;生活中的小故事&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F%E7%9A%84%E5%AE%9A%E7%BE%A9"&gt;生命週期的定義&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%94%A2%E5%93%81%E7%9A%84%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F"&gt;產品的生命週期&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="生活中的小故事"&gt;生活中的小故事&lt;/h2&gt;
+&lt;p&gt;在探討 &lt;strong&gt;Product Lifecycle(產品生命週期)&lt;/strong&gt; 之前，我們可以想想手機用戶買 Apple 新手機的問題：&lt;/p&gt;</description></item><item><title>數位化轉型不可不知 Domain Driven Design</title><link>https://peterpowerfullife.com/blog/domain-driven-design-01/</link><pubDate>Fri, 19 Feb 2021 18:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/domain-driven-design-01/</guid><description>&lt;p&gt;在數位化轉型的過程中，熱愛你產品的所屬產業、認識你既有的產品領域，不僅是 PM, 更是每位夥伴都該有的共識。&lt;/p&gt;
+&lt;p&gt;工作經驗當中，打造新產品或是把當前既有的服務做&lt;strong&gt;數位化轉型&lt;/strong&gt;，在做數位化轉型如果懂得 DDD（Domain Driven Design），
+這對產品開發有絕對的幫助，甚至可以少浪費一些時間去摸索原先的服務（流程、習慣、文化） &amp;hellip;&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這篇文章主要是探討數位化轉型的過程，以及開始進入軟體開發的初期階段需要留意的細節。&lt;/p&gt;</description></item><item><title>開發軟體產品前請先搞懂 Design System</title><link>https://peterpowerfullife.com/blog/design-system/</link><pubDate>Mon, 15 Feb 2021 11:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/design-system/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;本身不是專業設計師，僅和設計師合作所學到的經驗來做記錄和分享，若有得罪之處和誤解，請見諒～
+​&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-design-system"&gt;什麼是 Design System？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#design-system-%E7%9A%84%E5%84%AA%E7%BC%BA%E9%BB%9E"&gt;Design System 的優缺點？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E6%89%93%E9%80%A0%E8%BB%9F%E9%AB%94%E7%94%A2%E5%93%81%E5%89%8D%E6%9C%80%E5%A5%BD%E5%85%88%E6%90%9E%E6%87%82-design-system"&gt;為什麼打造軟體產品前最好先搞懂 Design System？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E5%A6%82%E4%BD%95%E5%BB%BA%E6%A7%8B-design-system"&gt;如何建構 Design System？&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E9%87%8D%E9%A0%AD%E5%81%9A%E4%B8%80%E6%AC%A1%E7%B5%95%E5%B0%8D%E4%B8%8D%E8%A6%81%E5%86%8D%E7%99%BC%E7%94%9F%E9%80%99%E4%BA%9B%E4%BA%8B"&gt;重頭做一次，絕對不要再發生這些事&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item><item><title>Prototype Mystery</title><link>https://peterpowerfullife.com/blog/prototype/</link><pubDate>Mon, 21 Dec 2020 18:30:00 +0800</pubDate><guid>https://peterpowerfullife.com/blog/prototype/</guid><description>&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id="目錄"&gt;目錄&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-prototype"&gt;什麼是 Prototype?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E9%9C%80%E8%A6%81-prototype"&gt;為什麼需要 Prototype?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E6%A8%A1%E6%93%AC-scenario"&gt;模擬 Scenario&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#visualization"&gt;Visualization&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#high--low-fidelity-prototype"&gt;High &amp;amp; Low Fidelity Prototype&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#usability-testing%E6%98%93%E7%94%A8%E6%80%A7%E6%B8%AC%E8%A9%A6"&gt;Usability Testing（易用性測試）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#%E6%9C%80%E5%BE%8C%E7%9A%84%E6%9C%80%E5%BE%8C"&gt;最後的最後&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;</description></item></channel></rss>
