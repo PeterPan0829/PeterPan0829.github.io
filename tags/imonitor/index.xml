@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IMonitor on #人生剩力組</title>
-    <link>http://localhost:58422/tags/imonitor/</link>
+    <link>http://localhost:64031/tags/imonitor/</link>
     <description>Recent content in IMonitor on #人生剩力組</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 14 Feb 2021 15:30:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:58422/tags/imonitor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64031/tags/imonitor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iMonitor 電腦行為監控軟體</title>
-      <link>http://localhost:58422/blog/imonitor/</link>
+      <link>http://localhost:64031/blog/imonitor/</link>
       <pubDate>Sun, 14 Feb 2021 15:30:00 +0800</pubDate>
-      <guid>http://localhost:58422/blog/imonitor/</guid>
+      <guid>http://localhost:64031/blog/imonitor/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;定時截圖、紀錄操作行為，開 app、開網頁等 &amp;hellip; 定時上傳至雲端&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.imonitorsoft.com/help/eam/tw/index.html?Newtopic13.html&#34;&gt;本文以 MacOS 系統說明，WindowsXP 另附上使用說名書&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%A6%82%E4%BD%95%E7%A2%BA%E5%AE%9A%E6%98%AF%E5%90%A6%E6%9C%89%E5%AE%89%E8%A3%9D&#34;&gt;如何確定是否有安裝&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%8F%AF%E6%80%95%E7%9A%84%E8%83%8C%E5%BE%8C%E5%9F%B7%E8%A1%8C&#34;&gt;可怕的背後執行&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E5%8F%8D%E6%80%9D&#34;&gt;反思&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#%E6%9B%B4%E5%A4%9A%E9%A1%9E%E4%BC%BC%E7%9A%84%E8%BB%9F%E9%AB%94&#34;&gt;更多類似的軟體&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;如何確定是否有安裝&#34;&gt;－如何確定是否有安裝&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;系統設定 -&amp;gt; 安全性與隱私權 -&amp;gt; 隱私權 -&amp;gt; 螢幕錄製，看是否有 iMonitor&lt;/li&gt;&#xA;&lt;li&gt;在 Terminal（終端機） 輸入 &lt;strong&gt;&lt;code&gt;ps -ax | grep imonitor&lt;/code&gt;&lt;/strong&gt;，看是否存在&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;可怕的背後執行&#34;&gt;－可怕的背後執行&lt;/h3&gt;&#xA;&lt;p&gt;iMonitor 並不會直接在電腦以軟體（EX: Line, Word, Excel）方式呈現，它是一個 Service（服務），所以會在電腦背後執行，其來自 &lt;strong&gt;&lt;code&gt;/Library/LaunchDaemons/com.imonitor.daemon.plist&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
