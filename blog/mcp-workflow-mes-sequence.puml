@@ -1,0 +1,60 @@
+@startuml
+title MCP 工作流程（MES 場景序列圖）
+
+actor 現場使用者 as user
+participant "MES 主機" as host
+participant "大語言模型" as llm
+participant "MCP 客戶端" as client
+participant "MCP 伺服器" as server
+database "MES 資料庫" as mesdb
+participant "ERP/WMS/QMS API" as api <<雲端服務>>
+
+user -> host : 問題：\n「幫我找昨天 OEE 下降的前 3 條線，\n並指出主要停機原因」
+host -> llm : 轉交問題
+
+llm -> llm : 分析（是否需要外部資料/工具？）
+alt 需要查資料/串系統
+  llm -> client : 請求使用工具（查詢現場資料，參數）
+  client -> server : 呼叫工具（查詢現場資料）
+  server -> mesdb : 查 OEE / 停機碼 / 工單
+  mesdb --> server : 資料
+
+  server -> api :（可選）對照 ERP 工單/料號資訊
+  api --> server : 資料
+
+  server --> client : 工具執行結果（彙整後）
+  client --> llm : 工具執行結果
+else 不需要（純概念/純寫作）
+  llm -> llm : 直接生成
+end
+
+llm --> host : 回答（含結論 + 依據）
+host --> user : 顯示答案
+@enduml
+@startuml
+title MCP 工作流（MES 場景序列圖）
+actor 製造廠區第一線作業者 as user
+participant "MES_Host 主機" as host
+participant "LLM" as llm
+participant "MCP_Client" as client
+participant "MCP 伺服器" as server
+participant "MES_DB資料庫" as mesdb <<Database>>
+participant "ERP/WMS/QMS_API" as api <<Cloud雲端（非地端）>>
+user -> host : Prompt 提問：\n「幫我找昨天 OEE 下降的前 3 條產線，\n並提供主要停機原因」
+host -> llm : 提供給 LLM 分析
+llm -> llm : 分析（是否需要外部資料 / 工具？）
+alt 需要查資料/串系統
+  llm -> client : 請求使用工具,\nEx: RequestUseTool（查詢現場資料，參數）
+  client -> server : 呼叫工具,\nCallTool（查詢現場資料）
+  server -> mesdb : 查 OEE / 停機機台編號 / 工單編號
+  mesdb --> server : 提供對應資料
+  server -> api : 對照 ERP 工單 / 料號資訊
+  api --> server : 提供對應資料
+  server --> client : 工具執行結果（彙整後）
+  client --> llm : 工具執行結果
+else 不需要（純概念 / 簡易回覆）
+  llm -> llm : 直接生成
+end
+llm --> host : Answer（含結論 + 依據）
+host --> user : 顯示回覆答案
+@enduml

@@ -1,0 +1,74 @@
+@startuml
+title MES x MCP（功能模組關係）
+
+skinparam componentStyle rectangle
+
+actor 現場使用者 as user
+
+rectangle "MES_Host（MES Portal / 工廠中控台）" as MESHost {
+  component "介面（看板/查詢/工單）" as UI
+  component "大語言模型（分析/摘要/推理）" as LLM
+  component "MCP 客戶端（連接器/轉送）" as MCPClient
+}
+
+rectangle "MCP_Server（站點介面/適配器）" as MCPServer {
+  component "工具：讀取檔案\n（讀本機/文件）" as ToolFiles
+  component "工具：查詢現場資料\n（查產線資料）" as ToolShopfloor
+  component "工具：呼叫企業 API\n（呼叫企業服務）" as ToolAPI
+}
+
+database "本機資料\n（SOP/報表/檔案）" as LocalData
+database "MES 資料庫\n（工單/報工/良率）" as MESDB
+cloud "外部服務\n（ERP/WMS/QMS/SCADA API）" as RemoteAPI
+
+user --> UI : 提問
+UI --> LLM : 轉交問題
+LLM --> MCPClient : 發出工具請求（需要外部資料時）
+MCPClient <--> MCPServer : MCP 協定
+
+ToolFiles --> LocalData
+ToolShopfloor --> MESDB
+ToolAPI --> RemoteAPI
+
+MCPServer --> MCPClient : 工具執行結果
+MCPClient --> LLM : 工具執行結果
+LLM --> UI : 回答（含引用/數據）
+UI --> user : 顯示結果
+@enduml
+@startuml
+title MES x MCP（功能模組關係）
+
+skinparam componentStyle rectangle
+
+actor 製造廠區第一線作業者 as user
+
+rectangle "MES_Host（MES Portal / 工廠中控台）" as MESHost {
+  component "UI（看板 / 查詢 / 工單）" as UI
+  component "LLM（分析 / 摘要 / 推理）" as LLM
+  component "MCP 客戶端（連接器 / 轉送）" as MCPClient
+}
+
+rectangle "MCP 伺服器（站點介面 / 適配器）" as MCPServer {
+  component "Tool: ReadFiles\n（讀本機 / 文件）" as ToolFiles
+  component "Tool: QueryShopfloor\n（查產線資料）" as ToolShopfloor
+  component "Tool: CallEnterpriseAPI\n（呼叫企業服務）" as ToolAPI
+}
+
+database "LocalData\n（SOP / 報表 / 檔案）" as LocalData
+database "MES_DB\n（工單 / 報工 / 工時 / 良率 / 不良率 ）" as MESDB
+cloud "RemoteServices\n（ERP / WMS / QMS API）" as RemoteAPI
+
+user --> UI : AskQuestion
+UI --> LLM : ForwardQuestion
+LLM --> MCPClient : ToolRequest（發出工具請求，若需要外部資料）
+MCPClient <--> MCPServer : MCP Protocol 協定
+
+ToolFiles --> LocalData
+ToolShopfloor --> MESDB
+ToolAPI --> RemoteAPI
+
+MCPServer --> MCPClient : ToolResults（工具執行結果）
+MCPClient --> LLM : ToolResults（工具執行結果）
+LLM --> UI : Answer（含引用/數據）
+UI --> user : 顯示回覆答案
+@enduml

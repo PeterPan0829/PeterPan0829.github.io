@@ -1,0 +1,42 @@
+@startuml
+title MCP 安全工作流程（個人存取令牌 PAT 授權）
+
+actor 現場使用者 as user
+participant "AI 工具\n（MES 主機 + 大語言模型）" as aitools
+participant "MCP 伺服器" as mcp
+participant "企業服務 API\n（ERP/WMS/QMS）" as svc
+
+user -> svc : 建立個人存取令牌（PAT）
+svc --> user : 回傳令牌（PAT）
+
+user -> mcp : 配置 PAT（授權範圍/角色）
+
+user -> aitools : 發送請求（需要外部資料）
+aitools -> mcp : 呼叫 MCP 工具
+mcp -> svc : 使用 PAT 呼叫 API
+svc -> svc : 驗證令牌（PAT）+ 檢查權限
+svc --> mcp : 回傳（依權限過濾後）資料
+mcp --> aitools : 處理並返回結果
+aitools --> user : 顯示結果
+@enduml
+@startuml
+title MCP 安全工作流（PAT, Personal Access Token 授權）
+
+actor 製造廠區第一線作業者 as user
+participant "AI 工具\n（MES 主機  + LLM）" as aitools
+participant "MCP 伺服器" as mcp
+participant "企業服務 API\n（ERP / WMS / QMS）" as svc
+
+user -> svc : 建立個人存取 Token（PAT）
+svc --> user : 回傳 PAT
+
+user -> mcp : 配置 PAT（授權範圍/角色）
+
+user -> aitools : 發送請求（需要外部資料）
+aitools -> mcp : 呼叫 MCP 工具
+mcp -> svc : 使用 PAT 呼叫 API
+svc -> svc : 驗證 PAT + 檢查權限
+svc --> mcp : 回傳（依權限過濾後）資料
+mcp --> aitools : 處理並返回結果
+aitools --> user : 顯示回覆答案
+@enduml
