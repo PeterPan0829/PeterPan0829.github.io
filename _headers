@@ -1,0 +1,23 @@
+# Cloudflare Pages / Netlify 格式的快取標頭。
+# GitHub Pages 本身不會讀此檔；若網域前方有 Cloudflare（Proxy）或改部署到
+# Cloudflare Pages / Netlify，可啟用長快取以消掉 PageSpeed「有效快取生命週期」警告。
+# 搭配 Hugo fingerprint 的 CSS/JS 可安心長期快取。
+
+/*
+  Cache-Control: public, max-age=3600
+*/
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/plugins/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/favicon*
+  Cache-Control: public, max-age=31536000, immutable
