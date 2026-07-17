@@ -1,0 +1,28 @@
+# Cloudflare Pages / Netlify 格式的快取標頭備註檔。
+#
+# 重要：本站目前部署在 GitHub Pages，來源不會讀取此檔。
+# 真正生效的設定在 Cloudflare Dashboard → Caching → Cache Rules：
+#   規則名稱：Long cache images
+#   條件：URI Path 開始於 /images/
+#   動作：Eligible for cache；Edge TTL 1 month；Browser TTL 1 month
+#   驗收：圖片回應可見 cf-cache-status: HIT 與 max-age≈2678400
+#
+# 以下內容僅作為政策文件／若日後改部署到 Cloudflare Pages 時的備援。
+# 主 CSS／JS 已由 Hugo fingerprint 產生內容雜湊檔名，可安全使用長快取。
+# /plugins/* 仍是固定檔名，因此維持一個月且不加 immutable。
+
+/*
+  Cache-Control: public, max-age=3600
+*/
+
+/images/*
+  Cache-Control: public, max-age=2678400
+
+/plugins/*
+  Cache-Control: public, max-age=2678400
+
+/scss/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
